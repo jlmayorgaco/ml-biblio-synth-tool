@@ -1,0 +1,9 @@
+PyZotero
+pandas
+matplotlib
+nltk
+spacy
+scikit-learn
+gensim
+WeasyPrint
+pdfkit
