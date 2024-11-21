@@ -1,7 +1,7 @@
 # src/data_processing.py
 
 import bibtexparser
-import PyPDF2
+import pdfplumber
 import re
 import os
 
@@ -66,34 +66,38 @@ class DataLoader:
         return matched
 
     def extract_text_from_pdf(self, pdf_path):
-        """Extracts text from a PDF file, handling encoding issues."""
-        with open(pdf_path, 'rb') as f:
-            reader = PyPDF2.PdfReader(f)
-            
-            # Try to decode each page's text content and join
-            extracted_text = []
-            for page in reader.pages:
+        """Extracts text from a PDF with adjustments for character spacing and layout."""
+        extracted_text = []
+        
+        with pdfplumber.open(pdf_path) as pdf:
+            for i, page in enumerate(pdf.pages):
                 try:
-                    text = page.extract_text()
+                    text = page.extract_text(x_tolerance=2, y_tolerance=1).split('\n')  # Adjust tolerances as needed
                     if text:
-                        # Decode bytes to str if necessary
-                        extracted_text.append(text if isinstance(text, str) else text.decode('utf-8', errors='ignore'))
+                        # Filter out non-printable characters for readability
+                        filtered_text = ''.join(c if c.isprintable() else ' ' for c in text)
+                        extracted_text.append(filtered_text)
                 except Exception as e:
-                    print(f"Error reading page in {pdf_path}: {e}")
-                    
-            return ' '.join(extracted_text)
+                    print(f"Skipping unreadable content on page {i+1} in {pdf_path}: {e}")
+        
+        return ' '.join(extracted_text)
 
     def preprocess_text(self, text):
         """Basic text preprocessing: removing special characters."""
         return re.sub(r'\W+', ' ', text).lower()
 
     def load_and_process(self):
-        """Loads and processes data from BibTeX and PDF files."""
+        """Loads and processes data from BibTeX and PDF files, returning structured data."""
         references = self.load_bib_file()
         matched_files = self.match_references_with_pdfs(references)
 
+        # Structured output in { bibliographic_metadata: ..., plain_text: ... } format
         processed_data = [
-            (ref, self.preprocess_text(self.extract_text_from_pdf(pdf))) 
+            {   
+                "id": ref.get("ID", "unknown_id"),
+                "bibliographic_metadata": ref,
+                "plain_text": self.preprocess_text(self.extract_text_from_pdf(pdf))
+            }
             for ref, pdf in matched_files
         ]
 
