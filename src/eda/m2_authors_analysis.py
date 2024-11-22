@@ -5,11 +5,20 @@ import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 
+from tqdm import tqdm
 from collections import Counter, defaultdict
 from networkx.algorithms.community import greedy_modularity_communities
 
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+import os
+
+def ensure_directory_exists(directory):
+    """
+    Create the directory if it does not exist.
+    """
+    if not os.path.exists(directory):
+        os.makedirs(directory)
 
 # --------------------------------------------------------------
 # -- Word Processor -------------------------------------------
@@ -183,8 +192,6 @@ class Processor:
 
     def get_author_term_relationships(self):
         """Analyze how each author relates to specific terms based on co-occurrences."""
-        import itertools
-        from collections import Counter
 
         # List to store all relationships
         author_term_data = []
@@ -343,3 +350,149 @@ class Reporter:
         output_path = f"../output/m2_authors/{filename}.csv"
         df.to_csv(output_path, index=False)
         print(f"Saved to {output_path}")
+
+
+
+
+
+class AuthorTermAnalyzer:
+    def __init__(self, processed_data, temp_dir="./temp"):
+        """
+        Initialize with processed data and optional temp directory for intermediate storage.
+        """
+        self.processed_data = processed_data
+        self.temp_dir = temp_dir
+
+    def _clean_text(self, text):
+        """
+        Clean and tokenize the input text.
+        - Removes special characters.
+        - Converts to lowercase.
+        - Splits into tokens (words).
+        """
+        # Remove special characters and numbers
+        text = re.sub(r"[^a-zA-Z\s]", "", text)
+        # Convert to lowercase
+        text = text.lower()
+        # Tokenize by splitting on whitespace
+        tokens = text.split()
+        # Return the list of tokens
+        return tokens
+
+    def extract_authors(self, authors_str):
+        """
+        Split authors into individual names.
+        """
+        return [
+            author.strip()
+            for part in authors_str.split(",")
+            for author in part.split(" and ")
+        ]
+
+    def clean_and_tokenize_text(self, plain_text):
+        """
+        Clean and tokenize the plain text into terms.
+        (Assumes _clean_text is implemented elsewhere.)
+        """
+        return self._clean_text(plain_text)
+
+    def calculate_cooccurrences(self, terms):
+        """
+        Calculate co-occurrences of terms as pairs.
+        """
+        unique_terms = set(terms)
+        return Counter(itertools.combinations(unique_terms, 2))
+
+    def process_single_entry(self, entry):
+        """
+        Process a single bibliographic entry and return author-term relationships.
+        """
+        authors = entry['bibliographic_metadata'].get('author', '')
+        plain_text = entry.get('plain_text', '')
+
+        if not authors or not plain_text:
+            return []
+
+        authors_list = self.extract_authors(authors)
+        terms = self.clean_and_tokenize_text(plain_text)
+
+        if len(terms) <= 1:
+            return []
+
+        cooccurrences = self.calculate_cooccurrences(terms)
+        relationships = []
+
+        for author in authors_list:
+            for (term1, term2), count in cooccurrences.items():
+                relationships.append({
+                    "Author": author,
+                    "Term1": term1,
+                    "Term2": term2,
+                    "Co-occurrence Count": count
+                })
+
+        return relationships
+
+    def save_intermediate_results(self, batch_data, batch_number):
+        """
+        Save batch results to a temporary CSV file.
+        """
+        ensure_directory_exists(self.temp_dir)  # Ensure the directory exists
+        filename = f"{self.temp_dir}/author_term_batch_{batch_number}.csv"
+        pd.DataFrame(batch_data).to_csv(filename, index=False)
+        return filename
+
+    def combine_intermediate_results(self, file_list):
+        """
+        Combine all intermediate CSV files into a single DataFrame.
+        Handles empty or corrupted files gracefully.
+        """
+        dfs = []
+        for file in file_list:
+            try:
+                # Attempt to read the file
+                df = pd.read_csv(file)
+                if not df.empty:
+                    dfs.append(df)
+            except pd.errors.EmptyDataError:
+                print(f"Warning: {file} is empty and will be skipped.")
+            except Exception as e:
+                print(f"Error reading {file}: {e}. Skipping.")
+
+        # Combine non-empty DataFrames
+        if dfs:
+            combined_df = pd.concat(dfs, ignore_index=True)
+            return combined_df.groupby(["Author", "Term1", "Term2"], as_index=False).sum()
+        else:
+            print("No valid files to combine. Returning an empty DataFrame.")
+            return pd.DataFrame(columns=["Author", "Term1", "Term2", "Co-occurrence Count"])
+    
+    def _split_into_batches(self, batch_size):
+        """
+        Split the processed_data into smaller batches.
+        """
+        for i in range(0, len(self.processed_data), batch_size):
+            yield self.processed_data[i:i + batch_size]
+
+    def analyze(self, batch_size=10):
+        """
+        Main function to analyze all entries in batches.
+        """
+        file_list = []
+
+        for i, batch in enumerate(tqdm(self._split_into_batches(batch_size), desc="Processing Entries")):
+            try:
+                # Process the batch and save to a CSV file
+                batch_data = []
+                for entry in batch:
+                    batch_data.extend(self.process_single_entry(entry))
+                
+                if batch_data:
+                    filename = self.save_intermediate_results(batch_data, i)
+                    file_list.append(filename)
+            except Exception as e:
+                print(f"Error processing batch {i}: {e}")
+
+        # Combine all intermediate results into a final DataFrame
+        final_df = self.combine_intermediate_results(file_list)
+        return final_df
