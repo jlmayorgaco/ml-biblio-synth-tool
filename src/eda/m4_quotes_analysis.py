@@ -6,11 +6,14 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 from tqdm import tqdm
+from textblob import TextBlob
 from collections import Counter, defaultdict
 from networkx.algorithms.community import greedy_modularity_communities
 
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+
+from sklearn.feature_extraction.text import CountVectorizer
 
 # --------------------------------------------------------------
 # -- Word Processor -------------------------------------------
@@ -144,7 +147,78 @@ class Processor:
 
         return pd.DataFrame(contexts)
 
+    def analyze_sentiment_of_contexts(self, contexts_df):
+        """
+        Perform sentiment analysis on the context of quotes.
 
+        Parameters:
+            contexts_df (pd.DataFrame): DataFrame with columns ["Quote", "Context", ...].
+
+        Returns:
+            pd.DataFrame: A DataFrame with sentiment scores and classifications for each quote context.
+        """
+        contexts_df = contexts_df.copy()
+        
+        def get_sentiment(context):
+            sentiment = TextBlob(context).sentiment
+            return sentiment.polarity, sentiment.subjectivity
+
+        # Analyze sentiment
+        contexts_df["Sentiment Polarity"], contexts_df["Sentiment Subjectivity"] = zip(
+            *contexts_df["Context"].apply(get_sentiment)
+        )
+        contexts_df["Sentiment Classification"] = contexts_df["Sentiment Polarity"].apply(
+            lambda x: "Positive" if x > 0.1 else "Negative" if x < -0.1 else "Neutral"
+        )
+        
+        return contexts_df
+
+    def extract_themes_from_contexts(self, contexts_df, top_n=10):
+        """
+        Extract themes (keywords) from the contexts of quotes.
+
+        Parameters:
+            contexts_df (pd.DataFrame): DataFrame with a "Context" column.
+            top_n (int): Number of top keywords to extract.
+
+        Returns:
+            pd.DataFrame: A DataFrame with keywords and their frequencies.
+        """
+        vectorizer = CountVectorizer(stop_words="english", max_features=top_n)
+        context_texts = contexts_df["Context"].tolist()
+        
+        # Fit and transform contexts to extract keywords
+        X = vectorizer.fit_transform(context_texts)
+        keywords = vectorizer.get_feature_names_out()
+        frequencies = X.sum(axis=0).A1
+
+        # Create a DataFrame with keywords and their frequencies
+        themes_df = pd.DataFrame({"Keyword": keywords, "Frequency": frequencies}).sort_values(by="Frequency", ascending=False)
+        return themes_df
+
+    @staticmethod
+    def plot_word_cloud_from_themes(df, title, filename):
+        """
+        Plot a word cloud from extracted themes.
+
+        Parameters:
+            df (pd.DataFrame): DataFrame with columns ["Keyword", "Frequency"].
+            title (str): Title of the plot.
+            filename (str): Name of the file to save the plot.
+        """
+        word_freq = dict(zip(df["Keyword"], df["Frequency"]))
+        wordcloud = WordCloud(width=800, height=400, background_color="white").generate_from_frequencies(word_freq)
+
+        fig, ax = plt.subplots(figsize=(10, 6))
+        ax.imshow(wordcloud, interpolation="bilinear")
+        ax.axis("off")
+        ax.set_title(title, fontsize=14, fontweight="bold")
+        plt.tight_layout()
+
+        # Save the plot
+        fig.savefig(f"../output/m4_quotes/{filename}.svg", format="svg")
+        fig.savefig(f"../output/m4_quotes/{filename}.png", format="png")
+        plt.show()
 # --------------------------------------------------------------
 # -- Visualization --------------------------------------------
 # --------------------------------------------------------------      
@@ -208,6 +282,34 @@ class Visualizer:
         ax.set_ylabel("Frequency", fontsize=12)
         ax.legend(title="Quotes", fontsize=10)
         plt.grid(True, linestyle="--", linewidth=0.5)
+        plt.tight_layout()
+
+        # Save the plot
+        fig.savefig(f"../output/m4_quotes/{filename}.svg", format="svg")
+        fig.savefig(f"../output/m4_quotes/{filename}.png", format="png")
+        plt.show()
+
+    @staticmethod
+    def plot_sentiment_distribution(df, title, filename):
+        """
+        Plot the sentiment distribution of quote contexts.
+
+        Parameters:
+            df (pd.DataFrame): DataFrame with a "Sentiment Classification" column.
+            title (str): Title of the plot.
+            filename (str): Name of the file to save the plot.
+        """
+        sentiment_counts = df["Sentiment Classification"].value_counts()
+
+        fig, ax = plt.subplots(figsize=(8, 6))
+        ax.pie(
+            sentiment_counts,
+            labels=sentiment_counts.index,
+            autopct="%1.1f%%",
+            startangle=90,
+            colors=["#87CEEB", "#FFCCCB", "#98FB98"]
+        )
+        ax.set_title(title, fontsize=14, fontweight="bold")
         plt.tight_layout()
 
         # Save the plot
