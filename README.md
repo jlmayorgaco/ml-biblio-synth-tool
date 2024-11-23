@@ -6,17 +6,41 @@
 
 ## Overview
 
-**ML Zotero Biblio Tool** is designed to automate bibliometric analysis by integrating with Zotero. Using advanced Machine Learning (ML) techniques and Natural Language Processing (NLP), this tool helps researchers efficiently analyze large collections of academic documents. It provides insights into trends, key topics, and relationships between documents.
+**ML Zotero Biblio Tool** is an advanced bibliometric analysis framework designed for researchers who want to analyze their custom Zotero collections. With a combination of Machine Learning (ML), Natural Language Processing (NLP), and sophisticated visualization tools, this project enables in-depth exploration of bibliographic datasets, providing actionable insights into trends, topics, author collaborations, and more.
 
-### Key Features
+This project was developed using a sample dataset related to power systems frequency estimation as a demonstration, but the framework is designed to be flexible and domain-independent.
 
-- **Zotero Integration:** Seamlessly connects to your Zotero library to import bibliographic data and PDFs.
-- **Topic Modeling:** Uses Latent Dirichlet Allocation (LDA) to discover underlying themes in your document collection.
-- **Trend Analysis:** Identifies emerging research trends through keyword frequency and topic shifts.
-- **Document Classification:** Automatically classifies documents using supervised machine learning models.
-- **Clustering:** Groups similar documents with unsupervised clustering algorithms (K-means, DBSCAN).
-- **Co-citation Networks:** Visualizes relationships between papers based on citation patterns.
-- **Automatic Report Generation:** Exports analysis results in PDF and HTML formats, with visualizations.
+---
+
+## Key Features
+
+- **Zotero Integration:**
+  - Seamlessly integrates with your Zotero library to import bibliographic metadata and full-text PDFs.
+  - Supports both manual import of `BibTeX` files and direct API connections with Zotero.
+
+- **Document Processing and Cleaning:**
+  - Extracts, tokenizes, and lemmatizes text from PDFs for analysis.
+  - Handles metadata parsing, including authors, publication years, and journals.
+
+- **Topic Modeling:**
+  - Uses Latent Dirichlet Allocation (LDA) to uncover themes and topics within your document collection.
+
+- **Author and Source Analysis:**
+  - Identifies the most prolific authors, collaboration networks, and trends in publishing over time.
+  - Highlights key journals and sources contributing to your research domain.
+
+- **Trend and Citation Analysis:**
+  - Tracks keyword trends and shifts in topics over time.
+  - Generates co-citation networks to visualize relationships between documents.
+
+- **Clustering and Classification:**
+  - Groups similar documents using unsupervised algorithms like K-means and DBSCAN.
+  - Automatically classifies documents with supervised ML models.
+
+- **Automatic Report Generation:**
+  - Exports analysis results, including visualizations, in both PDF and HTML formats.
+
+---
 
 ## Getting Started
 
@@ -28,8 +52,7 @@ Make sure you have the following installed:
 - Zotero API Key (for integration)
 - Required libraries:
   - `PyZotero`
-  - `pandas`
-  - `matplotlib`
+  - `pandas`, `numpy`, `matplotlib`, `seaborn`
   - `nltk`, `spaCy`
   - `scikit-learn`, `gensim`
   - `WeasyPrint`, `pdfkit`
@@ -49,21 +72,57 @@ Make sure you have the following installed:
 
 3. Set up your Zotero API Key:
    - Go to [Zotero Settings](https://www.zotero.org/settings/keys) and generate a new API key.
-   - Export your Zotero library to a `BibTeX` file or integrate directly via the API.
+   - If you prefer not to use the API, export your Zotero library to a `BibTeX` file.
 
-### Usage
+---
 
-1. Run the main script to analyze your Zotero collection:
+## Usage
+
+### Running the Analysis
+
+#### Using a BibTeX File
+1. Export your Zotero library to a `BibTeX` file.
+2. Run the analysis:
     ```bash
     python analyze.py --bibtex path_to_your_bibtex_file.bib --output report.pdf
     ```
 
-2. To use the Zotero API integration:
+#### Using the Zotero API
+1. Set up your Zotero API Key in the `.env` file:
+    ```bash
+    ZOTERO_API_KEY=your_api_key
+    ```
+2. Run the analysis directly from your Zotero library:
     ```bash
     python analyze.py --zotero-api-key your_api_key --output report.pdf
     ```
 
-### Example
+---
 
-```bash
-python analyze.py --bibtex my_zotero_library.bib --output trends_analysis.html
+### Output
+
+- **PDF Report:** A comprehensive report including all visualizations and analysis results.
+- **HTML Report:** An interactive report for online sharing and exploration.
+- **CSV Files:** Export of raw data and analysis results for further exploration.
+
+---
+
+## Roadmap
+
+Future features planned for this tool include:
+- Support for additional bibliographic formats (e.g., RIS, EndNote).
+- Integration with external citation databases like Scopus or Web of Science.
+- Enhanced visualization options with Plotly.
+- Advanced ML features like word embeddings and semantic similarity analysis.
+
+---
+
+## License
+
+This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Contributing
+
+We welcome contributions! Please fork the repository and submit a pull request for any new features or bug fixes.
