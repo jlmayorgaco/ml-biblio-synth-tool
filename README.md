@@ -70,32 +70,17 @@ Make sure you have the following installed:
     pip install -r requirements.txt
     ```
 
-3. Set up your Zotero API Key:
-   - Go to [Zotero Settings](https://www.zotero.org/settings/keys) and generate a new API key.
-   - If you prefer not to use the API, export your Zotero library to a `BibTeX` file.
+3. Analyze your Zotero collection using the provided notebooks:
+   - The repository includes a series of Jupyter Notebooks located in the `notebooks` directory. Each notebook corresponds to a specific step or type of analysis.
+   - Launch Jupyter Notebook:
+     ```bash
+     jupyter notebook
+     ```
+   - Open the desired notebook from the `notebooks` directory and follow the instructions provided in each cell to process your data.
 
----
+4. Results:
+   - All analysis outputs, including visualizations, tables, and reports, are saved automatically in the `output` directory. This ensures that you can easily access and review the results of your bibliometric analysis.
 
-## Usage
-
-### Running the Analysis
-
-#### Using a BibTeX File
-1. Export your Zotero library to a `BibTeX` file.
-2. Run the analysis:
-    ```bash
-    python analyze.py --bibtex path_to_your_bibtex_file.bib --output report.pdf
-    ```
-
-#### Using the Zotero API
-1. Set up your Zotero API Key in the `.env` file:
-    ```bash
-    ZOTERO_API_KEY=your_api_key
-    ```
-2. Run the analysis directly from your Zotero library:
-    ```bash
-    python analyze.py --zotero-api-key your_api_key --output report.pdf
-    ```
 
 ---
 
