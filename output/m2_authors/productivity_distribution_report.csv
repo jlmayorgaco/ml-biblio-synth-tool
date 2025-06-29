@@ -1,8 +1,4 @@
 Author,Document Count
-Milano,2
-Federico,2
-Manjavacas,1
-Álvaro Ortega,1
 Chughtai,1
 Aamir Hussain,1
 Awan,1
@@ -19,8 +15,8 @@ Zhenyu,1
 Yu,1
 Samson Shenglong,1
 Gomez-Exposito,1
-Antonio,1
-Wang,2
+Antonio,2
+Wang,4
 Shaobu,1
 Kamwa,1
 Innocent,1
@@ -34,67 +30,58 @@ Meliopoulos,1
 A. P. Sakis,1
 Pal,1
 Bikash,1
-Singh,1
-Abhinav Kumar,1
+Singh,2
+Abhinav Kumar,2
 Abur,1
-Ali,1
+Ali,2
 Bi,1
 Tianshu,1
 Rouhani,1
 Alireza,1
-Lobos,1
-Tadeusz,1
-Rezmer,1
-Jacek,1
-Arablouei,2
-Reza,2
-Werner,2
-Stefan,2
-Dogancay,2
-Kutluyil,2
+Arablouei,1
+Reza,1
+Werner,1
+Stefan,1
+Dogancay,1
+Kutluyil,1
 Koochaki,1
 Amangaldi,1
 Hosseini,1
 Hadieh Sadat,1
 Radmehr,1
 Masoud,1
-Ahmed,4
-Hafiz,4
-Ushirobira,3
-Rosane,3
-Efimov,3
-Denis,3
+Ahmed,3
+Hafiz,3
+Ushirobira,2
+Rosane,2
+Efimov,2
+Denis,2
 Biricik,1
 Samet,1
-Benbouzid,1
-Mohamed,2
+Benbouzid,2
+Mohamed,3
 Roustaei,1
-M,1
+M,2
 Seyedi,1
 H,1
 Hashemi,1
 S M,1
 Bevrani,1
-Hassan,1
+Hassan,2
 Golpîra,1
 Hêmin,1
 Messina,1
 Arturo Román,1
 Hatziargyriou,1
 Nikos,1
+Milano,3
+Federico,3
 Ise,1
 Toshifumi,1
 El-Shafey,1
 M.H.,1
 Mansour,1
 M.M.,1
-Qu,1
-Bogang,1
-Zidong,1
-Shen,1
-Bo,1
-Dong,1
-Hongli,1
 Gandhi,1
 Oktoviano,1
 Kumar,1
@@ -113,26 +100,22 @@ Nayel,1
 Karapidakis,1
 E.S.,1
 Karimi,1
-H.,1
+H.,2
 Karimi-Ghartemani,1
 M.,2
 Iravani,1
 M.R.,1
-P.,1
+P.,2
 Fernando,1
 Coln,1
 Diego,1
 De Padua,1
 Marcelo S.,1
 Sigmar,1
-Peng,1
-Zhang,1
-Hong-Bin,1
-Li,1
-Pradhan,1
-A.K.,1
-Routray,1
-A.,3
+Pradhan,2
+A.K.,2
+Routray,2
+A.,4
 Basak,1
 Qian,1
 Cheng,1
@@ -150,10 +133,152 @@ Jeremy,1
 Wu,1
 Xiaofeng,1
 Szafran,1
-J.,1
+J.,2
 Rebizant,1
 W.,1
 Xing,1
 Jinlei,1
 Mu,1
 Longhua,1
+Ding,1
+Derui,1
+Han,1
+Qing-Long,1
+Zidong,2
+Ge,1
+Xiaohua,1
+Kanna,1
+Sithan,1
+Dini,1
+Dahir H.,1
+Xia,1
+Yili,1
+Hui,1
+Ron,1
+Mandic,2
+Danilo P.,2
+Talebi,1
+Sayed Pouria,1
+Liuzzo-Scorpo,1
+Pietro,1
+Correa,1
+Luis A.,1
+Pollock,1
+Felix A.,1
+Górecka,1
+Agnieszka,1
+Modi,1
+Kavan,1
+Adesso,1
+Gerardo,1
+Shree Prasad,1
+Panigrahi,1
+Trilochan,1
+Mahbub,1
+Kruse,1
+Johannes,1
+Schäfer,2
+Benjamin,3
+Witthaut,1
+Dirk,1
+Jumar,1
+Richard,1
+Maaß,1
+Heiko,1
+Gorjão,1
+Leonardo Rydin,2
+Hagenmeyer,2
+Veit,2
+Choqueuse,1
+Vincent,1
+Elbouchikhi,1
+Elhoussin,1
+Goldschmidt,1
+Nico,1
+Schulte,1
+Horst,1
+Mir,1
+Abdul Saleem,1
+Senroy,1
+Nilanjan,1
+Wen,1
+Xinyi,1
+Anvari,1
+Mehrnaz,1
+Gorjao,1
+Yalcin,1
+G. Cigdem,1
+Schafer,1
+Smith,1
+Josiah W.,1
+Torlak,1
+Murat,1
+Alshawabkeh,1
+Tzounas,1
+Georgios,1
+Molina-Garcia,2
+Angel,2
+Rajabdorri,1
+Mohammad,1
+Sigrist,1
+Lukas,1
+Lobato,1
+Enrique,1
+Troffaes,1
+Matthias C. M.,1
+Kazemtabrizi,1
+Behzad,1
+Kerci,1
+Taulant,1
+Lobos,1
+Tadeusz,1
+Rezmer,1
+Jacek,1
+Bhatia,1
+Zorawar,1
+Eng,1
+B,1
+Qu,1
+Bogang,1
+Shen,1
+Bo,1
+Dong,1
+Hongli,1
+Peng,1
+Zhang,1
+Hong-Bin,1
+Li,1
+Rao,1
+K.P.,1
+Xin,1
+Yaz,1
+Edwin,1
+Denenberg,1
+J N,1
+Enzner,2
+Gerald,1
+Martin,2
+Rainer,1
+Vary,2
+Peter,1
+G.,1
+R.,2
+Gilchrist,1
+Magdy,1
+M.A.,1
+Korzeniowski,1
+K.,1
+Jones,1
+H.M.,1
+Martin-Martinez,1
+Sergio,2
+Gomez-Lazaro,1
+Emilio,1
+Fuentes,1
+Juan Alvaro,1
+Vigueras-Rodriguez,1
+Amat Plata,1
+Pawula,1
+Rawat,1
+Tarun Kumar,1
+Parthasarathy,1
