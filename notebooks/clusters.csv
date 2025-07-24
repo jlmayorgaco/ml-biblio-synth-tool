@@ -1,0 +1,2110 @@
+Cluster,Quote
+0,cos θ j sin θ cid 2 cid 3 v conjugate of v
+0,cos hω t t θ 1 1
+0,i t 2i sin ϑ t 2i sin ω t φ
+0,i t 1 11 v i cos ω t ω
+0,i cos φ 1 5 cid 2 cid 3 p 20 2 4 6 8 10time s figure 1 4 instantaneous power obtained with almost isofrequential voltage v 1 v ω 2π 50 rad s and current
+0,i cos δθ t φ v i cos φ 10 1 2 3 4 5 6time s figure 1 5 instantaneous power obtained with almost isofrequential voltage v 1 v ω 2π 50 rad s with δθ 0 2π rad ω 2π rad s and λ 1o o θ θhz and current
+0,cos ω t θ π 2 o
+0,o o 1 20 ω 2v cos ω t t 4 θ o o o o ω v t t 4 o owhere ω
+0,cos φ jv i sin φ where indicates the conjugate operation cos φ is the power factor termcoined as it is well known by fleming in 1892 and φ is the phase angle difference between the voltage and current phasors with v v 0
+0,ω t θ a o o v t 1 33 v t 2v cos ω t θ 2π 3 abcb o o v t 2v cos ω t θ 2π 3 c o oin phasor representation 1 33 becomes v v θ a o v 1 34 v v θ 2π 3 abcb o v v θ 2π 3c oas
+0,ω t θ α o o 1 42 v t 2v sin ω t θ
+0,d o o 1 63 v t 2v cos
+0,δθ ω sin ω
+0,d o 1 72 v 2v cos θ q owhere
+0,cos ω t sin ω t exp
+0,cos ω t exp
+0,i b v cid 2 l q c c d 2 2 2v v v1 d 1 q 1 ref ref cos θ v sin θ v 1 d 1 q 1 o 1 o g z r 1 z r i vs 23 s 3 l d 2 d z r 1 z r i vs 23 s 3 l q 2 q 1 t 0 0 0 02 0 t 0 0 0 0 1 10 0 ω x 0 0 0 lot 10 0 0
+0,cos δ t δ v t sin
+0,cos δ t δ v t sin
+0,cos δ v sin δ v
+0,cos δ v sin δ v
+0,i sin δ is d s q h
+0,o h p t sin
+0,δθ ω sin ω
+0,cos ω t 1 exp
+0,cos θ t dθ t
+0,h h h where it is assumed that sin θ θ
+0,k k π φ w h z b z 2 x n x x cos 2 n m f t nko m p s m km 1 1 where b are the filter coefficients kφwhere x
+0,2power system the values of u n remain close to a and the resulting error is minimal the values of u n can approachusing 9 we get cid 2 to zero only when f f which is not possible in a powero 2 2 w α system u n a cos n k tp 2 2 w α w a cos n k t m t 22
+0,no 4 august 1997 a b c d e f fig 1 estimated frequency of a voltage g t cos t 0 2
+0,no 4 august 1997 a b c d fig 3 true and estimated frequency of a voltage g t cos t 0 2
+0,cos 5 t 0 1 cos 7 t without a b and with c d noise 0
+0,cos ωt φ v cos ωt φ 1 α α0 p p n nulation 4 least square 5 kalman filter 6 neural networkv t v v sin ωt φ v sin ωt φ 2 β β0 p p n n 7 and so on where the subscript p and n denote the positive and negativeplls 2 dynamic performance depends on the loop filtersequence for i p n θ
+0,φ v cos ω t τ φ α α0 p p n nthe frequency this approach is sensitive to the grid harmonics v v cos θ cos ωτ v sin θ sin ωτ
+0,x x x 1 2 3be generated performance of pll depends largely on the t v v cos θ v sin θ the grid voltage dynamics in state 0proportional integral controller tuning fast dynamic responsespace form can be written as can come at the cost of accuracy fll 16 30 33 can be 0 0
+0,cos φ n 2 n 2 n 2 nlpf in addition to first order lpf high order lpf can also k k sin φ 1 k cos φ 3 n 3 n 3 nbe considered to provide further noise robustness however in the presence of lpf the dynamics of the frequency estimation eigenvalues of matrix a are 1 1 and 1 k
+0,it 4ζ2y v v sin
+0,x x x x x technique is designed in discrete time while sogi pll and1 2 3 2n 2n 1epll are designed in continuous time sogi pll and epllt v v cos θ v sin θ v cos θ v sin θ 0 1 1 1 1 n n n nare discretized using trapezoidal
+0,x x v cos φ v sin φ the1 2grid voltage dynamics in state space form can be written as samet biricik m 12 sm 19 received the b sc cid 20 cid 21 m
+0,2𝜏where 𝑣 𝑦 𝑦 𝑦 𝑦 𝑣 𝑦 𝑦 𝑦 𝑦 𝑥 2 𝑦 𝑦 𝑥 2 𝑦 𝑦 and 𝜃 𝛼 𝛼 𝛼 𝛼 𝛼 𝛽 𝛽 𝛽 𝛽 𝛽 𝛼 𝛼 𝛼 𝛽 𝛽 𝛽 𝛼𝜃 cos 𝜔𝜏 from the unknown parameters 𝜃 and 𝜃 in 9
+0,cos ωt φ v cos ωt φ 1 α α0 p p n nulation 4 least square 5 kalman filter 6 neural networkv t v v sin ωt φ v sin ωt φ 2 β β0 p p n n 7 and so on where the subscript p and n denote the positive and negativeplls 2 dynamic performance depends on the loop filtersequence for i p n θ
+0,φ v cos ω t τ φ α α0 p p n nthe frequency this approach is sensitive to the grid harmonics v v cos θ cos ωτ v sin θ sin ωτ
+0,2sec4 3 both frequency and amplitude are time varying f t 49 5 sin 2πt a t 2 0 3 cos 3πt 9 t 0 2 sec4 4 signal containing harmonics noise and dc componentsignal containing 3rd 5th 7th harmonics4 4 1 10 f 49 5 hz t 0 0 3 sec4 4 2 signal containing exponential component f 50hz t 0
+0,cos 𝜔 𝑡 7a 𝑘 2 𝑘 𝑘 1discusses the system equations used in ukf section iii intro 𝑧 𝑧 2𝑧 cos 𝜔 𝑡 7b duces the frequency estimation algorithm based on ukf sim 𝑘 2 𝑘 𝑘 1ulations are conducted in section iv and the results are
+0,cos 2πf t 1 0
+0,i 31of frequency estimation is to remain unimpaired these 4 gains must be adequately corrected the method devel cos cos cos 1oped here does not require identical filter gains andthus
+0,3nwt 0 1x cos 4nwt u _ 0 5 13 i iithe signal fundamental component frequencies were i
+0,f δf cos πδft α the frequency deviates from the rated frequency the harmonics cannot ar n 0n be eliminated by a discrete fourier transform with a rectangularu m
+0,cos 2πkf t 2πkδft α a m kn u t u k cos 2πkf t 2πkδft α 2πk 3 3v b m
+0,cos 2π 3 2πδf 3f nn n nm u t u k cos 2πkf t 2πkδft α 2πk 3 c m kn 3f sin 2π 3 2πδf 3f cos πδft α n 0n n k 1 2 3 4 5 20 j f f
+0,cos 2π 3 2πδf 3f n n nwhere u k is the peak value of thekharmonic component whenkis 1 3 f δf sin 2π 3 2πδf 3f sin πδft α m 16 n 0n
+0,2πδfsin 2 t n u k u k cos 2πkf t 2πkδft α cos 2πf t dt 3 f n 3 f n 17 ar t 0 m n k nn 2 t nu k u k cos 2πkf t 2πkδft α sin 2πf t dthence the simulated positive sequence voltage can be approxi ai m k t n 0 n n 21 mately derived as follows whereu k is the real part andu
+0,cos πkδft α ar n knδf δf2 1 2 06 u k m k f sin πkδft α 2f f δf ai n n k k n n 1 if 0 2 δf δf 2 f u k m k k f δf
+0,cos πkδft α 2πk 3 1 0 86 nbr n kn2f f n n u k m k f sin πkδft α 2πk 3 sin πδft n α 0 bi n n kφ arctan
+0,k πδft α 1 cos πδft n α 0 n 0 19 u k m k k f δf
+0,cos πkδft α 2πk 3 cr n kn u k m k f sin πkδft α
+0,k 3 3n n 0 1 2 25 u k sin kπδft m
+0,3n harmoniccomponents are attenuated by sin kπδft n k 1 kπδft n3 2 three phases unbalance analysisif the three phase voltages are unbalanced the input voltage signalscan be expressed as follows u t u cos 2πf t
+0,2πδft α a ps psn u cos
+0,cos 2πf t 2πδft α 2π 3 b ps psn u
+0,cos 2πf t 2πδft α 2π 3 ns nsn u t u cos
+0,mn u t ε t sin 2πf t 2πδft 2π 3 b bn u k sin 2πkf t
+0,2πkδft 2πk 3 π m n u t ε t sin 2πf t 2πδft 2π 3 c
+0,cn u k sin 2πkf t
+0,u t u t t 4 u cos 2π f δf t t 4 α x a n m n 0n u t u t t 2 u cos 2π f δf t t 2 α y a n m n n 0 a1 where u is the practical voltage input u and u are the constructed voltages u is the peak value f is the rated frequency t is a single powera
+0,cos πδft α ar n 0n u m f sin πδft α ai n 0n u m f δf
+0,cos πδft α π 2 πδft 2 xr n 0 nn u m f sin πδft α π 2 πδft 2 xi n 0 nn u m f δf
+0,if 0 2δf δf 2 f 2 1 234 nf f n n sin πδft n α 0 φ arctan q πδft α 1 cos πδft n α 0 n 0 a6 equation 19 in section 2 4 is the calculation of the phase angle of the simulated positive sequence voltage comparing a6 with 19 with theδsame frequency deviation
+0,2πkf t 2πkδft α a m kn u t u t t 4 u k cos 2πkf t 2πkδftx a n m n α πk 2 πkδft 2 k n u t u t t 2 u k cos 2πkf t 2πkδfty a n mn α πk πkδft k n k 1 2 3 4 5 a7 δ αwhere u k is the peak value of the k harmonic component f is
+0,n 2f real k n nm k 2 kπδftn j 2 f δf 2f cos imag k n n2 k 1 4n n 0 1 2 3 a8 4v k kπδft x 2 f δf sin n 2f real k n nm k 2 kπδftn
+0,cos imag k n n2 k 3 4n n 0 1 2 3 a10 4v k kπδft x 2
+1,dq3 dq dq1 1 1 2 2 2 cid 4 and δ is the phase angle of the dq reference frame and δ δ 2π 3 anddq dqdq cid 4 cid 4 δ δ 2π 3 dqdqthe phase angle of the dq reference frame is defined as cid 5 tδ t
+1,ω r dr δ 1 45 dq dq dq o0where ω
+1,t 0dq dq p t 1 49 cosδ t sinδ t
+1,ω t p 1 55 dq dq ωdt0 0
+1,dq o dqdt 1 65 j δω ω v t
+1,o o dq p v t
+1,o dq p t v
+1,i t v t v t 2 1 1 dq 1 l dq c dq 2
+1,i t p t c v t 2 2 l dq c dq r r 2 3
+1,i t v t 1 dq 1 o
+1,ji t 2 17 l dq o l d l qdtthe expression
+1,j δ t δ 2 20 s dq h
+1,jδ t 2 22 s dq h dqgwhich has a similar expansion as 2 21 namely
+1,dqh dq v t
+1,jδ t 2 24 s dq g
+1,dq s dqor equivalently p t v
+1,current i ass dq s dqfollows τ t ψ
+1,page5656 2 power system model i ih dq h dqjx r jx ra
+1,d d v v h dq h dqe exp jδ e
+1,p t b v t h dq dq 1 h
+1,dq h dqd d
+1,dq k dq 1 dql l l1
+1,h dq dq 1 h
+1,dq 2 68 l l l21
+1,p t b v t k dq dq 1 k dql l l2 cid 2 cid 2 or using the notation of 2 15 and dropping for simplicity the dependency ontime
+1,i t h dq k dq t 1 t k dq v t
+1,dq 1 μ μ dq1 cid 4
+1,dq h dq μ dqk dqrfe cid 4 v t a v t k dq k dq cid 4
+1,i t a i t k dq k dqwhere a aexp jφ is the complex tap ratio of the transformer note that theideal transformer is power invariant i t k dq cid 4 cid 4 v t
+1,i t 2 73 k dq k dq k dq k dq k dq
+1,a if iron core magnetization and losses are neglected as usual in power system studies x which implies i 0 and 1 r 0 which leads toμ μ dq fe cid 4
+1,dq h dq y 2 75 t 1i t 1 v t a k dq k dqwhere 1y
+1,t y y e t dq dq dqg g gg
+1,y y v t dq dq dqb b bg bb
+1,i t 2 85 dq dq dq where denotes the hadamard product i e
+2,xxxiiipart
+2,1 machine rotor speeds 2278 2 center of inertia 2478 3 applications of the rocop 2569 power system model 2619 1 introduction
+2,i e v v θ v
+2,i e v v jvdq
+2,ϑ t 1 4 dt dt2to properly interpret 1 2 is not always trivial if the angular frequency isconstant the definition is also consistent with the intuition in fact if ϑ is ϑ t ω t θ 1 5 o owhere ω
+2,and θ are constant then as expected the angular frequency is ω o o ohowever if ϑ is ϑ t ωˆ
+2,t θ 1 6 owhere
+2,ωˆ is a smooth i e derivable at least once function of time then thetime derivative of 1 6 gives d dϑ t ω t
+2,ωˆ t t ωˆ t
+2,1 1 extending this reasoning to the limit of an infinitesimal measur ing unit one has to conclude that the length of the coast of britain must beinfinite another possible answer
+2,exp t t ξ t h h h dc dch
+2,v iwhich has zero average over the least common multiple of the periods 2π ωvand 2π ω of the voltage and current respectively ithe only case for which the average value of the instantaneous power pis nonnull is for ω ω ω for which in fact one obtains the well
+2,1time s figure 1 2 instantaneous power obtained with nonisofrequential voltage v 1 v ω 2π 50 rad s and current
+2,05time s figure 1 3 instantaneous power obtained with isofrequential voltage v 1v ω 2π 50 rad s and current
+2,rad s i e 100δ o omhz t 0
+2,λ t 1 15 o θ θthis function resembles the damped oscillations that occur in a power systemfollowing a large disturbance and is thus of relevance for the transient phenom ena discussed in this book figure 1 5 shows an example that considers cid 2 cid 3 v t 2v sin ω t δθ
+2,1θ2ωov 2figure 1 6 time dimensionality reduction in the phasor domain v t 12v
+2,jω v ω v θ
+2,π 2 1 21 o
+2,nω t 1 23 n o n
+2,where the complex coefficients c are given by n cid 5 to 1 2 c h r
+2,h k ω h nδt exp j k ω nδt k 0 1 2 n 1 1 25 s snn 0where δt and n are the sampling time and the number of samples of the timeˆ series with sampling frequency ω 2π nδt knowing h
+2,2π50 rad s andoδθ as in 1 15 with δθ 0 2π rad ω 2π rad s and λ 0 o
+2,8 results of the dst of v nδt with δt 0 0001 s and n θ100 000 v 1 v ω 2π50 rad s
+2,and with δθ defined in 1 15 withoδθ 0 2π rad s ω 2π rad s
+2,8 d d c t c
+2,no steady state forward backward transform 111 o complex
+2,no transientclarke transform 37 αβo real no transientpark transform 168 dqo real
+2,page2424 1 frequency in power systemsand a exp j2π 3 the inverse of the symmetrical component transform isgiven by 1v a v 1 36 abc owhere 1 1 1 1a 2 a a 1 2a a 1figure 1 9 shows an example of symmetrical components for a set of un balanced voltages v note that the zero sequence is null namely v 0
+2,2 2β31 1 1v t 2 2
+2,2othe inverse clarke transform is 1v t c v t 1 41 abc αβowhere 1 0 1 1 c 1 3 1 2 2 1 3 12 2for example for the symmetrical voltages in 1 33 the components of the cid 2 cid 2 clarke transform are v t 2v cos
+2,page271 4 transforms 271 5 1 5v va α1 1v vb β v egatlov v vβ 0 5 v v egatlov v vβ 0
+2,5c0 0 0 5 0 5 1 1 1 5 1 50 0 02 0 04 0 06 0 08 0 1 0 0 02 0 04 0 06 0 08 0
+2,2π rad ω 2π rad s and λ 0 o
+2,the fundamental constant nominal fre
+2,dq o oquency of the system this is the choice adopted in this book to model loadsand the transmission system in sections 2 4 2 and 2 4 3 respectively moreover from the observation of 1 43 and 1 40 as well as of 1 46 and 1 41
+2,0cdq dq0 0
+2,1on the other hand c can be obtained from p by imposing δ 0
+2,16 d d 1p t v t
+2,p t p t v t abc dqodt dt cid 17 cid 18 d d 1 1 p t p t v t p t p t v t dqo dqodt dt 1 54
+2,i is the identity matrix of order 3 and3 0 1 0d 1p t p t ω
+2,0where ω is the angular frequency of the dqo reference frame as defined indq 1 45 merging 1 54 and 1 55 the time derivative of the dqo variables can bewritten in the compact form cid 2 cid 2 d dp t v t v t
+2,ω t p v t 1 56 abc dqo dq ω dqodt dtthen dropping the o component which it is assumed to be null andusing the definition of the park vector in 1 52 the time derivative can beformally defined as a complex time dependent operator as follows dp
+2,t jω t 1 57 dqdtin stationary conditions and using ω ω
+2,i e a park reference framedq orotating at the constant angular frequency ω
+2,page3434 1 frequency in power systemswhere ω is the base angular speed in rad s assuming ω ω ω 1 59 b dq b obecomes d 1p t ω
+2,its time derivative is not null due to the rotation of the dq reference cid 2 frame from 1 52 and 1 58 one obtains p v jω v jv
+2,δω abc o othe components of the park vector vary sinusoidally with period 2π δωo see figure 1 12 c v t 2v sin
+2,δ o o odcase c v rotating at angular frequency ω δθ abc odtif δθ is defined by the exponentially decaying sinusoidal function 1 15 the components of the park vector vary in time as see figure 1 12 d cid 2 cid 3 v t 2v sin δθ t
+2,cos ω t 1 exp λ t o θ θ θ θ θdt 1 69 equations 1 67 and 1 68 lead to write the time derivative of the parkvector in the dq reference frame as follows cid 21 cid 22 dp t v t jω v
+2,θ is an angular offset with respect to the reference and the time deriva otive of the park vector is dp t jω t j ϑ t 1 73 ϑ dq adtparticularizing ϑ
+2,x t 1 2 1 1dt
+2,dt 2 6 dref t
+2,x t k v t v t
+2,t 1 1 1 1 11dtdvref x v v1 1 11 k dt 11t s 12t s 1 s1 figure
+2,2refv s v s 11t s2 1
+2,k1 1 2 1 2 7 1 t s2ref v s 12s ζ 2 2 1ωˆ v ωˆvvwith1 t 2ζ 1
+2,k t1 v 1 2 ωˆ2
+2,the reference voltage magnitude v has a step variation 1ref ref hv t v δv t 2 11 11 1 ohwhere is the heaviside step function cid 29 cid 5 t0 t 0
+2,λ t 1 1 v v v1 o1 ζ2v 2 13 cid 30 where ω 1 ζ2 ωˆ and λ ζ ωˆ are the pseudo angular frequency andv v v v vvthe damping respectively of the closed loop control transfer function assuming t ζ ωˆ one finally obtains 2 v vref v t v δv 1
+2,1emt model0 0 2 0 4 0 6 0 8 1time s figure 2 4 comparison of the dynamic behavior of park vectors and qssphasors for the circuit of figure 2 2 the switch opens at t 0 2 s
+2,rad s bthe values of ω and λ lead to the following parameters of the controllerv vof v shown in figure 2 3 1 1 2k ωˆ ζ 38 44 t λ 1 s
+2,ωˆ 0 026 s 1 v v 1 2v vwhich can be easily deduced from the expressions of ω and λ
+2,f x t y t u
+2,u t 0n ny y n 1y rn rnwhere x
+2,x x are the state variables
+2,i i v v 1 1 l d l q c d c
+2,q y v v v v 1 d 1 q 2 d 2 q ref refu v
+2,x1 ref k v v x 1 1 1 1 v r i v v
+2,x i 1 d 1 l d c d 2 d
+2,q f v r i v
+2,v x i 1 q 1 l q c q 2 q l l
+2,lo 10 0 0 0
+2,ω b 0o c 10 0 0 0 0
+2,p t li t jω l
+2,2 17 has the units of a voltage or which is the same theproduct of an impedance and a current hence the term p l has the units ofan impedance assuming that the base of the impedance is z one has bp t l l
+2,d ω lo jz z dt zb b b 2 18 ω l d do 1
+2,jx ω x jx l l loω z dt dto bwhere x is the reactance in per unit a similar expression can be obtainedlfor the time derivative of v
+2,i i v and v finally thel d
+2,equivalently v t v t
+2,h q og g 2 21 v t v t
+2,og gwhere the subscript h indicates the index of the bus to which the machine isconnected and δ is the angle position of the rotor of the synchronous machine gwhich is referred to the reference angle δ of the system in the following δ
+2,0o ois always assumed similarly the link of the stator current i of the machine on the machines dqdq axis frame rotating at ω and the same current assumed to be injected intogbus h on the dq axis frame of the system rotating at ω is given by o
+2,dg g cid 2 cid 2 as to be expected the angular rotation by δ is invariant with respect togthe complex power injected by the synchronous machine into bus h of the grid in fact from 2 20 and 2 22 s t v t
+2,d h q h q v t
+2,d s d s q s q 2 25 q t v
+2,q s d s d s qthe synchronous machine constitutes the fundamental link between activepower balance of a power system and frequency variations see equation 1 9 this link is given by the electromechanical equations of the machine d m ω t
+2,t i t 2 27 e s d
+2,ω jω t is the time derivative of the park vector in the dq o dt gaxis frame of the synchronous machine and r is the armature resistance aseparating real and imaginary components 2 29 becomes d 1ω ψ
+2,q s ddt 2 30 d 1 ω ψ t
+2,t ψ t v t o s
+2,q a s q g s
+2,d s qdtas discussed in the example of section 2 3 electromagnetic flux dynamicsare fast with respect to the time scale of electromechanical modes and of the 1 ts model a common simplification is thus to assume ω 0 in 2 30 whicholeads to 0
+2,a s d s q s dg 2 31 0
+2,t v t a s q s d s qgfinally in the conventional ts model the variations of the rotor speed are considered small with respect to the reference i e ω 1 pu which enablesga further simplification of 2 31 as follows 0
+2,a s d s q s d 2 32 0
+2,x x i t v t do r q do r q r q
+2,i t q s qqo r d qo r d r d qdt
+2,x x γ t do d
+2,i t γ e t 1
+2,i t γ e t 1
+2,53equations
+2,p q 2 37 e s d s q s d s q h
+2,d h q h h u τ
+2,h d h qwith equations ω
+2,va s q s d
+2,i ψ is d s q s q s
+2,i γ e 1 γ e s d d s
+2,v i qs q s d s d s q hwhere ωˆ ω
+2,and left hand side matrices g 1ω 0 0 0 0 0 0
+2,m 0 0 0 0 0 0
+2,qo 0 0 0 0 0 0
+2,t 0ψ0 0 0 0 0 0 0
+2,do r q r q
+2,t x i t e t
+2,t x i t e t
+2,i t γ e t 1
+2,i t γ e t 1
+2,x x i t q1 q1 s
+2,exp jδ t a
+2,i t v t 2 46 a h
+2,exp jδ g gdq dq a sub transient equivalent b transient equivalent ih dqjx ra d v π h dqe exp j δ 2 o
+2,x x i t je
+2,t 2 48 s qdq
+2,r d q d r qwhich is graphically represented by the equivalent circuit shown in figure 2 5 b the well known classical model of the synchronous machine is obtainedfrom 2 48 by imposing both 2 40 and 2 43 and assuming a constant ex citation voltage the resulting internal emf is π cid 4 e jv v exp
+2,j 2 49 o ef o ef o2which leads to the circuit shown in figure 2 5 c figure 2 6 shows the approximated circuit of the synchronous machineutilized for the determination of the extended admittance matrix of the system see section 2 4 3 3 in this equivalent circuit the emf is approximated as cid
+2,q h hthen the generator current can be written as cid 4 e v t
+2,h g hs t v
+2,2 55 h cid 4 hgxdthe latter expression is often utilized in stability studies as an approxima tion of the electromagnetic power generated by the machine and is included inthe swing equation of the machine recalling 2 26 and neglecting for sim plicity the damping one has d m
+2,g 2 57 p t h
+2,hω t gfrom where one obtains the well known expression of the swing equation thatis utilized in several transient stability studies d m ω
+2,hh gδ t coim g h
+2,δ t coi coim dt g hhgwhere is the set of synchronous generators and m are the normalized hinertia constants using the coi the mechanical equations of the machinebecome d 1 ω
+2,pβ hpp t p
+2,hqq t q ω t od d
+2,hvh owhere v and ω are the voltage magnitude and frequency respectively at theh hbus h where the load is connected the voltage magnitude is defined as2 2 2v t v t v t 2 62
+2,and q are the load active and reactive powers at the reference voltage o od dmagnitude v and γ γ β and β are parameters that depend on the loadh
+2,q h d dfor example if β β 0
+2,γ and γ is stillp qunknown
+2,i e series or parallel connection of the elements that composes it alsomakes a difference in its emt dynamic behavior for example assume the circuit shown in figure 2 7 which represents aninductive load composed of the series of an inductance and
+2,dqd d d 2 65 v t r p
+2,i t h dq 1 dqd d dwhere p is defined in 1 60 1using the notation of 2 15 and dropping for simplicity the dependencyon time 2 65 becomes x v v
+2,d h q d qd
+2,g v b v h q q h
+2,qd d d d 2 66 v r
+2,dg ø b 0 0
+2,0d 0 b 0 0 1 dt ω o0 0 x 0d0 0 0
+2,ø the qss model of the load is obtained by setting t 0 which gives 4 4 1i t r jx g jb v t
+2,d 2 67 y v
+2,i i v v v v d q h
+2,k d d ql l l l v v
+2,k q q d l l l l g b l
+2,d h q l 2 2 g b f l
+2,l 2 2 g b l l
+2,d k d k q l 2 2 g b l li
+2,i v vk q q k q k dl2 2 2 69
+2,ø x 0 0 0 0
+2,l b0 0 0 0 0 2 l1t ω o b0 0 0 0 0 2 l b0 0 0 0
+2,02lb0 0 0 0 0 2l cid 2 cid 2 r ø where i and i are input variables as they are obtained as the sum of allh dq k dqcurrent injections of the devices connected to buses h and k the qss model of the transmission line is obtained assuming t 0
+2,in6 6 2 69 which leads to a purely algebraic model in qss models however it isunusual to use the expressions given in 2 68 since the currents entering inthe line are inputs a notation exclusively based on admittances is preferred as follows cid 31 cid 31 cid 31
+2,hk h dql l l 2 70
+2,i t y y y v t
+2,k dq hk hk k k dql l lwhere 1y r jx hkl l l 2 71 1
+2,i t 2 72 h
+2,i t a v t v t
+2,d k qk d k q u
+2,k q t k df v
+2,i asin φ i ik qk q k d 2a x 0 0 0t 20 a x 0 0 1 tt ω o0 0 x 0μ0 0 0
+2,y hk hk l a tn l
+2,y y kh hkl a tn l
+2,y y kk hk kl l
+2,page6868 2 power system model table 2 4 admittance matrix y of the wscc system bus g
+2,re ybus bus0 0 0 0 0 0 0 0 00 0 0 0 0 0 0 0 00 0 0 0 0 0 0 0 0 0 0 0 3 307 1 365 1 942 0 0 0 0 0 0 1 365 2 553 0 1 188 0 0 0 0 0 1 942 0 3 224 0 0 1 282 0 0 0 0 1 188 0 2 804 1 617 0 0 0 0 0 0 0 1
+2,617 2 772 1 155 0 0 0 0 0 1 282 0 1 155 2 437 b im ybus bus 17 361 0 0 17 361 0 0 0 0 0 0 16 000 0 0 0 0 16 000 0 0 0 0 17 065 0 0 0 0 0 17 065 17 361 0 0
+2,gb g y 2 79
+2,j6 315 0 0 0
+2,j4 637 ygbj12 682 0 0 0 0 0 0 0 00
+2,j6 315 0 0 0 0 0 0 00 0
+2,j4 637 0 0 0 0 0 0 ybgj12 682 0 0 0 0 0 0 0 00
+2,j6 315 0 0 0 0 0 0 00 0
+2,j4 637 0 0 0 0 0 0
+2,g re ybb bb0 0 0 0 0 0 0 0 00 0 0 0 0 0 0 0 0
+2,617 2 772 1 155 0 0 0 0 0 1 282 0 1 155 2 437 b im
+2,ybb bb 30 043 0 0 17 361 0 0 0 0 0 0
+2,22 315 0 0 0 0 16 000 0 0 0 0
+2,22 702 0 0 0 0 0 17 065 17 361 0 0 39 309 11 604 10 511 0 0 0 0 0 0
+2,11 604 17 338 0 5 975 0 0 0 0 0 10 511 0 15 841 0 0 5 588 0 16 000 0 0 5 975 0 35 446 13 698 0 0 0 0 0 0 0
+2,0 0 0 0 0 0 0 00 0 0 0 0 0 0 0 00 0 0 0 0 0 0 0 00 0 0 0
+2,1 260 0 0 0 00 0 0 0 0 0 878 0 0 00 0 0 0 0 0 0 0 00 0 0 0 0 0 0 0 969 00 0 0 0 0 0 0 0 0
+2,the element wise vector multi plication and the subscript b has been dropped for simplicity recalling theexpression of the current given in 2 77 one obtains cid 2 cid 3 s t
+2,d hk k d hk k q h
+2,hk hk hk bk
+2,k hk hk hk hk
+2,bkwhere 2 2v v v 2 89 hh
+2,vh d θ v atan 2 90 h h dqvh q
+2,2 4 4 examplethis example compares of the emt and qss models and illustrates the effectof the utilization of the coi reference on the trajectories of the variables fortable 2 7 results of the dc power flow analysis for the wscc system base case exact solution dc power flow solutionbus v θ p q v θ
+2,h h pu kv rad pu mw pu mvar pu kv rad pu mw pu mvar 1 1 0400 0 0 7164 0
+2,2705 1 0 0 67 02 1 0250 0
+2,1620 1 63 0 0665 1 0 1710 1 63 0 3 1 0250 0 0814 0 85 0 1086 1 0 0883 0 85 0 4 1 0258 0 0387 0 0 1 0 0386 0 0 5 0 9956 0 0696 1 25 0 50 1 0 0709 1 25 0 6 1 0127 0
+2,90 0 30 1 0 0652 0 90 07 1 0258 0
+2,0649 0 0 1 0 0691 0 0 8 1 0159 0 0127 1 00 0 35 1 0 0144 1 00 09 1 0324 0
+2,0343 0 0 1 0 0385 0
+2,99 1 1 01 1 02 1 03 1 04 1 05 1 06 cid 2 cid 2 time s a d axis stator flux0 060
+2,040 02 vk up v0 0 02 0 04emt 0
+2,ω the only 1gvariable of the machine that is affected by the choice of the reference frame isthe rotor angle
+2,24 1 1 1z h
+2,u h h u η 3 10 assuming that the diagonal elements of u are equal i e all measurementsare retrieved using devices and or techniques of the same technology andconfiguration the solution of 3 10 reduces to that of a linear least squareproblem cid 23 cid 24 1 z h
+2,hk pu kv pu mw pu mvar pu mw 1 1 0424 0
+2,7221 0 2747 9 8 0 24422 1 0203 1 6261 0 0710 7 8 0 7622 3 1 0291 0 8599 0 0895 9 6 0 61604 1 0197 0 0 7 5 0 8786 5 0 9975 1 2687 0
+2,4967 5 4 0 4027 6 1 0206 0 8874 0
+2,3003 6 4 0 30447 1 0379 0 0
+2,2 7 1 6241 8 1 0032 0 9908 0 3233 3 9 0 83509 1 0214 0 0 1 4 0 7202table 3 2 results of the state estimation problem for the wscc system base case solution state estimation solution cid 2 cid 2 bus v θ p q v θ
+2,h h pu kv rad pu mw pu mvar pu kv rad pu mw pu mvar 1 1 0400 0 0 7164 0 2705 1 0351 0 0 7187 0 26922 1 0250 0
+2,1620 1 63 0 0665 1 0215 0 1630 1 6298 0 0636 3 1 0250 0 0814 0 85 0 1086 1 0231 0
+2,0819 0 8493 0 0977 4 1 0258 0 0387 0 0 1 0209 0
+2,0392 0 0 5 0 9956 0 0696 1 25 0 50 0 9906 0 0711 1 2642 0 5033 6 1 0127 0 0644 0 90 0 30 1 0081 0
+2,8958 0 30687 1 0258 0
+2,0649 0 0 1 0225 0
+2,0653 0 0 8 1 0159 0 0127 1 00 0 35 1 0137 0
+2,9907 0 33189 1 0324 0
+2,0343 0 0 1 0299 0
+2,05888 0 02069 0
+2,h h pu kv rad pu mw pu mvar pu kv rad pu mw pu mvar 1 1 0400 0 0 7164 0
+2,2705 1 0350 0 0 7189 0 26922 1 0250 0
+2,1620 1 63 0 0665 1 0213 0 1630 1 6299 0 0636 3 1 0250 0 0814 0 85 0 1086 1 0230 0
+2,0819 0 8492 0 0975 4 1 0258 0 0387 0 0 1 0208 0 0392 0 0 5 0 9956 0 0696 1 25 0 50 0 9905 0 0711 1 2641 0
+2,5032 6 1 0127 0
+2,0644 0 90 0 30 1 0079 0 0646 0
+2,8961 0 30667 1 0258 0
+2,0223 0 0653 0 0 8 1 0159 0 0127 1 00 0 35 1 0135 0
+2,9907 0 33179 1 0324 0
+2,0343 0 0 1 0298 0
+2,u t 3 17 dtwhere 3 17 represents a compact notation of 2 15 with l f g and cid 19 cid 20 t 0n
+2,nθ x y 3 18 r 0n ny
+2,1similarly to the standard state estimation the dse problem can be for mulated as an optimization problem to be solved at every time step t askfollows 1 1 1minimize j ξ ε ξ q ξ ε u ε 3 21 k k k k k k k k2 ξ ε z k k k cid 2 cid 3 subject to 0
+2,λ z z u u ξ ν
+2,3 22 k k 1 k k 1 k k 0 η z η ε μ 3 23
+2,λ z z u u ξ 3 24 k k 1 k k 1 k 0 η z η ε 3 25 k k klet z represent the estimate of z after n given observations at time n m m n
+2,i i 1 i 1 iz z
+2,θ δtl z u λ z z u u k z k k k k 1 k k 12where l is the jacobian matrix of function l and for i 1 2
+2,i z k max 0
+2,h π h u k k k k 1 kk 1 near optimal kalman gain k π h s k k k 1k k cid 2 cid 3 updated state estimate z z k η η z k k k k 1 k k k 1 updated covariance estimate π
+2,θ z t l z t
+2,u t k t η t η z t dtd 3 27 π
+2,q t z z zdt 1k t
+2,ω t p t p t d
+2,ω t ωm e ogand the observation is 0 ω t
+2,5δtoλ h 0 1 3 31 z z0 m 0
+2,01057 overall the error between the estimated frequency ω
+2,zh up deepsralugnarotorω1 002 1g zh up ωω 4e 05ω
+2,ω 3 32 h oδt cid 2 cid 2 where δt is the sampling time of θ or the time step of the numerical inte hgration ω is the reference angular frequency in rad s and δω is the soughto hfrequency variation in pu rad
+2,it is worth recalling that in the qss model 2 15 the phase angles θ of voltage phasors are shifted with respect to ahreference since the reference is the frequency of the coi see the discussion atthe end of section 2 4 4 using the notation of 1 2 and 2 59 one has ϑ
+2,zh up ω δ zh up ω δ0 025 dar θ dar θ005555 0 025 0 05 0
+2,001 the spikes have an amplitude of about100
+2,page9292 3 dynamic state estimationlpf washoutθh o x δω θ θ hsh 1 11 stω 1 stwo ffigure 3 4 scheme of low pass and washout filters to calculate the numericalderivative of a bus voltage phase angle the differential equations of the wf are as follows cid 2 cid 3 d 1 t x t ω
+2,θ t θ x t 3 35
+2,o h h o θdtd
+2,h q t c t c
+2,t s t 3 38
+2,2 2where v v v and according to the notation of the park transformhh
+2,otherwise θ h hω s
+2,t dto θ h cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm page933 3 estimation of bus frequencies 930 001 0 001 zh up ω δ zh up ω δ zh up ω δ zh up ω δ0 055 55 0 001 0 0010 1 2 3 4 5 0 1 2 3 4 5time s time s a without noise t 0 001 s b with noise t 0 001
+2,sf f0 001 0 0010 0 cid 2 cid 2 0 001 0 0010 1 2 3 4 5 0 1 2 3 4 5time s time s c with noise t 0
+2,3 h d h q age magnitude v v jv and phase angle θ v jv π
+2,hthe ekf pll is de facto a dynamic state estimator and hence the notationδω for its output h3 3 2 1 synchronous reference frame pllfigure 3 7 shows the commonly used srf pll where the pd includes a con stant delay τ
+2,and the lf consists of an lpf and a proportional integral pi θregulator the equations that describe the srf pll shown in figure 3 7 are d t x t cid 10 t x t θ
+2,θ t x t 3 42
+2,fdtdt x t x t 3 43 fi idtδω
+2,θ the fidelity of the srf pll can be readily shown assuming t 0 de fdriving 3 44 with respect to time and substituting x and the expression ofdt ilfpd vcokp δω θ x θθ hh
+2,d ω 1 o oω θ t
+2,θdt k dt k tp p ifrom which it follows that apart from the delay τ
+2,θ i and h h h
+2,h h 3 0 ω 0
+2,1 k k o 10 0 0
+2,ω δ0 0555 555 0 001 0 0010 1 2 3 4 5 0 1 2 3 4 5time s time s a srf pll k 0 01 t 200 s b srf pll k 0 1 t
+2,lf i lf0 001 0
+2,0010 0 cid 2 cid 2 0 001 0 0010 1 2 3 4 5 0 1 2 3 4 5time s time s c srf pll k 1 t 2 s d 2nd order ekf pll σ σ 1 puω ηp
+2,lf i lf0 001 0 0010 0 0
+2,001 0 0010 1 2 3 4 5 0 1 2 3 4 5time s time s e 2nd order ekf pll σ σ 0 1
+2,pu f 3rd order ekf pll σ σ 0 01
+2,j k ω nδt k 0 1 2 n 1 3 50 s w swn 0where
+2,x t g g in gdtd
+2,x t t x t x t
+2,4 1 d t x t x t x t rh rh c rhdtd
+2,t rh rh rh rh mdtwhere p is the output of windup limiter as follows in min max pˆ t if p pˆ t p in inpmax maxp t pˆ t p if pˆ t p 4 2 in in in in min minp if pˆ t p inwhere 1ref pˆ t p t ω
+2,rh y τ pˆ p 4 4 m in in refu ω p gg x τ p x rh min g 1 f
+2,x g ref 4 5 p ω ω pˆ g co inr gg
+2,x xp c rh pˆ pin in in t 0 0 0 0
+2,tg rh rh t t t 0
+2,r 0 0 0 4 6 t sm0 0
+2,x x τ1 t s 1 κ
+2,t s 1in in g c m1 r t rh rh t s
+2,1 t s 1 t s 1 g
+2,r refwhere is the droop of tg
+2,ø 4 11 ocoit 1 r
+2,51 1 1 2 o2gω zh up 1g m m
+2,o1 08 3g 1 15 1 06 1 1 1 04ω 1 05 1 021 10 10 20 30 40 50 0 10 20 30 40 50time s time s a machine rotor speeds at base case b variations of machine inertias 1 12d 0
+2,681m3m 1 005 ω 0
+2,67pp 1 0025 0
+2,661 0 650 10 20 30 40 50 0 10 20 30 40 50time s time s a rotor speed of machine 1 b mechanical power output of machine 1 1 63 0 85r r 0 02 0 02 1 62 0 84r r 0
+2,05 0 05 wm up 2m 1 61 r 0 83 r 0 1 0 1 1 6 0 82 1 59 0 81 1 58 0 8 cid 2 cid 2 1 57 0 790 10 20 30 40 50 0 10 20 30 40 50time s time s c mechanical power output of machine 2 d mechanical power output of machine 3figure 4 5 wscc system response of the rotor speed of machine at bus 1and
+2,up 1g r r r1 01 1 2 3 0 05 1 008 0 025 1 006 pδ 0
+2,m1ω 1 004 pδ m20 025 1 002 pδ m30 0510 10 20 30 40 50 0 10 20 30 40 50time s time s a rotor speed of machine
+2,1 b variations of the mechanical poweroutput of the machines r r r 0 051 2 3 wm up rewoplacinahcem 0 1 0 1 0 075 0 075 0 05 0 05 0 025 0 025p pδ δ cid 2 0 m1 0
+2,k 10 0ok 1 0o zh up 1 g 1 004 1 0021ω 0
+2,2 aad d t v t
+2,f f f ef fdt dt d
+2,d a a av t v t
+2,dt 4 16 1 a a dt1
+2,d a a av t v t
+2,dt 4 17 2 a a dt1
+2,vp d f 1 2 a in 1 a 2 a a g v v z 4 20 2 a a 2dt v f 1 z zˆ 1 1 v k sat v 1 z zˆa ef ef 2 2 t 0 0 0 0 0
+2,z z t 0 0 0 0 0 0 0 0 1 2 a t 0 0
+2,r 0 0 0 0 0 4 21 b 0 0 0
+2,f f0 0 0 0
+2,0efthe dynamics of the ieee type dc1 exciter overlap the time scale of theinertial response of the machine in some cases however faster dynamics canbe neglected the minimal avr model that retains its basic dynamic behavioris obtained by setting t t t t k a 0
+2,k ω v t w 1 w 1gdtd d t v t t v t v t 2 2 w 1 2dt
+2,d t v t t v t v t v t 4 3 1 2 2 3dt dtd t v t v t
+2,vˆ t 4 23 s s swhere the expression of the limiter is as follows min min v
+2,if vˆ t v s s spmax max vˆ t v if vˆ t v 4 24 s s s s s
+2,2 26pm page120120 4 frequency controlusing the notation of 2 15 and dropping the dependency on time the set 4 22 4 24 becomes x v v v 1 2 3 y vˆ v 4 26 s su ω g cid 31
+2,k ω vw 1g v vˆ3 s
+2,f v g 4 27 2p vˆ vs s s v v2 3 cid 31 t 0 0w 0 0
+2,t3 t t t 0
+2,r 4 28 w 20 0 0 0
+2,005 1 004 zh up 2g no avr1 003avr
+2,k 0 5 of f 1 032 1 0004k
+2,k o f f1 0281k
+2,f f o cid 2 0 5 10 15 20 25 30 0 5 10 15 20 25 30time s time s c voltage magnitude at bus 14 for d rotor speed of machine at bus 2 fork kdifferent differentf f1 04
+2,k k 1 0012 oa
+2,f a fk k 2 o a f a f1 036 1 0008k
+2,f a f 1 032 1 0004k k 1 028 a f a f o1k k 2
+2,no pss 1 02
+2,no pss 1 042pss
+2,pss 1 0150 5 10 15 20 25 30 0 5 10 15 20 25 30time s time s a voltage magnitude at bus
+2,2 b voltage magnitude at bus 14 1 0004no pss1 pss zh up 2g 0 9996 0
+2,x f fc u yω h s der h s derfcder 1 stf fc ω hcurrent
+2,controllpfk1p refiyd1 derv h1 stf v k converter1i svoltage control h s vscv
+2,f hk k 2 3p p
+2,the resultingf fcsignal is the input of the cig device or the input of the pi control of the ess note that if one decides to disable the rocof channel it will suffice to setr cid 8 k 0
+2,this is the model used inderthe simulations of this book solar photovoltaic generationthe solar photovoltaic generation spvg model suitable for voltage and tran sient stability analysis is relatively standard see e
+2,the block h s represents a two input two output modelvscof the vsc used to interface the der with the grid the scheme of the vscand its inner current control in the dq reference frame is shown in figure 4 17 refwhere
+2,respectively ofvsc vscinner current control loopconverterv
+2,vd dh h refi m v 1
+2,id t d dd pi s1 r sl vsc vsclω l iq
+2,2 v 2dcv ωdcoω l ido lvscvsc refi m 1
+2,iq qqpi s2 v
+2,k g k l o l tcl tcl tcl tcl 2vh owhere k is the ceiling conductance output ratio k 1 for coolingl l tcl tclsystems and k 1 for heating systems l tclmaxk gp tcl tcl ωref θrefgkmaxf
+2,g tcltcl tcltcl 1
+2,st f tcl x1ω
+2,tclh0θ sttcl
+2,x t a t x t b ξ t 4 31 h h h
+2,9with control1 010
+2,ω zh up ω1 0080 851 0060 8251 0043ioc 0 81 0020 77510 750 9980 20 40 60 80 100 120 140 0 20 40 60 80 100 120 140time s time s a input signal of the wecs control b active power supplied by the wecs1 0141 014no control
+2,no control1 0121 012with control with control1 011 011 0081 0081 0061 0061 0041
+2,page1415 2 derivation 141 1 015 1 015ω ω 1 1b
+2,g zh up ycneuqerf ω
+2,y t e t g gg
+2,bb b where v
+2,y t e t g gg
+2,y t y t v t bg
+2,3 d d 0 b t v t
+2,jθ t j θ t v t
+2,0 b t v t v t v t
+2,d b t e t e t e t exp
+2,d b t v t b t
+2,dt dtwhered u t v t v t b dt b b 5 9 d u t e t e
+2,jb t θ t bb bb bbb dt
+2,dt b 5 11 d d b t
+2,b t δ t 5 12 bb bg gdt b
+2,k 5 17 x xik
+2,and k h kcoirespectively then the frequency of the center of inertia is given by m mh kω t ω t ω t 5 19 h kcoim m m mh k h khence the position i for which ω ω is given by icoim x m xk
+2,hk h hkx x 5 20 hi
+2,3bprovided by 5 18 shows oscillations in phase with the rotor speed ω as 1gexpected since the load bus is electrically closer to generator 1
+2,fdf1 003 zh up ω zh up ω1 0021 0021 00113 b 1 001 3 b0 99910 9980 999 0 9970 2 4 6 8 10 0 2 4 6 8 10time s time s a load representing an aluminum plant b squirrel cage induction motor with a γ 1 8
+2,21 702 0 0 0 0 0 17 065 4 17 361 0 0
+2,650 0 233 0 216 0 321 0 248 0 512 0
+2,425 0 2963 0
+2,ω 2g59 98ωfdf60
+2,91 750 85 74 algebraic variables 96 768 117 945 21 88 117 945 21 88 size of dae system 146 164 167 341 31 07 209 695 105 82 nnz of jacobian 0 00256 0 00222 13 28 0 00153 40 23 matrixdaes initialization s 0 35087 0
+2,eii t y y y y e e t g gg gb gg gb g e ee ee ei
+2,y y y v e t b bg bb bg bb b 5 21
+2,i ie ie ii ii
+2,gg gb gg gb g cid 2
+2,i ie ie ii ii cid 2
+2,b bg bb bg bb band following the same assumptions and derivations discussed in section 5 2and deriving with respect to time the fdf for the set of buses of the internalsystem becomes 0
+2,bii δωi t bie δωe t bii δωi t bb b bg g
+2,bg g 5 22 bii
+2,ie ee eibii im
+2,ie ee eibii im
+2,y y y y bg bg bb bb bgh hgg
+2,nninternal external internalregion region regiongm
+2,y y v e t r rr rb r 5 24 e e ei
+2,1 5 27 h o hh h
+2,g 5 28 rbi bih hhgfinally the frequency variation at bus h is given by 0 bi be δω t be
+2,δωe t bi δωi t hhh hh h hg g
+2,g g 5 29 bi be
+2,hg gwhere b be bi in explicit form 5 29 becomes h h hg
+2,t hgwhere 1de
+2,bi be be h hh
+2,0and 0 285 0 233 0 566 0 285 0 233 0
+2,566 0 589 0 247 0 277 0 589 0 247 0 277 die dii
+2,di 5 33 0 359 0 425 0 328 0 359 0 425 0 3280 363 0 296 0 448 0 363 0 296 0 448rei equivalent at bus 9assuming that the external and internal regions consist of the sets of busesb b 1 2 4 5 6 7 8 and 3 9 respectively then one has e i 3 350 0 719 2 967 be 0
+2,646 3 646bi 5 35 r 3 646 3 646and hence bi 3 646 bi 3 646 99 9gfinally the fdf matrices at bus 9 are de 0 352 0 286 di 0 432 d 0 352 0 286 0 432 5 36 9 9 9as expected the matrices di and d are slices of the matrix
+2,ω are the remaining unknown bus frequencies using sameunotation as for 5 1 and neglecting the time dependence of the admittancematrix one has i t
+2,g gg gm gu
+2,y y y v t 5 37 m
+2,3g0 340 0 217 0 381
+2,2 26pm page162162 5 frequency divider formula60 160 05
+2,zh ycneuqerf zh ycneuqerf6060ω fdf59 95
+2,ø andg ω ω ω ω with these measurements and the knowledge of the 4 7 9m b b b3matrix
+2,b it is possible to estimate the frequencies at the buses 5 6 and 8 bb
+2,it can be easily observed that all hypotheses that are assumed in theo rem 2 1 in 45 and that apply to y and f also apply to y and d
+2,b d according to their original positions before the sorting
+2,i e d therefore hkhk rif κ 0
+2,the sparsity of d and thus of d increases and its accuracy1decreases limit cases are 0 if κ 0
+2,hk d otherwise hk where max d is the maximum value of the elements in d and κ 0 1
+2,i e ς ς are more uniformly distributed than those using a2 hhrwhile the minimum ς ς obtained using a1 is 0 604 at bus 1 highlighted inhhrlight gray in table 5 4 one can find 9 buses with equal or lower ς ς in tablehh cid 2 r cid 2
+2,6 1rρ 34 62 fdbus generator rς ς ςh
+2,h 1 2 3 4 5 6 7 8 9 10 h1 0 0 0 0 0 0 0 0 0 0 67 1 109 0 6042 0
+2,3 0 0 0 0 0 0 0 093 0 0
+2,358 1 152 0 6523 0 236 0 0
+2,09 0 35 1 171 0
+2,182 0 098 0
+2,118 0 0 0 0 0 0 0 378 1 171 0 6625 0 159 0 117 0 126 0 0 0 0 0 0 0
+2,41 1 165 0 6976 0 157 0 122 0
+2,129 0 0 0 0 0 0 0
+2,407 1 164 0 77 0 152 0 0
+2,122 0 0 0 0 0 0 0
+2,436 1 162 0
+2,6128 0 15 0 0
+2,118 0 0 0 0 0 0 0
+2,451 1 16 0 629 0 0 0 0 0 0 0 0 0 0 693 1 115 0
+2,158 0 106 0 162 0 0 0 0 0 0 0 373 1 167 0 68511 0
+2,158 0 111 0
+2,151 0 0 0 0 0 0 0 385 1 167 0 68912 0 161 0 108 0 152 0 0 0 0 0 0 0
+2,38 1 175 0 68213 0
+2,162 0 103 0 152 0 0 0 0 0 0 0
+2,371 1 17 0 67414 0 172 0 095 0 129 0 0 0 0 0 0 0 362 1 175 0
+2,64515 0 174 0 0 0 111 0 0
+2,118 0 0 0 0
+2,313 1 181 0 60616 0
+2,174 0 0 0 123 0 0
+2,109 0 308 1 186 0 612 cid 2 cid 2 18 0 212 0 0 0 0 0 101 0 0 0 102 0 325 1 182 0 62619 0 152 0 0 0 205 0 0 113 0 0 0 0 255 1 17 0 6220 0 139 0 0 0 187 0 109 0 0 0 0 0 233 1 101 0 60721 0
+2,149 0 0 0 0 0 205 0 153 0 0 0 249 1 167 0 64923 0 148 0 0 0 0 0
+2,184 0 177 0 0 0 248 1 166 0 6524 0 171 0 0 0 12 0 0
+2,138 0 0 0 0
+2,286 1 18 0
+2,60525 0 263 0 0 0 0 0 0 0
+2,326 1 166 0
+2,219 0 0 0 0 0 0 0
+2,102 0 194 0 302 1 208 0 67627 0 209 0 0 0 0 0 097 0 0 0 155 0 306 1 201 0 63928 0
+2,196 0 0 0 0 0 0 0 0
+2,309 0 27 1 216 0 63729 0 187 0 0 0 0 0 0 0 0
+2,344 0 258 1 209 0
+2,481 0 0 0 0 0 0 0 0 0 256 1 091 0
+2,097 0 0 0 0 218 1 086 0
+2,6534 0 132 0 0 0 177 0 149 0 0 0 0 0
+2,22 1 087 0 62335 0
+2,133 0 0 0 0 0 272 0 136 0 0 0
+2,222 1 126 0 67736 0
+2,128 0 0 0 0 0 159 0 29 0 0 0 214 1 143 0 69237 0
+2,226 0 0 0 0 0 0 0 241 0 0
+2,1 2 3 4 5 6 7 8 9 10 h1 0 155 0 0 0 0 0 0 0 0 0 67 1 109 0 7432 0 3 0 0 0 0 0 0 0 0 0 358 1 152 0 5713 0 236 0 0 0 0 0 0 0 0 0 35 1 171 0 5014 0 182 0 0
+2,118 0 0 0 0 0 0 0 378 1 171 0
+2,5795 0 159 0 117 0 126 0 0 0 0 0 0 0 41 1 165 0 6976 0
+2,157 0 122 0
+2,129 0 0 0 0 0 0 0
+2,407 1 164 0 77 0 152 0 115 0 122 0 0 0 0 0 0 0 436 1 162 0 7118 0 15 0 111 0
+2,118 0 0 0 0 0 0 0
+2,451 1 16 0
+2,7169 0 0 0 0 0 0 0 0 0 0
+2,693 1 115 0 62210 0 158 0 106 0 162 0 0 0 0 0 0 0 373 1 167 0 68511 0 158 0 111 0
+2,151 0 0 0 0 0 0 0 385 1 167 0 68912 0 161 0 108 0 152 0 0 0 0 0 0 0
+2,38 1 175 0 68213 0
+2,152 0 0 0 0 0 0 0 371 1 17 0 58514 0
+2,129 0 0 0 0 0 0 0 362 1 175 0 56415 0 174 0 0 0 111 0 0
+2,118 0 0 0 0
+2,313 1 181 0 60616 0
+2,174 0 0 0 123 0 0
+2,291 1 181 0 699 cid 2 17 0 197 0 0 0 105 0 0 111 0 0 0 109 0 308 1 186 0 701 cid 2 18 0 212 0 0 0 0 0 0 0 0 0 325 1 182 0 45419 0 152 0 0 0 205 0 0 113 0 0 0 0 255 1 17 0 6220 0 139 0 0 0 187 0 109 0 0 0 0 0 233 1 101 0 60721 0
+2,105 0 0 205 0 153 0 0
+2,249 1 167 0 73923 0
+2,184 0 177 0 0 0 248 1 166 0 7424 0 171 0 0 0 12 0 0
+2,138 0 117 0 0 0
+2,286 1 18 0
+2,70525 0 263 0 0 0 0 0 0 0
+2,14 0 114 0 326 1 166 0 72326 0
+2,219 0 0 0 0 0 0 0 0
+2,194 0 302 1 208 0 59227 0 209 0 0 0 0 0 0 0 0
+2,155 0 306 1 201 0 55828 0 196 0 0 0 0 0 0 0 0
+2,309 0 27 1 216 0 63729 0 187 0 0 0 0 0 0 0 0
+2,344 0 258 1 209 0
+2,481 0 0 0 0 0 0 0 0 0 256 1 091 0
+2,128 0 224 0
+2,261 0 0 0 0 0 0 218 1 086 0 56134 0 132 0 0 0 177 0 149 0 0 0 0 0 22 1 087 0
+2,62335 0 133 0 0 0 0 0
+2,272 0 136 0 0 0 222 1 126 0 67736 0 128 0 0 0 0 0 159 0 29 0 0 0 214 1 143 0 69237 0
+2,226 0 0 0 0 0 0 0 241 0 0
+2,455 0 034 993 526 0 057505 422 0 049 1 283 442 0 0411 220 342 0
+2,033 1 221 288 0 038993 316 0 070 1 220 181 0 0491 353 218 0
+2,29 0 052 1 012 82 0 0381
+2,ρr 1 0 100 11 0015fdκ ρr 0 9 64 1 1fd 1 001
+2,κ ρr 0 8 46 9 1fdκ ρr 0 6 26 8 zh up zh up 1 fd1 00051h ωbω cid 5 0 9995 0
+2,999 0 99850 1 2 3 4 5 6time s a trajectories0 0015ωcoiκ 0 91 cid 2 0 0012 cid 2 κ 0 81κ 0 610 00090 00060 000300 1 2 3 4 5 6time s b errorsfigure 5 15 aiits frequency estimated at a nonsynchronous wind gener ation bus facing a three phase fault using a1 of inertia ω
+2,ρr 0 02 62 6 2fd 1 001 κ ρr 0 035 45 6 2fdκ ρr 0 06
+2,b rto ensure a minimum ς ς 0 75 using
+2,i e κ 0 75
+2,it is requiredh
+2,005 0 0075 0 01κ κ1 2κ κ a approach a1 0 8 1 b approach a2 0 0
+2,775 0 8 0 5 0 625 0
+2,75 0 875 1ςr
+2,2 p t p t p t 6 14 h ramp
+2,ω t p t p t 6 15 mg g gwhere
+2,is the inertia constant and p is the mechanical power provided bymgthe turbine the mechanical power can be decomposed into three terms p t p t
+2,g pfc g gin the very first instants after a contingency the dominant effect is due tothe inertial response but in general the two terms are deeply intertwined andtheir effect cannot be separated however
+2,p t p t p t p t 6 21
+2,ess pfc ess
+2,v i cosφ since varying the current injection of the load
+2,θ t dv t b v t v
+2,b dv t v θ t b v t
+2,k h hk h k h θ
+2,t dv t v t dθ
+2,page186186 6 frequency makers and frequency takersthe rationale behind 6 25 can be deduced for a purely resistive load connected to a bus with nonconstant voltage v v θ through a losslessk k kline with admittance b hk cid 2 cid 3 2 g v t b v t v t sin
+2,hk k h kd2where
+2,g p v the results of the examples discussed in chapter 5 o od
+2,h o indicate that for a constant admittance load the phase angle difference θ θh kis constant because δω δω this result implies that any variation of vh k khas to be compensated by a variation of v which confirms the conditionshgiven in 6 25 constant current in this case
+2,o hk k h kdwhere
+2,11 60 17 575 0 5 975 0 06 0 0 0 10 51 0 16 98 0 0 5 5887 0
+2,the spike 8bat beginning of the simulation of the load bus in figure 6 4 a is due to thenumerical integration of the srf pll and thus it does not represent anyphysical behavior of the system 0 060bus
+2,3 0 04 0 01bus 8 s wm up wm up δ cid 2 p 0 02 0 02 0 03
+2,bus 30 bus 80 04h b h b cid 2 p 0 050 02 0 06 0
+2,01only pfc s wm up wm up δ cid 2 p 0 02
+2,no pfc0 02 pfc and agc 0
+2,03only pfc0 0
+2,04no pfc 3b cid 2 p 0 05
+2,3b 0 02 0 06 0
+2,01 wm up rewopevitca 0 02 pδ pfc and agc 3gp cid 2 δ pfc and agc0 03 3bpδ no pfc 3 g0 04p cid 2 δ
+2,no pfc 3b 0
+2,p t p 0 6 31 g 3 g 3 g
+2,3the actual variations of the active power injected by the synchronous ma chine are smooth even in the first instants after the contingency and following cid 4 later a similar behavior than that estimated by the inertial power δp
+2,02 s wm up ω wm up δ wm up rewopevitca 0 02 cid 2 p 0 0
+2,ess cid 2 p8 zh up 0 06
+2,bioc tcl 0 1
+2,tcl 0 08 static load 0 12 static load 0 1 0 140 5 10 15 20 25 30 0 5 10 15 20 25 30time s time s a rocop index b estimated power injection 1 008 0 0 02 1 006 0
+2,04 0 06 1 004 0
+2,therefore ess δp t p t p 0 p t 6 32
+2,ess ess cid 4 t cid 4 figure 6 7 d also shows the trajectories of δp
+2,and p p r dr
+2,01 0 01 0 02 0 02 0 03 0 03p cid 2 p cid 2 δ δ 0
+2,04 8 0 04 8b bp pδ δ 8 80 05 b 0 05 b0 5 10 15 20 25 30 0 5 10 15 20 25 30time s time s
+2,γ γ a 0 b 0 5p p 0 01 0 010 0 0
+2,01 0 01 0 02 0 02 0 03 0 03p cid 2 p cid 2 δ δ 0
+2,04 8 0 04 8b bp pδ δ cid 2 8 8 cid 2 0 05 b 0 05 b0 5 10 15 20 25 30 0 5 10 15 20 25 30time s time s
+2,γ γ c 1 d 1 5p p 0 01 0 010 0 0
+2,01 0 01 0 02 0 02 0 03 0 03p cid 2 p cid 2 δ δ 0
+2,04 8 0 04 8b bp pδ δ 8 80 05 b 0 05 b0 5 10 15 20 25 30 0 5 10 15 20 25 30time s time s
+2,page194194 6 frequency makers and frequency takers 2 5 2 52 2 1 5 1 5ppp 1 ppp 1γγγ γγγ 0 5 0 50 0 0 5 0 50 5 10 15 20 25 30 0 5 10 15 20 25 30time s time s γ γ a 0 b 0 5p p 2 5 2 52 2 1 5 1 51 1 0 5 0 5 cid 2 0 0 cid 2 0 5 0 50 5 10 15 20 25 30 0 5 10 15 20 25 30time s time s
+2,γ γ c 1 d 1 5p p 2 5 2 52 2 1 5 1 51 1 0 5 0 50 0 0 5 0 50 5 10 15 20 25 30 0 5 10 15 20 25 30time s time s
+2,01 0 0 01 0 01 0 0 01p p pu mw s pu mw
+2,a rocop 0 25pδ
+2,p0h h bb 0 01bus bbus c 0 020
+2,nb bp cid 4 p c c nb b 0 020 25 50 75 100 125 150 175 200time s a rocop 0 2p p c c nb bp cid 4 p c c
+2,030 20 40 60 80 100time s a rocop without filter 0 02 cid 2 cid 2 0 010 0 01 0 02 bus bbus c 0
+2,8no control 0
+2,75pllfdf 0
+2,7coi0 20 40 60 80 100 120 140time s figure 7 2 wscc system active power supplied by the wecs 1 014no control cid 2 1 012 cid 2 pll 1 01fdf 1 008 coi 1 006 1 004ω 1 0021 0
+2,zh up coi1 ωfdf 2bycneuqerf2 g 0
+2,99960 99940 99920 1 2 3 4 5time s figure 7 5 ieee 14 bus system dynamic response following line 2 4 outagewithout tcls cid 2 cid
+2,2g1 zh up zh up ω wf 0 9982 2b0 9995ω0 998coi cid 2 cid 2 ωωfdf0 999 g 2ycneuqerf zh up 2 ycneuqerfb 0 9978ω wf 2b0 99850 9976ωcoi0 9980 9974ωfdf 2b0 9975 0
+2,9996 ω 0 9994 0
+2,tcl fdf tcl fdf0 996 0 9960 20 40 60 80 100 0 20 40 60 80 100time s time s a third order model b sixth order model1 0061 0041
+2,page228228 8 dynamic state estimation8 1 1 dse problem formulationthe fdf based dse problem to estimate the rotor angular speed of syn chronous machines is formulated as the following optimization problem 1 1 cid 2 min cid 3 j ε t ε t u ε t 8 1 b b b2ε t
+2,t μ t 8 2 n 1b
+2,i e n and b is full rank
+2,bg g bb bbg
+2,g 1 g 1b 0 b
+2,δ a 1 2 b 1 2 3g a1 b a2 b g b1 b b2 b b3 b a antenna b single machine connected to multiple busesωδ ag 1 3 ω d ω d
+2,ωδ δ δ a 1 3g a1 b a3 bgrid ω
+2,ωδ δ δ b 2 3g b2 b b3 b2ωδ
+2,t u dε t 8 14 b b 0 b dμ t 8 15 n 1g bg b 1 0 u dε t b
+2,dμ t 8 16 n 1b b bb b 0 b dω t b dε t b dω t 8 17 n 1bg
+2,g bb b bb bbor equivalently 1 dj t 1 0 ε
+2,t u 0 01 n 1 n 1 n g b b b dω t g0 0 0
+2,b 0 n 1 n n n n n n g g
+2,b bg g b0 dε t 8 18 n 1tot b 1 0 0 u b 0 n b 1 n b n n b n dμ t
+2,g b bgj 8 20
+2,t μ g b b j 1 s 8 23 ω t ω t
+2,bg bb ω t b
+2,1where h b ub equation 8 24 is consistent with 8 8 this canbb bbbe shown by exploiting the following matrix properties 1 1 1 1
+2,page236236 8 dynamic state estimation table 8 1 sensitivities
+2,ω ω d for the wscc systemg b
+2,ω hb ω kg1 2 3 4 5 6 7 8 9 1 2 369 0 0 1 369 0 0 0 0 0 2 0 3 534 0 0 0 0 2 534 0 0 3 0 0 4 680 0 0 0 0 0 3
+2,17 36μ t 17 36μ t 1 4 4 ω t b b b
+2,no noise is considered in this example the error between the actual and theestimated rotor speeds is due exclusively to the pmu tracking apart from the cid 2 cid 2 first instants after the contingency such an error is below 0
+2,pu i e 0 012hz for a 60 hz system and 0 01 hz for a 50 hz one zh up deepsralugnarotor1 080 0008 zh up ω ω1 060 0006 1 04 1 1 0 0004gg1 02 ω0 0002 1gω 1g1 00
+2,ω d are relevant to determine the weight of bus cid 2 g bfrequency measurements in the estimation of rotor speeds the sub matrix of d for the aiits including generator buses columns and neighboring buses rows is shown in figure
+2,25 ms 1354gω wls τ 100 ms 1354g10 9950 990 1 2 3 4 5 6time s a weighted least square1 01ω 1354g cid 2 cid 2 ω opt τ 0
+2,ms 1354g1 005ω
+2,zh up 4531subdeepsralugnarotor zh up 4531subdeepsralugnarotorω 1354g1 0075ω wls τ 0 ms 1354g1 005ω wls τ
+2,25 ms 1354g1 0025 ω wls τ 100 ms 1354g10 99750 9950 99250 990 1 2 3 4 5 6time s a weighted least square1 01ω 1354g1 0075ω
+2,is the inertia of the h th machine and m
+2,t 8 39 coi b b where w m d
+2,ycneuqerf zh up ycneuqerf1 10 9999 0 99990 9998 0
+2,9998ω ω coi coi0 9997 0 9997ω ωcoi coi0 9996 0
+2,9999ωcoi0 9998ω coi ω 0
+2,e e i iω t 8 43 coimtotwhere m is the inertia of the synchronous machine
+2,m is the combined inertiai eof the generators connected to the rest grid and m m m toti
+2,2 coi1 003ω b n1 0021 00110 9990 9980 9970 9960 2 4 6 8 10time s b loss of the measure at machine busfigure 8 15 aiits estimation of the frequency of the coi of the north ireland sub area system after a three phase fault and pmu measurements atthe pilot bus ω and its neighboring bus ω p
+2,nb bthat m me ixi
+2,ω t 8 47 hcoi
+2,i b im xitothassuming that x can be estimated the expression 8 47 can be utilizedeiby any conventional power plant where m and xi are known and
+2,9960 994 0 9940 1 2 3 4 5 0 1 2 3 4 5time s time s a rotor speed and bus frequency b frequency of the coi1 008 1 008ω ω 2g coi1 006 1 006ω ω b 2 coi 21 004 1 0041 002 1 0021 10 998 0 998 cid 2 cid 2 0 996 0
+2,9960 994 0 9940 1 2 3 4 5 0 1 2 3 4 5time s time s c rotor speed and bus frequency d frequency of the coi1 008 1 008ω ω 3g coi1 006 1 006ω ω b 3 coi 31 004 1 0041 002 1 0021 10 998 0
+2,b h b h hk b h b kt t bkiequation 8 48 has the drawback that frequency variations have to be es timated with high accuracy the technology of pmus however has greatlyimproved in the last decade and the required precision is already available e
+2,page258258 8 dynamic state estimation2 dwith t 1 s finally substituting 2 ω with the second time derivativedtigof the expression obtained from 8 51 8 53 becomes p t m
+2,t g for t t 8 54 ig2d
+2,9 1 r jω t
+2,d2v t h r jω t lhd dand for a capacitor bank 2q
+2,ωh kg jω t x c dx g
+2,av b o bω l x av av avand in per unit pu ω l ω ω l ω ω lav av o av av av o avω
+2,l ω x pu pu pu pux ω x ω
+2,9980 996 zh up ω
+2,h s q h s0 81 0
+2,6no flux dyn no flux dyn 0 610 8flux dyn flux dyn 0 620 790 9 0 95 1 1 05 1 1 1 15 1 2 0 9 0 95 1 1 05 1 1 1 15 1 2time s time s
+2,075 0 line 3 2 3 0 050 0
+2,150 0 linetable a 2 base case power flow solution of the three bus system cid 2 cid 2 bus v v θ p q p qbg g d d kv pu kv rad pu mw pu mvar pu mw pu mvar 1 6 9 1 0000 0 0 3386 0
+2,3222 0 0 2 6 9 0 9900 0 0269 0
+2,2222 0 0285 0 0
+2,k pu mw pu mvar pu mw pu mvar 1 3 0 1693 0 1611 0
+2,0014 0 00411 3 0 1693 0 1611 0 0014 0 0041 2 3 0 2222 0 0285 0
+2,204 0 204dx pu ω 0 0
+2,58 0 58q cid 4 x pu ω 0
+2,3qtable a 6 data of the turbines and turbine governors of the three bus system max min rp p t t t
+2,κg rh sm t rhmachine pu mw pu mw pu hz mw s s s s all 5 5 1 5 0 05 0 1 50 0 0 45 0 0
+2,t tef ef a ef
+2,f a b cmachine s s s 0 0006 0
+2,9 0 5 1 0 1 0 20 0 0
+2,transf 2 2 7 0 0 0625 0 1 0 0
+2,transf 3 3 9 0 0 0586 0 1 0 0
+2,transf 4 6 4 0 0170 0 0920 0
+2,1580 line 5 5 4 0 0100 0
+2,1760 line 6 7 5 0 0320 0
+2,3060 line 7 9 6 0 0390 0 1700 0
+2,3580 line 8 7 8 0 0085 0 0720 0
+2,kv pu kv rad pu mw pu mvar pu mw pu mvar 1 16 5 1 0400 0 0 7164 0
+2,2705 0 02 18 1 0250 0
+2,0343 0 0 0
+2,2705 0 0 03122 7 1 6300 0 0665 0 0 1583 3 9 0 8500 0 1086 0 0 0410 6 4 0 3054 0 1654 0 0017 0
+2,1551 5 4 0 4068 0 3869 0 0026 0 1579 7 5 0 8662 0 0838 0
+2,0230 0 1969 9 6 0 6082 0 1807 0 0135 0
+2,3153 7 8 0 7638 0 0080 0
+2,0048 0 1150 9 8 0 2418 0
+2,0312 0 0009 0
+2,2118table a 11 total generation demand and losses for the base case operatingpoint of the wscc system cid 2 active power reactive power cid 2 type pu mw pu mvar generation 3 1964 0 2284demand 3 15 1 15 losses 0 04641 0
+2,t x x x xn do qo
+2,d d q qmachine kv s pu mw s s pu ω pu ω pu ω pu ω 1 16 5 47 28 8 96 0 310 0 1460 0 0608 0
+2,0969 0 09692 18 0 12 80 6 00 0 535 0 8958 0
+2,1198 0 8645 0
+2,κg rh sm t rhmachine pu mw pu mw pu hz mw s s s s 1 1 6 0 0
+2,50 0 0 45 0 1 0 252 3 2 0 0 05 0 50 0 0 45 0 1 0
+2,253 1 7 0 0
+2,50 0 0 45 0 1 0
+2,25table a 14 data of the avrs of the wscc system a b k k k t t tef ef a ef f a b cmachine s s s 0 0039 1 555 20 0 1 0 0 063 0 2 0
+2,0max mint t t v vef f r a aall s s s pu kv pu kv 0 314 0 35 0 001 5 0 5 0 cid 2 cid 2 c1 125
+2,22304 0 0492 line3 2 3 0 04699 0 19797 0 0438 line4 2 4 0 05811 0
+2,17632 0 0374 line5 2 5 0 05695 0
+2,17388 0 0340 line6 3 4 0 06701 0 17103 0
+2,0346 line7 4 5 0 01335 0
+2,line8 4 7 0 0 20912 0 0 978 0 transf 9 4 9 0 0 55618 0 0 969 0 transf 10 5 6 0 0
+2,25202 0 0 932 0 transf 11 6 11 0 09498 0
+2,08450 0 line17 9 14 0 12711 0 27038 0 line18 10 11 0 08205 0
+2,d kv pu kv rad pu mw pu mvar pu mw pu mvar
+2,pu s 1 69 0 1 0600 0 2 324 0 1689 0 0 0 2 69 0 1 0450 0
+2,0869 0 400 0 4240 0
+2,217 0 127 0 3 69 0 1 0100 0 2220 0 0 2339 0 942 0 190 0 4 69 0 1 0186 0
+2,1802 0 0 0 478 0 039 0 5 69 0 1 0203 0
+2,1533 0 0 0
+2,2482 0 0 1224 0
+2,8 18 0 1 0900 0
+2,2582 0 0 0
+2,035 0 018 0
+2,2632 0 0 0
+2,2799 0 0 0
+2,149 0 050 0
+2,0429 0 07261 5 0 7555 0 0350 0
+2,0276 0 06082 3 0 7319 0 0357 0
+2,0232 0 0515 2 4 0 5614 0 0229 0
+2,0168 0 0111 2 5 0 4251 0
+2,0076 0 0090 0
+2,0087 3 4 0 2333 0 0281 0
+2,0037 0 0261 4 5 0 6122 0
+2,1567 0 0052 0
+2,0030 4 7 0 2809 0 0942 0 0
+2,0169 4 9 0 1609 0
+2,0032 0 0 01305 6 0 4406 0 1282 0 0
+2,11 0 0734 0
+2,0347 0 0005 0
+2,0717 0 0021 0 0042 7 8 0 0 1691 0 0 00457 9 0 2809 0 0580 0 0 00809 10 0 0524 0 0431 0 0001 0
+2,00039 14 0 0944 0
+2,0367 0 0012 0 0025 10 11 0 0377 0 0153 0 0001 0
+2,0001 0 000113 14 0 0563 0
+2,033 0 099 0 099 0 21 0 21qox pu ω 0 8979 1 05 1 05 1 25 1 25d
+2,2396 0 0 0
+2,646 0 98 0 98 1 22 1 22q cid 4 x pu ω 0
+2,0006efb 0 9 0 9 0 9 0 9 0 9efk 200 0 20 0 20 0 20 0 20 0ak 1 0 1 0 1 0 1 0 1 0efk 0
+2,001 0 001 0 001 0 001
+2,ft s 0 02 0 02 0 02 0 02 0 02at s 0 0 0 0
+2,0bt s 0 0 0 0
+2,0ct s 0 19 1 98 1 98 0 7 0
+2,7eft s 1 0 1 0 1 0 1 0 1 0ft s 0 001 0 001 0 001 0 001 0
+2,001rmaxv pu kv 9 99 2 05 1 7 2 2 2 2aminv pu kv 0 0 0 0 0 0 1 0 1 0 cid 2 a cid 2 table a 21 data of the pss of the ieee 14 bus system max mink t t t t t v vw w 1 2 3 4s smachine s s s s s pu kv pu kv 1 5 0 10 0 0
+2,kv 1 h k pu ω pu ω pu ω rad pu
+2,kv 1 1 2 0 0035 0 0411 0
+2,line2 1 39 0 0010 0 0250 0 1 000 0
+2,transf 3 2 3 0 0013 0
+2,0151 0 2572 line4 2 25 0 0070 0 0086 0 1460 line5 2 30 0 0 0181 0 1 025 0 transf 6 3 4 0 0013 0 0213 0
+2,2214 line7 3 18 0 0011 0
+2,2138 line8 4 5 0 0008 0
+2,0128 0 1342 line9 4 14 0 0008 0
+2,0129 0 1382 line10 5 8 0 0008 0
+2,0112 0 1476 line11 6 5 0 0002 0 0026 0 0434 line12 6 7 0 0006 0
+2,1130 line13 6 11 0 0007 0 0082 0 1389 line14 6 31 0 0 0250 0
+2,1 070 0 transf 15 7 8 0 0004 0
+2,0046 0 0780 line16 8 9 0 0023 0
+2,0363 0 3804 line17 9 39 0 0010 0 0250 0 1 0 0
+2,transf 18 10 11 0 0004 0 0043 0
+2,1723 line24 14 15 0 0018 0
+2,0217 0 3660 line25 15 16 0 0009 0 0094 0
+2,1710 line26 16 17 0 0007 0 0089 0
+2,1342 line27 16 19 0 0016 0
+2,3040 line28 16 21 0 0008 0
+2,2548 line29 16 24 0 0003 0
+2,0059 0 0680 line30 17 18 0 0007 0
+2,1319 line31 17 27 0 0013 0
+2,3216 line32 19 20 0 0007 0
+2,0138 0 line33 19 33 0 0007 0 0142 0 1 070 0 transf 34 20 34 0 0009 0 0180 0 1 009 0
+2,transf 35 21 22 0 0008 0
+2,0140 0 2565 line36 22 23 0 0006 0
+2,0096 0 1846 line37 22 35 0 0 0143 0
+2,1 025 0 transf 38 23 24 0 0022 0
+2,0350 0 3610 line39 23 36 0 0005 0
+2,5130 line41 25 37 0 0006 0
+2,2490 line46 29 38 0 0008 0
+2,page287a 4 new england system 287table a 23 base case power flow solution of the new england system bus v v
+2,θ p q p qbg g
+2,kv pu kv rad pu mw pu mvar pu mw pu mvar 1 230 1 0406 0
+2,1067 0 0 0 0
+2,1340 0 0 0 0
+2,1084 0 0 3 2900 0
+2,1313 0 0 2 8100 0
+2,0126 0 0 2 8350 0 2690 30 18 1 0475 0
+2,0583 2 5000 1 5466 0 031 18 0 9820 0 5 2082 2 0767 0
+2,0920 0 046032 18 0 9831 0
+2,0448 6 5000 2 1294 0 033 18 0 9972 0 0728 6 3200 1 1181 0 034 18 1 0123 0
+2,0550 5 0800 1 6665 0 035 18 1 0493 0
+2,0979 6 5000 2 1456 0 036
+2,18 1 0635 0
+2,1450 5 6000 1 0240 0
+2,037 18 1 0278 0
+2,lossh k pu mw pu mvar pu mw pu mvar 1 2 1 2416 0
+2,4106 0 0050 0
+2,70291 39 1 2416 0
+2,4106 0 0016 0
+2,0395 2 3 3 6468 0 9228 0 0171 0 0784 2 25 2 3933 0 7735 0
+2,0412 0 1109 2 30 2 5000 1 4040 0 0 1426 3 4 0 9311 1 1304 0 0030 0
+2,1794 3 18 0 5214 0 1532 0 0003 0
+2,2230 4 5 1 3677 0 0347 0 0015 0
+2,1109 4 14 2 7042 0 4954 0 0060 0
+2,0435 5 8 3 1737 0
+2,6914 0 0085 0
+2,02816 5 4 5471 0 6258 0 0042 0 01066 7 4 2068 1 0118 0 0112 0
+2,0587 6 11 3 6378 0 3923 0 0092 0
+2,0329 6 31 5 1162 1 2452 0 0 7855 7 8 1 8576 0 1131 0
+2,0014 0 0607 8 9 0 1986 0 8667 0
+2,0012 0 3657 9 39 0 1997 0
+2,5011 0 0003 0 0070 10 11 3 6520 0
+2,0404 10 32 6 5000 1 1613 0 0 9681 12 11 0 0007 0
+2,1007 14 15 0 0518 0
+2,3900 0 0001 0
+2,3740 15 16 3 1483 1 5459 0 0105 0 0689 16 17 2 3004 0 4144 0 0036 0
+2,16 19 5 0266 0 5062 0
+2,0382 0 1367 16 21 3 2959 0
+2,1127 0 0082 0
+2,1321 16 24 0 4267 0 9921 0
+2,0666 17 18 2 1046 0
+2,1243 0 0029 0 1059 17 27 0 1922 0
+2,4411 0 0001 0 3425 19 33 6 2910 0 5299 0 0290 0
+2,5882 19 20 1 2262 0 1130 0 0011 0 0213 20 34 5 0549 1 1644 0 0251 0 5021 21 22 6 0441 0 9051 0 0279 0 2111 22 23 0 4280 0 4208 0
+2,0002 0 1984 22 35 6 5000 1 5371 0 0
+2,608523 24 3 5384 0
+2,0123 23 36 5 5857 0 2446 0 0143 0
+2,5549 25 37 5 3834 0
+2,5908 0 0166 0
+2,2247 0 0079 0
+2,1065 29 38 8 2477 0
+2,x x xn do qo
+2,d d q qgen kv s pu mw s s pu ω pu ω pu ω pu ω 1 18 0 84 0 10 2 0 10 0 1000 0 0310 0
+2,0690 0 00802 18 0 60 6 6 56 1 50 0 2950 0 0697 0
+2,06973 18 0 71 6 5 70 1 50 0 2495 0
+2,2370 0 08764 18 0 57 2 5 69 1 50 0 2620 0
+2,2580 0 16605 18 0 52 0 5 40 0 44 0 6700 0 1320 0
+2,08147 18 0 52 8 5 66 1 50 0 2950 0 0490 0 2920 0 18608 18 0
+2,48 6 6 70 0 41 0 2900 0 0570 0
+2,2800 0 09119 18 0 69 0 4 79 1 96 0 2106 0 0570 0
+2,2050 0 058710 18 0 1 000 0 7 00 0 70 0 0200 0
+2,0060 0 0190 0 0080table a 27 data of the turbines and turbine governors of the new englandsystem max min rmachine p p t t t
+2,sm t rhgen pu mw pu mw pu hz mw s s s s 1 4 0 0 0 0355 1 82 50 0 0 45 0 0 0 252 7 0 0 0 0385 6 67 50 0 0 45 0 0 0 253 8 0 0 0 0316 5 00 50 0 0 45 0 0 0 254 8 0 0 0 0316 5 00 50 0 0 45 0 0 0
+2,7 0 0 0 0232 20 00 50 0 0 45 0 0 0 256 8 0 0 0 0316 5 00 50 0 0 45 0 0 0
+2,257 7 0 0 0 0303 2 00 50 0 0 45 0 0 0 258 7 0 0 0 0303 2 00 50 0 0 45 0 0 0
+2,259 10 0 0 0
+2,0350 10 00 50 0 0 45 0 0 0 2510 13 0 0 0 0539 25 00 50 0 0 45 0 0 0 25 cid 2 trimsize 170mm
+2,200 0 0 0 0 015 10 0 1 0max mint t t v vef f r a aall s s s pu kv pu kv 0 0 0 01 5 0 5 0table
+2,a 29 data of the psss of the new england system max minmachine k t t t t t v vw w 1 2 3 4s sgen s s s s s pu kv pu kv 1 1 0 10 0 1 0 0 05 3 0 0
+2,50 0 2 0 2 2 0 5 10 0 5 0 0 40 1 0 0 10 0 2 0 2 3 0 5 10 0 3 0 0 20 2 0 0 20 0 2 0 2 cid 2 cid 2 4 2 0 10 0 1 0 0 10 1 0 0
+2,30 0 2 0 2 5 1 0 10 0 1 5 0 20 1 0 0 10 0 2 0 2 6 4 0 10 0 0 5 0 10 0 5 0 05 0 2 0 2 7 7 5 10 0 0 2 0 02 0 5 0 10 0 2 0 2 8 2 0 10 0 1 0 0 20 1 0 0 10 0 2 0 2 9 2 0 10 0 1 0 0 50 2 0 0 10 0 2 0 2 10 1 0 10 0 5 0 0 60 3 0 0
+2,f d galiana
+2,ed new york ny john wiley sons 2008 121 b mandelbrot how long is the coast of britain statistical self similarity and fractional dimension science 156 3775
+2,636 638 1967 122 d p mandic s kanna
+2,page304304 bibliography 130
+2,f milano and a ortega converter interfaced energy storage systems context modelling and dynamic analysis cambridge uk cambridgeuniversity press 2019 133
+2,139 minyuan guan wulue pan jing zhang
+2,pss e 190 33 5 program application guide siemens power technologiesinternational oct 2013 191 a m simoes
+2,page314314 indexhadamard product 71 142 pdf probability density function hann window 100 101 196 198hardware in the loop 150 petri nets 46hartley series 17 pi proportional integral control 96 109 heaviside step function 43
+2,fs 3 fp 47 5hzofp 50hz0 03fp
+2,02where f represents all the frequencies where zeros arek0 01placed and f is the sampling frequency the frequencys n hedutingam0response of the filter can be written as follows 0
+2,f f k π f f k π
+2,f f kj j j 0 04
+2,h f b e fs fs e fs fs e fs fs 0 50 100 150onk2j fig 2 envelopesofimpulseresponsesofthefilterdesignedforsystem 5 frequencies f 47 5 50 52 5hz2j p cid 4 cid 5 cid 6 cid 7 cid
+2,3 π f f k π f fj j k π
+2,f b 2 e fs fs 2 sin 6 ofs f 2 magnitude response for fp 47 5 hzsmagnitude response for fp 50 hzk1 8magnitude response for fp 52 5 hz1 6f and f aredesignparametersofthefilterthatdeterminek s1 4the shape of its response and the amount of rejection offered1
+2,2by the filter the input filter is designed by placing zeros at1the following set of frequencies in 6 1 dc component 0 8 2 integral harmonic components of the fundamental 3 0 60 4frequencies lying exactly in between the integral multiples0
+2,2ofthefundamental toaccomplishthis f isassignedvaluesk0 0 25 50 75 100 125 150 175 200 225 250 275 300as 0
+2,the coeffi o oπ πf
+2,f 3200hzarechosenthrough s for k n 8 where n f f
+2,so taking k n 8 out the simulations and the value of m is taken as n 4s o123 electricalengineering53 50 2actual frequency estimated frequencyestimated frequency50 1552 5 zh 50 152 zh ycneuqerf50
+2,0551 5ycneuqerf zh 5051detamitse zh 49 9550 549 95049 8549 549 80 1 0 2 0 3 0 4 0 5 0 6 0 7 0 80 1 0 15 0 2 0 25 0 3 0 35 0 4time sec time sec fig 5 frequency calculation when a large step change in frequencyfig 7 frequency calculation during 50 step change in amplitudeoccurs50 00252
+2,851 53rd harmonic5th harmonic0 7510 650 5 zh 0 5 zhm ycneuqerf zh 50 0 4rorre0 349 50 2490 1actual frequencyestimated frequency48
+2,51etamitsenoitamitse 0 0152 5050 00852
+2,mv method dft based3digitalfilter 44 2270 4 4426 0 4796
+2,n1 a bounded closed interval 0
+2,4 π2 2ξ xuniquefixedpoint
+2,intheinterval 0
+2,electricalengineering 3 given g
+2,n l this leads to upper limit of 12 routraya pradhanak raokp 2002
+2,5829 pei d xia y 2019 robust power system frequency estimationbased on a sliding window approach math probl eng 2019 5 1 publisher snote springer nature remains neutral with regard to juris 10dictional claims in published maps and institutional affiliations 123
+2,fixed time step simulation
+2,variable structure control 8 9 disturbance rejection controlz yan
+2,and y xu are with the school of electrical and electronic 10 and model predictive control 11
+2,i i 1 r res ltraining protocol and reward function data driven control i obtain cooperative behaviour without full communication i ip pci mincontroller for area i governor
+2,turbine tie
+2,i icj mjcontroller for
+2,area j governor turbinen tie
+2,i i ilfc model of the multi area power system section iii presentsthe framework of the proposed method and
+2,a ma drl modelfor optimizing lfc performance section iv solves the0885 8950 c
+2,ci i generationinterconnectedcommands
+2,i dt metsys agent 1 p c1 area
+2,1observedwhere max x y and min
+2,i i idtlearning1 noise sampled from a noise process to actor auto correlatedg 1 for all areas agent i agent n noise based on moving average is employed as the exploration g n
+2,y n reinforcement learningt ci t
+2,i however the action gradients estimated by critic may exhibitrespect to parameters of ith agent high variance 24 for multi area power systems with 11
+2,i i k iformula eq 11 without the critic approximations 1
+2,i i a 1 2 n
+2,i i ji observations o of each agent are local the global statei k information is available during offline training hereby thei ma drl problem 9 using the global information this section k
+2,i iinvestigates the effects of eq 12 on the incremental change ofoobservation in kth learning iteration j is the objective of iaparameters updating given by 9 i
+2,i i may take a long time to converge or even converge toi
+2,t g tbased on 9 18 to calculate the gradient of action value q here the s in2 g
+2,g t 3 g t with respect to control parameters of each control agent the 16 represents s domain after laplace transformation global control performance can be optimized with 18 22 3 2 3 2 1 0c
+2,algorithmthe eq 16 and taking inverse laplace transformation thethe proposed data driven cooperative control approach enables online optimal lfc after parameters of the controlthe gradient of each variables with respect to a t
+2,it yields i a 1 a 2 a 3 0 0 0 rules the algorithm for data driven cooperative lfc method 0 1 algorithm 1 ma drl in continuous action domain for lfc component of eq 12 with ai 1 generate a lfc database by measuring the response data of i
+2,pid controller
+2,ij i i0where the r is droop coefficients of speed regulator thethe lfc database 3 utilize single agent drl to obtain the optimized 0for convenience since lfc concerns more on frequency 4 initialize control agents for all areasrestoration rather than noise suppression 25 high order terms1 n 0
+2,i tie i ij
+2,dt dt iconditions of saturation zones are satisfied 14 update the actor policy of ith agent using sampled deepdeterministic policy gradient k then the component in eq 12 needs to k
+2,i i i 1 calculate the gradient of control actions with respect to the i iparameters of different actor deep neural networks i15 end for k n 1 20
+2,i i l gradient of control policies with respect to the parameters in17 end foreach deep neural network layers 18 end forwith 11 12 18 and 20
+2,the formulas of multi agentddpg can be expressed by v c sase tudy
+2,i i ai t t
+2,i i i in this case the simulation is carried out on a three area
+2,i i ai t t
+2,i i i in table
+2,ystemt t h
+2,d r tg t ijparameter s s p u hz p u hz hz p u p u hz area 1 0 10 0 40 0 0833 0
+2,33 t 0 01512area 2 0 12 0 38 0 1000 0 0020 0
+2,35 0 0750 0 0010 0
+2,40 t 0 0123
+2,037 0 035ma drl approach dqn lfc may have the largest ace deep q learningbased on the simulation 0
+2,028 0 031based on different lfc methods considering gdb and grc isshown in fig 8 and fig 9 respectively it can be observed thatproposed ma drl 0 0105 0 023 0 029the
+2,002this paper presents a data driven cooperative load frequency deep q learning 1 35e 4 0 0119 0 002 15 19 control method for multi area power systems the proposedsingle agent ddpgmethod is based on multi agent deep reinforcement learning 3 4e 05 0 0044 0
+2,002 22 that incorporates a centralized learning and decentralizedproposed ma
+2,drl 3 2e 05 0 0047 0
+2,002implementation framework during centralized learning thecontroller parameters are coordinately optimized to improveno control 0 013
+2,no 1 pp 371 380 2014 27 p vincent h latochelle
+2,i lajoie and p a manzagol stacked 5 n chuang robust
+2,degrees from south2017 china university of technology guangzhou china in 2008 and 2011 9 k liao and y
+2,no 7 pp electronic engineering nanyang technological university ntu and a3076 3086 2018 cluster director at energy research institute ntu eri n singapore 10
+2,h zhang k hengster_movric and a das cooperativeenergy systems control of multi agent systems optimal and adaptive designapproaches new york ny usa springer 2013 13 h
+2,toimperial college london sw7 2bt u k e mail b pal imperial ac uk the changes in generation mixes and load compositions par
+2,and y chen predictive dynamic security as 1137 1144 sep 2019 sessment through advanced computing in ieee pes general meeting 42 a rouhani and a abur constrained
+2,iterated unscented kalman filter2014
+2,no 4 pp 4414 4423 jul 2018 32
+2,freemleestimationforonlinerotoranglestability
+2,no 4 pp society general meeting 2020
+2,i l ortega rivera v
+2,a k x k b k u k h k w k it can be shown davis vinter 1985 and yeh 1990 thata kf is the best estimator for the state of 1 in the sense
+2,k h k is the covariance matrix of the process noiserespectively representing respectively the uncertainty intand
+2,g k g k is the covariance matrix of thethe model and in the measurements the matrices a k b k measurement noise inside the system not whitec
+2,k g k is smaller than h k h k whatmakes sense given that both are positive definite the kfadditional restrictions must be done in the stochasticshould put more confidence in
+2,k a k p k c
+2,v k a v k 1 where the matrix a is given
+2,i 2007 is to consider only the fundamental component in the n
+2,v k c v k 3 n n 3 n in order to represent the disturbances all the components 3 n 3 n n noise and errors for example the quantization noise process sin 0 0
+2,cosand measurement noise should be added which put the model in the form presented in 1 but with null exogenous controlinput b k 0 thus the complete signal model is and the state vector is given by v k v k v k v k a1 b1 c1q tv k where the first three components are three phasea1v
+2,k 1 a k v k h w k signals and the last component is orthogonal to the first thematrix c that represents the output of the model that is thev k c v k
+2,the total harmonic distortion thd whichskhz
+2,01 the matrix a or the sampling frequency in order to maintain aand for the three phase system fixed number of samples per fundamental period n 0 0 0025 0
+2,t e 0 0 0 0
+2,t these values were found following the suggestion of simon t2001 and references therein note that the entries of hh k tare much greater than the ones in gg
+2,66 v what is the mean value ofthe measured amplitudes which in this case coincides withthe positive sequence magnitude s eq figure 4 kf 1φ case 3 input voltage and filter outputs
+2,so p l chu
+2,137 no 2 march 1990 pages vol 28 no 1 january february 1992 pages 96 111 119 issn 0143 7038 104 issn 0093 9994 2 dash p k chilukuri m v 2004 hybrid s transform and kalman filtering approach for 14 marafao f p deckmann s m marafao
+2,no 1 january 2002 pages 16 mcgrth b p holmes
+2,d g galloway j 2005 44 49 issn 1350 2360 power converter line synchronization
+2,20 b c d n 40 m numberofsamplesoftheprony smodel hamming a andblackman b c d
+2,t w secomb and m intaglietta is updated at every sampled value after each sampling cycle the prony spectral line estimation psle method for the analysis ofthe newest sample is taken into the calculation while the oldest vascularoscillations ieeetrans
+2,80 pp 520 568 apr 1992 section ii have also been shown the best accuracy has 9 k f eichhorn t lobos and p ruczewski constrained frequencybeen achieved using the blackman smoothing window fig 2 domain algorithm for determination of parameters of fundamentalsinewave of signals iee
+2,9 pp 612 618 may 1994 11 t lobos and j rezmer digitale ermittlung der frequenz mit an accuracy of the developed method for realistic voltagewendung des prony modells in proc 34th int wiss koll technischedistortion and frequency deviation the error was less thanuniversita t ilmenau ilmenau germany
+2,cneuq 50er fde49 5tamitwe will haves49ena em48 5 480 0 05 0 1 0 15 0 2 0 25 0
+2,3time s accordingly the system frequency is adaptively estimated asfig 1 the learning curves of different algorithms when the system isbalanced
+2,and we call the resultant algorithm augmented inverse power iv conclusioniterations aipi and summarize it in table
+2,45 pp 426 430 ackf and acekf algorithms moreover the increase in apr 1996 4 a cataliotti v cosentino
+2,d yazdani and a bakhshai robust adaptive frequency instrum
+2,x x vector is in relating with mcombined method has good accuracy and acceptable speed inequality constraint g x 0 and j 1 d that d
+2,isihowever the zero crossing method is sensitive to switching l u xtransients 4 noise and harmonics 5 this method is based
+2,i 1 f 48 52 hz1 2 dthif
+2,the i parameter of the given problem has its lower andθ 0 6 3 radl ux xupper bound as and respectively then we mayi ith 3 simulation resultsinitialize the i component of population members as to illustrate the effectiveness of the proposed method l u l
+2,i iby composing x
+2,2 the new one chooses instant of previous one as u p e 0g t 5 loi
+2,4finally the best solution determines as final output 0 62 2 objective function and study 0
+2,6eulavs f 49 405 49 335sentif 1θ 4 1992 4 672error 0 004678 0 0230 5iteration 45 38000 5 10 15 20 25 30 35 40 45 50proposed method is tested for different cases comparison of a iterationthe results is presented in table 7
+2,it s clear that de algorithm1with 0 28 error has minimum estimation error and ga has0 81 94 all results are obtained in less than 1 seconds and de0
+2,6algorithm has better response also de has well accurate0 4and can be use in real time situation moreover it s capable0 2 u to use in real power system simulation p e 0gat table 7 summarized resultslov 0 2case case case case 0 4case5 mea1 2 3 4 0 6n 0 8 a 1 0 8 0 6 0 2 1 1mean erro 1error
+2,rf 50 49 8 49 4 49 510 10 20 30 40 50 60 70 80 90 b time indexfigure 2 de algorithm convergence a and adaptation rate in first θ 4 4 2 4 6 5 2 case study b genetic algorithm0 03 0 03 0 02 0
+2,00the green color represents the difference between the originale 0 0014 7 3 2waveform and sampled one the simulation results for de0 019and
+2,ga are shown in table 4 it 110 460 380 220 150 1 9440 51 0 52 0 4 0 63 0 51ttable 4 results of the algorithms in the first study s s s s s valuedifferential evolution algorithmparameterde ga 0 00 0 00 0 00 0 00
+2,003ea 1 00014 1 3 3 4 03 10 002f 50 0292 49 944
+2,48 45 42 48 0 2880 4 0 42 0 4 0 38 0 42θ 3 99495 4 009t s s s s s error 0
+2,8real time applications f 49 7944 49 725θ 4 20088 4 214 acknowledgementthis study is extracted from the research project supported byerror 0 003296 0
+2,ωt φ is the total phase v ω proportional integral type tuning parameters a fast dynamic
+2,iφ v and v represent the amplitude angular frequency response comes at the cost of reduced harmonics
+2,vτ 1 2cos ωτ
+2,2τv v v v 2cos ωτ v v 0 6 saint petersburg russia α α α α α αh ahmed is funded through the sêr cymru programme by welsh europeanthe above calculations are equally applicable to the signal vfunding office wefo under the european regional development fund βand one can write that erdf 2τ 2τ 3τ τ
+2,2τv v v v 2cos ωτ v v 0 7 β β β β β βby combining 6 and 7
+2,the following first order linearregression model can be obtained a grid voltage test i b estimated frequency test iy ϕω 8 τ τ 2τ 2τ 3τ
+2,3τwhere y v v v v v v v v α β α β α β α βτ τ 2τ 2τϕ
+2,it has been found that ε 10 can be a good choice 2 p rodríguez j pou j bergas
+2,no 10 pp 7449 frequency monitoring tool for smart grid in addition it can7457 2020 also be used as the frequency estimator for stationary referenceframe based grid synchronization methods 3 7
+2,xxx xx 2020 revised xxx xx
+2,2020 acceptedization technique this may be a bottleneck to provide lowxxx xx
+2,2020 date of publication xxx xx 2020 date of current versionvoltage ride through lvrt capability for grid connectedxxx xx
+2,0filter considers the unknown frequency as an additional statea 0 1 0 nvariable and converts the parameter estimation problem into0 0
+2,xˆ a xˆ a k
+2,y c xˆ n n 1 n n 1 n 2 n n 1 n 1 n 1 n 1 n 2 11 z ˆ ˆ ω
+2,where a a i k c
+2,c n n n n n n ncan be written as t td 0
+2,i i s 4 and 5 can easily be applied as this is straightforward b 2 this extension had not been included 10iii r desults and iscussions 310this section considers numerical simulation and experimen 0 0
+2,2 0 4 0 6 0 8 1 1 2tal results to demonstrate the suitability of the proposed kf c pll given in fig 1 the covariance matrix for process and1measurement noise for the proposed kalman filter are selectedas q diag 0
+2,05 0 05 and r 1
+2,it can be seen0
+2,04 0 03 and 0 02 nx 0 0 5 0
+2,ω t θ 11 s0
+2,pll555050f u p f zh 4545phase estimation errors401 1 05 1 1 1 15kf pll epll sogi pll20 estimated frequencies zoomed view 60sogi
+2,pll epll kf pll1055050f 10 4540 200 99 1 1 01 1 02 1 03 1 04 1 05 1 060 98 1 1 02 1 04 1 06 1 08 1 1time
+2,07epll kf pll sogi pll epll kf pll sogi pll010 0 06 0
+2,05emnemn 0
+2,120 140 160 180 2000 10 20 30 40 50samples cyclesnr db figure 11 nme versus samples cycle for snr 37db 4figure 10 nme versus signal snr for n 10 decaying harmonic signal in the grid voltage the grid voltagesignal in this case is given by cid 88 ty v sin ωt θ e sin iωt 14
+2,i have an effect on the discretization of continuous systems in cid 88 nme 15 creasing the sampling frequency can improve the discretizationn f
+2,8sogi pll epll proposed techniquefigure 13 frequency estimation performance for scenario s1 2hz frequency jumpsogi pll epll proposed techniquefigure 14 frequency estimation performance for scenario s3 0
+2,no 1 pp 20 28 2011 18
+2,no 5 pp 1824 1834 references 2017 23 y terriche m u mutarraf m mehrzadi a lashab j m guerrero 1 m a soliman h m
+2,hasanien h z azazi e e el kholy and s a j c vasquez and d kerdoun adaptive cdsc based open loopmahmoud
+2,no 2 pp 504 27 m
+2,karimi ghartemani s a khajehoddin p k jain a bakhshai 513 2018 and m mojiri addressing dc component in pll and notch filter 5 a rahoui a bechouche h seddiki and
+2,33 no 1 pp 859 28 a bechouche h
+2,2φ arctan 21 36 h ahmed m benbouzid m ahsan a albarbar and m shahjalal xˆ1
+2,37 k de brabandere t loix k engelen b bolsens j van den keybus j driesen and r belmans design and operation of a phase lockedloop with kalman estimator based filter for single phase applications in iecon 2006 ieee 2006
+2,pp 525 530 38 r grover and p y hwang introduction to random signals and appliedhafiz ahmed s 10 m 17 sm 20 received thekalman filtering willey new york 1992
+2,ph d degree in automatic control from the uni
+2,xˆ1 2 also a fellow of the iet he is the editor in chief of the internationaljournal on energy conversion and the applied scienceswhere β 0
+2,𝜔𝑡 𝜑 𝑌 𝑐𝑜𝑠
+2,𝛼 𝑑 𝛽 𝑑 𝛽1𝜙𝑦
+2,𝑌 𝑐𝑜𝑠 𝜑 𝑑 4 𝑌 𝑌 𝑠𝑖𝑛
+2,4 b show that theproposed method has the lowest peak overshoot and the steady state ripple compared to qt1 and maf plls interms of total harmonic distortion thd
+2,it can be concluded that the technique developed in this work cansignificantly lower the thd value which makes it a suitable tool for control of grid connected converters acomparative time domain performance summary is given in table
+2,i table 1 comparative steady state performance summary performance indicators maf qt1 proposedtest
+2,i 2hz frequency step changefrequency ripple peak to peak hz 1 03 0 48 0
+2,15voltage ripple peak to peak p u 0 06 0 03 0
+2,02test ii unbalanced and distorted gridfrequency ripple peak to peak hz
+2,1 17 0 58 0 17voltage ripple peak to peak p u 0 065 0 032 0 023thd
+2,f achour y and benbouzid m 2021 online current limiting based control to improvefault ride through capability of grid feeding inverters electric power systems research 201
+2,2021 107524 hafiz ahmed rosane ushirobira denis efimov energy reports 00 2022 000 000 8 5 benyamina f benrabah a khoucha f zia m
+2,cneuq 50er fde49 5tamitwe will haves49ena em48 5 480 0 05 0 1 0 15 0 2 0 25 0
+2,3time s accordingly the system frequency is adaptively estimated asfig 1 the learning curves of different algorithms when the system isbalanced
+2,and we call the resultant algorithm augmented inverse power iv conclusioniterations aipi and summarize it in table
+2,45 pp 426 430 ackf and acekf algorithms moreover the increase in apr 1996 4 a cataliotti v cosentino
+2,d yazdani and a bakhshai robust adaptive frequency instrum
+2,ac ir m_hashemi
+2,ωt φ is the total phase v ω proportional integral type tuning parameters a fast dynamic
+2,iφ v and v represent the amplitude angular frequency response comes at the cost of reduced harmonics
+2,vτ 1 2cos ωτ
+2,2τv v v v 2cos ωτ v v 0 6 saint petersburg russia α α α α α αh ahmed is funded through the sêr cymru programme by welsh europeanthe above calculations are equally applicable to the signal vfunding office wefo under the european regional development fund βand one can write that erdf 2τ 2τ 3τ τ
+2,2τv v v v 2cos ωτ v v 0 7 β β β β β βby combining 6 and 7
+2,the following first order linearregression model can be obtained a grid voltage test i b estimated frequency test iy ϕω 8 τ τ 2τ 2τ 3τ
+2,3τwhere y v v v v v v v v α β α β α β α βτ τ 2τ 2τϕ
+2,it has been found that ε 10 can be a good choice 2 p rodríguez j pou j bergas
+2,no 10 pp 7449 frequency monitoring tool for smart grid in addition it can7457 2020 also be used as the frequency estimator for stationary referenceframe based grid synchronization methods 3 7
+2,636 8503 japana r t
+2,elsevier b v all rights reserved h bevrani et al e le c t
+2,i c p o w e r
+2,y s t e m s
+2,bevrani et al e le c t r
+2,i c p o w e r
+2,y s t e m s
+2,in3 h bevrani et al e le c t r
+2,i c p o w e r
+2,y s t e m s
+2,i c p o w e r
+2,y s t e m s
+2,r e s e a r c h 194 2021
+2,i c p o w e r
+2,y s t e m s
+2,6 h bevrani et al e le c t
+2,i c p o w e r
+2,y s t e m s
+2,r e s e a r c h 194 2021 107114frequency control loops and new control possibilities for a typical con relays equipment may be used to secure the system trol area i in a multiarea power grid is presented in fig 6 in this figure the dynamic impacts of the emergency control and protectionβ δ
+2,and f are the area s constant inertia damping coefficient scheme must be also properly reflected in the frequency response model
+2,7 h bevrani et al e le c t r
+2,i c p o w e r
+2,y s t e m s
+2,i c p o w e r
+2,y s t e m s
+2,r e s e a r c h
+2,f aliabadi s
+2,i vajk m vajta l keviczky r haber j hetthessy k kovacs adaptive load 22 c
+2,i c p o w e r
+2,y s t e m s
+2,r e s e a r c h 194 2021 107114 59 w wang
+2,hwang e muljadi g
+2,i ngamroo y mitani k tsuji application of smes coordinated with solid state 101 m
+2,n chang y hou analysis of low frequency stability 111 h bevrani m watanabe
+2,g geng single port and multi port frequency dependent 84 h
+2,89 y wu w yang y hu
+2,i c p o w e r
+2,y s t e m s
+2,r e s e a r c h 194 2021 107114
+2,j paserba v ajjarapu g andersson a bose c
+2,canizares 130 h h
+2,m e h golshan determining optimal virtual inertia and
+2,frequencyˇ 138
+2,no 3 july2006fig 8 mean standard deviation and maximum of the estimation error 6obtained using correlated data samples as a function of t t n inthree cases a x is a single sinusoid mismatched dimension
+2,no 1 pp 58 63 jan feb 1997 11
+2,m 82 was born inreferencesel marg cairo egypt on october 7 1952 hereceived the b sc and m sc degrees in electric 1 m
+2,no 1 pp 157 163 jan 1997 canada in 1984 3
+2,shanghai 201620 china dengineering research center of digitalized textile and fashion technology ministry of education shanghai 201620
+2,th sg is given as follows 21 applicable in this regard the particle filtering pf al gorithm appears to be an effective yet reliable approachδ δ ω ω t 1a
+2,i k 1 i k mi
+2,x x isystems provides a possible solution to such an issue qi k 1 qi k qi
+2,e e e x x i tdi k 1 di k di k
+2,e v di k qi k qi k qi k di k di kx xsurement outliers see e g 10 12 17 18 32 it should bedi qipointed out that the establishment of these strategiesv v sin δ θ v v cos δ θ
+2,x and x are the dq components of thed qendeavor to investigate the decentralized dse problem synchronous reactance x
+2,and x are the dq compo for power systems subject to non gaussian noises and d qnents of the transient synchronous reactance
+2,i and imeasurement outliers the challenges we are confront d
+2,qed with are outlined as 1 how to develop a fast dse are the dq components of the currents v and v ared qscheme for the large scale power systems
+2,3b fi k 1 fi
+2,k fi k fdi kt tis proposed to detect and localize the prior knowledge free fi fi1 k kmeasurement outliers and 4 an indicator is derived toai fiv v v eevaluate the performance of the proposed dse algorithm ri k 1 ri k ri k fdi kt tai fi cid 2 2
+2,k v k v v t 3c remark 1 as discussed in the introduction the noisesai ri k ai refi
+2,th sg can be obtained as over as compared with its centralized counterpart thedecentralized dse are more vulnerable to outliers duex f x u w 4 i
+2,i k to its nature of measurement redundancy and this rein forces the importance of tackling measurement outliers
+2,twhere x δ ω e e e v v
+2,k qi k di k fdi k fi k ri k 2 4 problem statementrn t rnx is the state vector u v θ u is thein this paper we aim to develop a pf based decentral
+2,i k s gorithms based on the sampling importance resamplingp v
+2,i 5b sir for more details we refer the readers to 4 i k di k di k qi k qi kq
+2,5c we first transform the system described by 4 and 6 i k di k qi k qi k di kinto a probabilistic form as follows where the subscripts i i 1 2 m and k representx τ
+2,x u x 8 the sg index and the time instant respectively f and f
+2,i k 10are the rotor frequency and the base frequency respec z λ z u x 9
+2,k i ktively p and q are respectively the active and reactivepower injections of the terminal bus the definitions of where τ represents the state transition pdf
+2,and λ i iv v
+2,and i are all given in 2 moreover the dis is the likelihood function d q d qcussion about f can be obtained by referring to 11 from a bayesian point of view the aim of the se iskto infer the posterior pdf π x u z of the s a compact measurement model of the i th sg can be i
+2,k i k arranged as tate x with u u u u and zi
+2,i k i k z z z
+2,i 1 i 2 i kz h
+2,i kbasedonthebayesrule thesolutiontoπ x u z
+2,i k t rnwhere
+2,f p q y is the measure can be obtained recursively as follows i
+2,i krnment vector h is determined by 5 v
+2,i i kπ x u z
+2,i kresents the measurement noise which is also allowed toλ z u x π x u z be non gaussian throughout this paper it is assumed
+2,k 1 i k 1 10 that w v
+2,and x are mutually independent ρ z u
+2,i k 12 3 non gaussian noise and measurement outlierswithin this paper the so called gaussian mixture model g π x u z
+2,i k 1mm is used to model the non gaussian distribution 1 22
+2,i e τ x u x π x u z
+2,1zmcp x α n x µ σ 7
+2,i 1 i k 1xρ z u z where m is the number of gaussian mixture compo
+2,i k 1cnents n x µ σ is the i th gaussian mixture compo
+2,i λ z u x π x u z dx nent with mean µ and covariance σ
+2,α is the weight
+2,i i ii 1p3 where π and ρ are respectively the predictive 4 particles resampling in order to avoid the particlei p idegeneration the sir based pf needs to use the resam pdfs of x and z given u and z i
+2,toapproximatetheposteriorpdfπ
+2,k i k i k4 mechanism for outlier detection and pro m j j cessingπ x u z q δ
+2,k i kj 1as mentioned in section 3 the implementation ofxthe pf algorithm relies on τ
+2,x u x andwhere m is the number of particles δ is the dirac
+2,i k 1 j λ z u x therefore the approximation errormdelta function x is a set of particles drawn from i i
+2,j 1of the posterior pdf π x u z would be veryi
+2,k j mπ x u z and q is a set of normalizedlarge if the measurements are contaminated by outliers
+2,j 1drawn from the initial pdf π x u z and ment vector is detected first and then the specific abnor
+2,i 0mal components of the measurement vector are locatedπ x u z is assumed to be known previously
+2,i 0and subsequently handled if the measurement vector ismoreover the initial values of the associated weightsdeclared an outlier j m q are all set as 1 m i 0
+2,j 1 4 1 outlier detection criterion2 recursion after initialization the posterior pdfas studied in 17 28 the distance criterion has beenπ x u z can be estimated by propagating the widely used in the outlier detection problems recently
+2,i ka novel criterion named the sequential outlier criterion j mparticles x forward in time with appropriate
+2,k 1 j 1 tinct because it is suitable for online application and isagated one step ahead to form the prior particle set also capable of dealing with data contaminated by non j j gaussian noises 27 m m x specifically the prior particle set x isi k j 1
+2,i k j 1it should be pointed out that when it comes to the actual j drawn from τ x u x i e
+2,1 application scenarios the soc approach may face thei k 1following two foreseeable challenges 1 the memory cost j j j x f x u w increases over time since all the historical data as well
+2,k j 1 proposed by introducing a sliding window moreover anthe sir based pf can be computed by resorting to theextended outlier detection algorithm based on the socrnlikelihood function 4 15 since z
+2,i e thereis proposed to further detect which components of thei kare n measurement outputs the importance weights measurement vector are outliers y j m 4 1 1 outlier detection for whole measurement vector q can be rewritten as follows 8
+2,i k j 1n inspired by 27 the expected neighbor distance under j y j mq λ z u x i
+2,the sliding window for the measurement of the i th sgm 1y at time instant k n n 0 can be expressed asmwhere z is the m th measurement output of z
+2,i ki k k 2after normalization we have end
+2,sw β ldhz z
+2,i l 1 l k n j xq j i k 2 q 14
+2,where β dhz z i kz i
+2,1 i l 1m j 2k n 2 n 1 q j 1
+2,i k z k n isthelengthoftheslidingwindow β l representsi l kpthecoefficientwhosevalueisincreasedwhenthedistance3 state estimation here based on the prior particle set k 2is closer to the new arriving data with β l 1 kl k n j j m m x and the associated weight set q thei k j 1
+2,j 1 pthe upper bound u d and the lower bound l d ofi
+2,k i kestimate of x can be represented asi ktheexpected neighbordistanceunderthe sliding windowm j j for the measurement of the i th sg at time instant k canxˆ q x 15
+2,i kj 1 be represented asx4 u d end sw λ
+2,i k remark 3 for the outlier detection problem some pi 17 cid 26 l d end sw λ σ oneering criteria have been reported in the literature seei k i
+2,i ke g 2 5 6 16 17 27 in this paper we follow the main where λ is the coefficient which determines the sen stream euclidean distance based criterion to develop thed isitivity of the outlier detection conditions σ repre outlier detection and localization
+2,algorithm comparedd i ksents the standard deviation of dhz z i with l with the method proposed in 27 the improvements ofi l
+2,i l 1k n k n 1 k 2 finally the new arriving our method lie in that 1 the expected neighbor distancemeasurement z will be suspected to be an outlier if is calculated by using the historical measurement datai kcontained in a sliding window 2 a time related
+2,coeffi dhz z
+2,i is out of the range of expected neighbor
+2,i l 1low since the historical measurements are contained inis
+2,1measurement vector are not discarded close to dhz z i due to the merits of the pmu
+2,andλ arecon d
+2,iv i even just one of its components are atypical as such sidered in building 17 and 19
+2,moreover two aspectswe would like to continue checking every element of zi kmneed to be considered in the selections of λ and λ 1 to see if it goes out of the range of expected neighbor
+2,theth sg at time instant k n n 0 can be written asestimation performance endv swi k 4 2 outlier processingtn suppose that one orsome elements of z have been con 1 2 endv sw endv sw endv sw y
+2,i ktaminated with outliers instead of discarding the wholeh imeasurementvectorstraightaway wewouldliketomakewherefull use of the remaining normal components of z inm m z
+2,z i kk 2m i l 1
+2,i lendv sw β l 18 our proposed outlier detection and localization scheme i k k dhz z il k ni l
+2,i l 1 moreover the components of z which have been de xi kclared as outliers are replaced with the correspondingwith m 1 2 n n being the length of the slidingycomponents of the previous normal measurement z window β l is the coefficient whose value is increased
+2,1kwhen the vector is closer to the new arriving data with in summary the pseudocode of our proposed algorithm k 2 againstnon gaussiannoisesand measurement outliers β
+2,l 1 kl k nis outlined in algorithm 1 fpor the m th m 1 2 n element of z the up y i k5 performance discussionmper and lower bounds of endv sw are defined re i kas discussed in 30 33 the posterior cram er rao lowerspectively asbound pcrlb developed in 24 is a commonly usedm m m
+2,mu v endv sw λ
+2,k criterion in evaluating the performance of the general 19 m m m m cid 26 l v endv sw λ σ nonlinearfilterunderthe bayesianframework notethati
+2,i kthe pcrlb is actually an offline bound whose fisher in mwhere
+2,λ is the coefficient which determines the sen formationmatrix fim is obtained by taking the expec v imsitivity of the outlier detection conditions σ repre tation with respect to all the system states and measure
+2,i kments 33 as such an effective yet online estimationsents the standard deviation ofperformance indicator namely the conditional pcrlbm mz zi l 1 i l developed in 30 is adopted in this paper dhz z ii l
+2,i k 1mof endv sw j x z
+2,i k5 talgorithm 1 decentralized particle filtering algorithm τ
+2,x u x τ x u x x i i
+2,i k against non gaussian noises and measurement outliers 2τ x u x i k 1 i
+2,i kiinitialization j mdraw particles x from the initialg
+2,i k i k 1pdf
+2,and let the associated weightsi i 0
+2,tτ x u x τ x u
+2,i k q j m all equal to 1 m in addition choose the i
+2,k x i k 1 i 0
+2,j 12τ x u x length of the sliding window n and the coefficient i
+2,i k i kimλ and λ m 1 2 n respectively g x x d
+2,i k i k 1recursion
+2,tτ x u x τ x u x for do x i i
+2,i k1 k 1 2
+2,i k 1 xi k 1 2 when k n assign n k 1 2τ x u x i k 1
+2,i ki j j 3 draw prior particles x from τ
+2,x x i k i k 1i 4
+2,i k 1j 1 2 m tλ z u x λ z u x 4 compute the standard deviation of dhz z
+2,i k 1 l k n k n 1 k 2 and obtain σ
+2,i k i k5 compute end sw and its range l d
+2,i k dzaccording to 16 and 17 respectively i k 16 compute dhz z
+2,k i k 1 j with x j 1 m representing the particles andif then7 dhz z i l
+2,k 8 z is an outlier denoting the operator of the first order partiali k xfor do i k 19 m 1 to ny t 10 compute the standard deviation of derivative given by x x1 xnxm m
+2,i k 1 z z dhz z
+2,i l i l 1 h inote that the close form solution to g x x isl k n k n 1 k 2 and obtain i 4
+2,1σm hard to be obtained and one can resort to some alterna v i km tive approaches to approximate such a solution more 11 compute endv sw and its rangei kover the initial value of the conditional pcrlb is set asm m l v u v based on 18 and 19 i
+2,k i kj x z j x m m 12 compute z z
+2,k 1if m m m m then proof the proof of lemma 1 is readily accessible from13 z z l v u
+2,i k i k cid 3 m 30 33 and is thus omitted here 14 the m th element of z
+2,i e z is ani
+2,i k j 1scheme is the particle filtering technique which is par 21 compute the estimate xˆ by using 15 i kticularly effective in handling nonlinearities as well as22 resample to obtain the new particle setnon gaussian noises 3 a novel online sliding window j m x i
+2,k j 1 based detection and localization algorithm which is em else23 bedded into the decentralized dse algorithm is proposed24 compute the normalized importance weightsto tackle the measurement outliers and 4 the condition j m q according to 14 al pcrlb for the proposed dse algorithm is derived i
+2,122 21 11 12 d d d j x z d 20
+2,k quency active power injection and reactive power in cid 0 cid 1 jection at each generator s terminal bus are treated aswherepmu measurements the sampling rate of the pmuis assumed to be 100 samples s due to the limitation1 m
+2,x x of the space only the states of sg 3 are taken for il i 1i k
+2,i k i k 1mj 1lustration purposes the initial estimate of sg 3 is setx1 m
+2,j j 1 t12 as xˆ 0 9 0 5 0 1 0 45 1 0 for the selection
+2,x x 3 0i 2i
+2,k 1mj 1 s of other simulation parameters we follow the com x1 m 1
+2,m mon used trial and error method by fully considering j j j 22d g
+2,i 4 i k 1 the number of particles length of the sliding windowm j 1 m j 1x xand
+2,the accuracy of the outlier detection and localiza and tion the root mean square error rmse defined byn
+2,x x xˆ with n representingg x
+2,pf m 100 100 01 esmr 0 03sir pf m 150 0 5 10 15 20 25 u p 6sir pf m 200 cpcrlb m 200 0 02 0gol
+2,d h 2018 on0 212 12 5 130 5 10 15 20 25 kalman consensus filtering with random link failures overq axis transient voltagesensor networks ieee transactions on automatic control 11 060 8 63 8 2701 2708 1 040 6 1 020 4 1 15 li w wang z yuan
+2,molanes lo pez e m m ıguez
+2,j time s djuri c p m 2012 aparticlefilteringschemeforprocessing b time series corrupted by outliers ieee transactions onfig 8 scenario 3 estimation results of generator 3signal processing 60 9 4611 4627 m 200 n 300 a outlier detection and localization
+2,18 mao j sun y yi x liu h ding d 2021 b estimated states recursive filtering of networked nonlinear systems a survey international journal of systems science 52 6 1110 1128 ties as well as the non gaussiannoises the pf technique 19 qu b wang z shen
+2,i haykin s elliott r j 2007 discrete 246 255 time nonlinear filtering algorithms using gauss hermite 26 wang s zhao j huang z diao r 2018 assessingquadrature in proceedings of the ieee 95 5 953 977 gaussian assumption of pmu measurement error using field 4 arulampalam m
+2,cao h yang s zhang y hei x 5 belsley d a kuh e welsch r e
+2,nus singapore 117576 singaporea r t
+2,097received 2 february 2020 received in revised form 21 may 2020 accepted 26 june 2020available online 22 july 20200038 092x 2020 international solar energy society published by elsevier ltd all rights reserved o gandhi et al solar energy 210 2020 181 201still powered all commercial on
+2,et al 2010 voltage magnitude matlab pscadtonkoski et al 2012
+2,i e compact fluorescent lamp cfl and light emitting diode led remund et al 2015
+2,ela et al 2011a
+2,matpower org https energyexemplar com solutions plexos 194
+2,16https www mathworks com products simulink html 17 ppv ratingghttps sourceforge net projects electricdss ppv t 1 tcell
+2,210 2020 181
+2,pv inverters yang and blaabjerg variability data from one study period to hourly load data from another2015 arulkumar et al 2016 ankit et al 2018 standards to modelperiod with re generation mills et al 2013
+2,doi 10 1 1 114 2752 rep guillaud x faruque m o teninge a hariri a h vanfretti l paolone m rep1 type pdf dinavahi v
+2,c ibanez e bird l zuboy
+2,j environ 8 5 1 34 national renewable energy laboratory 2014 methods for analyzing the benefits heslop s macgill
+2,114733 https doi org 10 1016 iea pvps 2019 2019 snapshot of global photovoltaic markets tech rep t1 35
+2,www energy gov eere articles confronting duck curve mukwekwe l venugopal c davidson
+2,pp 53 594 605 https doi org 10 1016 j rser 2015 08 042 274 279 kavi m
+2,d thompson d
+2,the 2017 iso new england system operational analysis and renewablekumar d s 2017 impact analysis of distributed generators on the protection and energy integration study soares energy reports 5 747 792 https doi org 10 stability of power systems
+2,ph d thesis national university of singapore 1016 j egyr 2019 06 005
+2,10 1016 j rser kumar d
+2,d strasser t lauss g jalili marandi v forsyth p dufour c solutions for higher penetration levels renew energy 109 487 499 https doi dinavahi v monti a kotsampopoulos p martinez j a strunz k saeedifard org 10 1016 j renene 2017 03 066 m
+2,wang xiaoyu shearer
+2,paolone m 2015
+2,real time simulation
+2,technologieslai c s jia y lai l l xu z mcculloch m
+2,6280 6290 https doi 199 o gandhi et al solar energy 210 2020 181 201org 10 1016 j enpol 2011 07 027 shayani r a de oliveira m a g 2010 photovoltaic generation penetration limits inpeng f z li
+2,sunderland
+2,j rser 2015 11 services tech rep the university of manchester http www ee washington edu 016
+2,research real library reports survey_of_reserve_services pdf tonkoski r lopes l a el
+2,fouly t h m 2012 impact of high pv penetration onrichardson p flynn
+2,factringkjøb h k haugan p m solbrekke
+2,i m 2018 a review of modelling tools for sheet solar energy technologies program setp url http
+2,www1 eere energy energy and electricity systems with large shares of variable renewables renew gov solar pdfs 50169 pdf sustain energy rev 96 august 440 459 https doi org 10 1016
+2,j rser 2018 08 vahan g booth s 2013 review of prepa technical requirements for interconnecting002 wind and solar generation tech rep november nrel url https www nrel gov rodríguez gallegos c d bieri m gandhi
+2,gandhi o yang d alvarez alvarado m s
+2,singh j p yacob ali j m
+2,o nalluri s kumar a integration in low voltage distribution systems and the corresponding solution appl shanmugam v aguilar m l bieri m reindl t panda s k 2018d
+2,california iso flexible ramping product uncertainty calculationfuture electri j 29 10 49 61 and implementation issues tech rep caiso url http www caiso com santos
+2,i n ćuk v almeida p m bollen
+2,j rser 2013 08 087 quality journal malaga
+2,pp 563 568 wu j botterud a mills a zhou z hodge b m heaney m 2015
+2,j rser 2015 12 051 xiao w edwin
+2,110 yang d kleissl j gueymard c a pedro
+2,yang d liu l 2020 solar project financing bankability and resource assessment in zhu t luo w bu c
+2,r d murillo
+2,avrupa bilim ve teknoloji dergisi european journal of science and technologysayı 27 s 670 675 kasım 2021
+2,𝑁𝑉 𝑘 𝑣 𝑛 𝑒 𝑘 0 1
+2,4𝛾𝑋 𝐴𝑐𝑜𝑠 𝑤 𝑡 𝑛 𝑡 2 0be
+2,a single tone sinusoidal signal here a is the amplitude of thesignal w is the frequency of the signal 𝑛 𝑡 𝒩 0
+2,22 00 00 44 00 00 66 00 00 88 00 e e 1 00 11 22 00 11 44 00 11 66 00 11 88 00 22tt
+2,𝑅𝑒 6 𝛿 𝛼 1 𝛼 2𝑋 𝑋 𝑋 1 1 1 𝑘 𝑘 1 𝑘 1𝛿 𝛼 1 𝛼 2 2 2candan s estimator calculates two bias correction factors upon21 6 𝛼 1 2 314 2𝛾 log 3𝛼 6𝛼 1 log the quadratic estimate 4 1 1 14 24 2𝛼 1 2
+2,31tan𝜋 𝑁𝛿 𝛿 𝐶 7 𝜋 𝑁21 6 𝛼 1 2 324 2𝛾 log 3𝛼 6𝛼 1 log2 2 24 24 2 1𝛼 1 2 3 tan 𝛿 𝜋 𝑁 2
+2,𝐶𝛿 𝐶𝜋 𝑁 8 𝛿 𝛿1 22 4 assessment criteria and the method𝛿 𝛾 𝛾2 12in order to choose the optimum frequency estimator in the caseof system frequency deviations and different noise conditions we evaluate the aforementioned estimators based on their2 3 3
+2,macleod s estimatoraccuracy estimator s bias and variance and computation time the estimator calculates an offset value by forming a three the bias and variance of any estimator are given ascoefficient vector with phase verification and utilizes it in theverification term 𝐵𝑖𝑎𝑠 𝜔
+2,0474candan 0 0014 0 0061i 1 kquin2 0
+2,0118macleod 0 0049 0
+2,0086measure the bias and the with the signal fundamental component and an interharmonicvariance which is an integer multiple of the frequency resolution andanother interharmonic which is a rational multiple of thefrequency resolution 𝑣 𝑡 sin
+2,𝑡 0 35sin 2𝜋3𝑓 𝑡 11 0 0correct spectra0 2sin 2𝜋5𝑓 𝑡 0 15sin 2𝜋65𝑡 0
+2,1sin 2𝜋83𝑡
+2,db 10 db 20 dbestimation bias variance bias variance bias variancethe performance of the corresponding estimators in 0 db snrmethodnoise condition maximum noise is shown in fig 5 it is notablecandan 0 0016 0
+2,1597 0 0015 0
+2,0503 0 0014 0 0160macleod 0 0048 0
+2,1571 0 0048 0 0500 0
+2,0167 that still macleod estimator estimates the frequency moreaccurately below 50 hz table 3 average computation times of the estimation methods in0 025 one dft periodcandanestimation method average computation time inmacleod0 02one dft period μs candan 72 009ycn 0
+2,005the frequency of f 50 5 hz where the variance is maximum worst case are given in fig 6 as it can be seen the ghost 0 0149
+2,yeroğlu c 2018 154
+2,i letim hatlarındakiakım transformatörlerinde simülasyon modeli ileconcluded that macleod estimator can be regarded as the mostharmonik bozulmaya dayalı doygunluk algılama yöntemisuitable estimator for real time monitoring avrupa bilim ve teknoloji dergisi 14 353 363 16 fidan p akdemir h
+2,gutierrez j borrás m d
+2,no 1 january 2022 doi 10 21608 jesaun 2021 86413 1064 part b electrical engineeringinstantaneous frequency estimation algorithmfor power systemsreceived 15 july 2021 revised 18 october 2021 accepted 22 october 2021a
+2,f aziz1 abstractthis paper deals with the problem of the instantaneous frequencyh selim 2
+2,i 10 21608 jesaun 2021 86413
+2,x xi xid 1 2th l uif the i parameter of the given problem has its lower and upper bound as x and x respectively i iththen we may initialize the i component of population members as l lx x rand 0
+2,1sec 12 the parameter ε represents the noise that can be produced by a random function on matlab thesignal to noise ratio is snr 20 log 1 0
+2,i 10 21608 jesaun 2021 86413 1064 part b electrical engineeringzc tracking frequency51output50 5
+2,input5049 5zh49ycneu48
+2,5qerf4847 54746 50 5 10 15 20 25frame a b de t0 rackf ir na gm fe
+2,dd aa m1m1 p2p5 lit uu dd ee55444445544 10987651098oi1unp uppu tpuut ut2 tn8tzhycneuqerfzh05 5 5 4 245 6 142 10 6oi 2 0fra m a b q0 cy litthr6 e0 e ldf8 t0 frequfr e1a n0m c0e
+2,y an1 d2 a0 mplit1 u4 d0 e1601251505955555444 6420864toin8 up0 tpu ut t2zhycneuqerf ycneuqerf02040 000 5fra m c
+2,d e fig 5 simulation results for time varying frequency and amplitude test a gabor b zero crossing c three level dft d differential evaluation e rmse comparison of the 4 algorithms16 jes vol
+2,50 no 1 pp 9 24 january 2022
+2,i 10 21608 jesaun 2021 86413
+2,1064 part b electrical engineeringgabot r harm od nefr i1 ctm nhe oa isrm e1 zc2 hfr aa rm me on2 i5 c3035444444444zh 99999999 8765432154444444 444444 9949999 9 554444 4258642oi6 up tpu utoin tup oi0 up tpu ut t4n n zh zhycneuqerf ycneuqerf009999999 2450 6 8fra 0 15 20 14200 1 1tpu 8ut
+2,5euqerf 49 4549 449 3549 30 25 40 61 8h0 0fe 10 214200 1 1tpu 8ut0
+2,5 10 15 20 25 30 35mfframe a b la t
+2,dc15 de0 d 5m ce5 5 5 4 4 251505958t2 ou tpu
+2,ut tinp5544 1098zhycneuqerf ycneuqerf0 50 00 10 20 30 4 0 60 70 80 9 1r
+2,e fig 7 simulation results for signal containing dc exponential component a gabor b zero crossing c three level dft d differential evaluation e rmse comparison of the 4 algorithms18
+2,i 10 21608 jesaun 2021 86413
+2,200 50m c d
+2,e fig 8 simulation results for signal containing white noise a gabor b zero crossing c
+2,i 10 21608 jesaun 2021 86413
+2,r yusoff a utilisation of improved gabortransform for harmonic signals detection and classification analysis international journal ofelectrical and computer engineering ijece vol 7 no 1 february 2017 pp 21 28 issn 2088 8708 doi 10 11591 ijece v7i1
+2,i 10 21608 jesaun 2021 86413
+2,وأ ةعباسلاو ةسماخلاو ةثلاثلا تايقفاوتلا ىلع ةراشلإا يوتحت امدنع اض يأو ةعسلاو ددرتلا نم لك رمتسملا رايتلا ةراشإ وأ ءاضيبلاrmse ـل ىوتسم ىندأ gabor ةيمزراوخ تمدق فورظلا نم ديدعلا لظ يف هنأ ةاكاحملا تارابتخا تفشكلقأ
+2,وأ تارود 4 نم ار اطإ gabor ةيمزراوخ جاتحت ةيناثلا ةبترملا يف لقلأا ىلع
+2,وأ تلااحلا عيمج يف ا بيرقت نكمي تاراطلإا لخادت للاخ نم نكميو ةقدب يظحللا ددرتلا ريدقتل ةيناث ةنيع 200
+2,تارودلا ددع
+2,وأ و تانيعلا ذخأ24
+2,036 mean relative error 0
+2,054mean absolute error 1 749 mean absolute error 2
+2,616mean square error 4 114 mean square error 5 537 e s karapidakis applied soft computing 7 2007 105 114 111dt can be reformulated into a neural network calledentropy network following the next steps for theformation of 1 the input layer
+2,ithe total number of weights is 76 11 53 12 for the first network and 60 8 33 9 for thesecond back propagation algorithm was used forlearning procedure while the networks were trainedwith constant learning rate of 0 1 momentum of 0 06and maximum error tolerance of 0 001 as in the case of the dts
+2,j a pec as lopes m matos g kariniotakis e nogaret
+2,it is observed that the estimated frequencyfollows the actual frequency with a delay of 10 ms fig 10 b shows the actual and estimated values for the rate of change ofthe frequency h sampling frequencyfig 9 estimation of the rate of change of frequency for ramp variations insnr
+2,30db snr 40dbnoise a
+2,14 b a large transient errorand superscript denotes matrix transposition whichsettlestoasteady statevalueof0
+2,pp 52 59 jan 1999 reza iravani m 85 sm 00
+2,however it should beconsidered that its implementation complexity is also superior 4 x 4 systems instead of 2 x 2 5 simulation and experimental results5
+2,e hht 0 16 0 0 0 0 0025 0 0 0
+2,16 0 0 0 0 0025 these values were found following the suggestion of simon 2001 and references therein note that the entries of hht k are much greater than the ones in
+2,05 0 1 0 156261
+2,zh ycneuqerf6059580 0 05 0 1 0
+2,15time s fig 1 kf 1 case 1 input voltages 127 vrms 60 hz 90 and filter outputs v1 vq e f φ1v dotted v1 solid vq
+2,dashed18090 v egatlov0 90 1800 0 05 0 1 0 156261ycneuqerf6059580 0 05 0 1 0
+2,15time s fig 2 kf 1 case 1 input voltages 127 vrms 60 hz 0 and filter outputs v1 vq e f φ1www intechopen com kalman filter on power electronics and power systems applications 409v dotted v1 solid vq dashed18090 v egatlov zh 0 90 1800 0 05 0 1 0 15 0 26261ycneuqerf6059580 0 05 0 1 0 15 0
+2,2time s fig 3 kf 1 case 2 input voltage 127 vrms 60 hz 0
+2,15time s va dotted va1 solid18090egatlov v 0 90 1800 0 05 0 1 0
+2,15time s 62180 zh 61120ycneuqerf qes zh 6060590 580 0 05 0 1 0 15 0 0 05 0 1 0
+2,15time s time s fig 6 kf 3 case 1 sinusoidal and balanced input voltages 127 vrms 60 hz 0 phaseφa and kf outputs va1 seq and f 1va dotted vb solid vc dashed180 v 90egatlov v 0 90 1800 0 05 0 1 0
+2,15va dotted va1 solid18090egatlov v 0 90 1800 0 05 0 1 0
+2,6218061120 ycneuqerf60
+2,qes60590 580 0 05 0 1 0 15 0 0 05 0 1 0
+2,10 shows the performance of the kf in such condition comparing to fig 6 note that inthis case the kf convergence is faster than in the previous configuration va dotted vb solid vc dashed18090 v egatlov v 0 90 1800 0 05 0
+2,15va dotted va1 solid180 v 90egatlov0 90 1800 0 05 0 1 0
+2,15time s 62180 zh 61120 ycneuqerf qes 6060590 580 0 05 0 1 0 15 0 0 05 0 1 0
+2,no 1 january 2008 pages 41 51 issn 0885 8977 clements m p hendry
+2,d f 1998 forecasting economic time series cambridgeuniversity press isbn 0521632420 united kingdom colón
+2,d pait f m 2004 geometry of adaptive control optimization and geodesics international journal of adaptive control and signal processing vol 18
+2,no 1 january february 1997 pages 58 63 issn 0093 9994 kwan k h
+2,so p l chu
+2,no 4 july 2005 pages 877 844 issn0885 8993 mir m mccleer
+2,deckmann s m marafão f p lima e
+2,no 4 july 2004 pages 988 994 issn 0885 8993
+2,deckmann s m sperandio g s marafão f p
+2,colón d 2007 comparative analysis of synchronization algorithmos based on pll rdft andkalman filter proceedings of the ieee international symposium on industrialelectronics isie june 2007 vigo spain pádua m s
+2,deckmann s m marafão f p
+2,no 2 may 2006 pegas 869 876 issn 1558 0679 styvaktakis e bollen m h
+2,so the accuracy of fundamental frequency should be improved by twogrades i e class 0 05
+2,i e x f 0 05
+2,hz choice of 0 05hz is based on the following considerations in thex xfirst estimation the interval between adjacent frequency points is 0 1 hz assume the actualfundamental frequency is between the frequency points 49 9 hz and
+2,50 0 hz and theestimated frequency will be 49 95 hz the difference between the actual frequency and itsestimated value is less than 0 05
+2,hz the modified frequency range is obviously narrowerthan the initial range and the interval between adjacent frequency points is decreased to0 01
+2,hz 10 0 01
+2,kmthere f v and θ or f v
+2,and θ represent the frequency amplitude and initial phase1 1 1 k k kthangle of the fundamental component or the h harmonic component respectively f equalskkf and m is the highest harmonic order generate a modulating signal a t defined by 5 1 mthe frequency f is selected from these frequency points
+2,1to 50 5 hz and f also belongs to this range
+2,so the lowest frequency component ismδf
+2,hz 1 hz 1 1 m 1using multi level dwt v t is decomposed into wavelet coefficients of individualafrequency bands the lowest frequency band is 0 w hz and w is denoted as theb bfrequency band width to separate out the frequency component δf w should be less than1 b50hz
+2,when v t is only composed of a fundamental component and integer harmonics ahowever if inter harmonics exist in v t frequency component f f in the signal v t inter m amay be less than 25 hz here
+2,that for those intervals although in the wholeinterval 0
+2,hz 1 hz and the non monotonic intervals for signalsb t and c t are 0 04
+2,it isobserved that the estimation error depends on the inter harmonic frequency and amplitude for example when the input signal is composed of a fundamental component and the inter harmonic component frequency 40 hz amplitude 0 05
+2,the maximum rate of change of frequencyis 0
+2,7 miroslav m b petar m d
+2,coury d v oleskovicz m 2010 digital frequency relaying based on themodified least mean square method int j electr power energ syst 32 11 236 242 24 rawat t k parthasarathy h oleskovicz m 2008
+2,50 hz steady statetable i shows the percentage of errors in frequency estimates at error of 0 0002
+2,𝑛𝑖 𝑥𝑥 12 𝑖2where 𝜎 is the variance 𝐴 is the root mean square rms 𝜒 𝑥
+2,the sensitivity to initial conditions should also be evaluated 2𝑛
+2,𝑐 b simulations with 40db awgn input𝑃 𝑊 𝛾 𝑦 𝛾 𝑦 𝑇 13b 𝑦𝑦 𝑖 𝑖𝑖in this test scenario 40db
+2,snr is associated with the signal𝑖 0uncertainty characterized by a standard deviation of 1 of the 𝑚 𝑐 where weights 𝑊 and 𝑊 are defined as follows signal amplitude the test signal is shown in fig 1 a and b 𝑖 𝑖 𝑚 𝑐 𝑚 𝛼2 14a
+2,𝑊 𝑊 𝑊 1 𝛽 0 0
+2,𝜆test results are shown in table i it can be observed thathighly accurate frequency estimation results can be achieved by using either single phase or three phase waveform measure ments table
+2,60 no 10 pp 2583 2598
+2,4 n 1a maximum in the amplitude spectrum e g discrete fourier jnωx ω
+2,sfs ˆ jϕˆ w 2πk
+2,2πf e 7 xnand x and x are the real and imaginary parts respectively re imof the measured signal s dft spectrum 3 cid 4 n
+2,n 14 r im max
+2,no 5 may2009table
+2,hz ϕ π π f 50 ks sandx stable
+2,2πnf t ϕ 15 ics are sufficient for this purpose since the influence of leakagex x nn mfrom harmonics above the ninth can be considered negligible n 2 1676 ieeetransactionsoninstrumentationandmeasurement vol 58
+2,π f 50 ks sandx stable vi table viie a f p u e f u c astimation of the mplitude requency and hase sing stimation of the requency sing the onsidered lgorithmsp a s w h s
+2,w i c a 1v
+2,π f 50 ks s
+2,r i average rocessing ime equired by ndividual lgorithmsfig 10 influenceoftheinitialfrequencyestimatef ontheabsoluteerrorinitoffrequencyestimationoftheproposedalgorithm
+2,π snr 70 db n 5000 andf 50 ks s scorrespond to different parts of the algorithm the first partrepresents calculating the dft spectrum using the fast fouriertransform fft algorithm of the measured signal the nexttwo parts represent the calculation of the initial estimate usingthe two point ipdft
+2,see 14 values in the region around the expected so the processed signal the graph is divided into four parts that lution for one particular signal f 49 8 hz and ϕ π 4 x 1678 ieeetransactionsoninstrumentationandmeasurement vol
+2,1996 andstandardization andautomaticmeasurement systems
+2,1hzfrequency step fig 9 dynamic responses of three algorithms for amplitude steps cid 0
+2,20 no 3 pp 1812 1816 jul 2005 fig 19 diagram of the laboratory setup for protective relay testing 8 d barbosa r m
+2,j gutierrez m d
+2,no 3 pp 361 366 jul 2001 22 h darwish and m fikri practical considerations for recursive dftimplementationinnumericalrelays ieeetrans
+2,no 1 pp 109 115 jan 1998 available at the time of publication
+2,chaptera scalable fpga basedimplementation of the unscentedkalman filterjeremy soh and
+2,þw w i 1 m 1 5 1
+2,i j 1 pffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ð þ þj j 1
+2,i k k kipffiffiffiffiffiawhere i refers to the ith column of the matrix product and
+2,i kk 1¼i 0h
+2,i kk 1k k¼i
+2,i i kk 1 kk 1 ikk 1 kk 1¼i 0followed
+2,d is2diagonal and the two versions are related
+2,bypffiffiffiffi¼l l d 22 1 2the recombination process is necessary because of the subsequent matrixmultiply add between the augmented covariance square root and the sigmaweighting coefficient matrix see eq 8 the element wise calculation for l and2d is given by cid 2 j 1¼ cid 2 f a l f for i
+2,be the ith column of and then the covariance calculation reduces toi in cid 2 ¼
+2,χ χ tp w 27 ik i i¼i 1 χ cid 4 this sigma point residual matrix is of size m n where m is thestate state¼ þnumber of state variables and n m 2 is the number of sigma points theelement wise calculation is thenn cid 2 ¼ χ χp w 28 1ij ik jk¼k
+2,ω þ β þ ηz 32 g t g_β ¼ η 33 d_ω β βwhere is the true angular velocity is the gyroscopic bias is the gyroscopictη ηbias drift and are noise terms that are assumed to be zero mean gaussians g dsimilarly we model the accelerometer and magnetometer as¼ þ ηz a 34 a t
+2,cid 4 0 6 1 q a mthe state vector length is 7 the number of observation variables is 6 and theaugmented state vector length is 20 the quaternion noise term was modelled withη ¼ cid 2 6covariance 10 the simulated sensor set was homogeneous
+2,c2 2 3 2 3¼ ½ cid 3 it is assumed that the magnetometer is aligned with the x axis b 1 0 0
+2,2petotal 660 363 272table 1 μoverall latency for the single nanosatellite all values in s initial noisy estimate the bottom figure shows the first second of the simulation highlighting the ability of the filter to maintain its accuracy
+2,5pe 10peff 7668 2 14 286 3 27 311 6 48 714 11 lut 5764 3 15 158 7 29 500 13 53 427 24 bram 16 5 3 36 5 7 62 11 109 5 20 dsp48 35 4 62 7 104 12 182 20 table 2 resource utilisation total on the xc7z045 18 a scalable fpga based implementation of the unscented kalman filterdoi http dx doi org 10 5772
+2,intechopen 80681resource 1pe
+2,2pe 5pe 10peclocks 38 74 136 234signals 24 83 144 261logic 23 76 126 219bram 51 82 112 209dsp 4 6 21 52total 140 336 549 975table 3 power consumption of the codesign all values in mw sw
+2,u 0 e0 2the ratio in eqn 7 is also independent of the orthogo s 1 1 c onal filter gains the delays m
+2,and k can be chosen arbi gtrarily yielding different frequency dependent functions 0 20a very simple result is obtained for m 2k 0 4 0 6 _ ___ ___ _ __ ___ 0
+2,8 5further combining eqns 5 and 8 we get 1 0 arc 0 20 40 60 80 100ys n yc n 2k yc n ys n f hzcos kwt 0 5 yc n ys n k fig 1 frequency estimation algorithm sensitivity depending on values ofy
+2,it was observed during the algorithm perform t msance tests that 2nd harmonic noise is the most difficultfig 5 magn eed version of fig 4 for time mnge 40 12oms to reject since this is the noise having a frequency
+2,4minal phase a voltage fig 9 transients in generatorq rotor s speed accompanying this sudden load varia tion together with estimated frequency are shown inuyllllrllllfigs 10 and 11 the estimates were obtained using the5 0
+2,2algorithm with no output filter and
+2,with 20ms and30ms output filters respectively curves i iii in figs 10 and 11 the generator rotor s speed exhibits fre quency oscillations resulting from power swing betweenthe two generators
+2,system is connected to the infinite bus deliveringemtplatp reference manual leuven center belgium 1987582 iee proc gener transm distrib vol 145 no 5 september 1998
+2,δf t e 1 a 0 ninal frequency condition section 3 presents the stability analysis of theφ 2 α 1 2π δf t π δf t e 2 a 1
+2,f f f δfφ 2 φ 1 e 2 e 1 f 1
+2,2πδft α a m 0nu
+2,2πk 3 the error of phase angle φ α mainly depends on the frequency ci n n k 22 1 0deviation δf the initial angle α has very limited impact to the error of0sin πkδft 2u k n mphase angle φ α as shown in fig 4 m k 1 0π
+2,k 2 3n n 0 1 2 3 24 v k 0 1
+2,v k cos kπδft α 1 n 0 k 1 kπδft n jsin kπδft α n 0 k 4 3n n 0 1 2 3 26 from 24 the 2nd 5th the2 3n harmonic components areattenuated by sin kπδft n k 1 kπδft nfor the 2nd harmonic which is near the fundamental component inδthe frequency spectrum when f 5 hz
+2,f 50 hz the restraint isnabout 16 in section 3 3 a two cycle hanning window is applied toreplace the one cycle rectangular window thus it will further reducefig 4 angle error φ α vs frequency deviation and initial angle 1 0
+2,the harmonic interference 4 j xing and l muelectrical power and energy systems 123 2020 106199 from 25 the 3rd 6th the3 3n harmonic components are completely removed from 26 the 4th 7th the4
+2,2πf t 2πδft α ns nsn u t u
+2,2πf t 2πδft α 2π 3 c ps psn u
+2,d2t is calculated δang t
+2,2δang t t n δang t t d2f t 20hz
+2,sd2f t n 2 d2t t 36 d2t
+2,2π t 2 3 32 nnβ thiscriterioncandetectananglejumpassmallas0 72degrees theassume the phase angle suddenly jumps degrees at the instantmaximum detection time is half a power cycle the larger the anglet 0
+2,it shall conform to nβ rocof β rocof3 290t t 90tn n nthe calculated second order derivative frequency d2f
+2,2πkδft 2πk 3 π m n k 2 3 4 5 37 fiiec60255 181 speci es the minimum requirements for functionaland performance evaluation of frequency protection 27
+2,2πδft α a m 0n
+2,f f δf q n n n 1
+2,the rated frequency f is the frequency deviation is the initial angle of phase am n kof the k harmonic component performing the fourier transform of a7 and calculating the constructed quadrature voltage v k according to a4 the results are presented inxthe following equations 4v k kπδft x 2 f δf
+2,j 2 f δf 2f sin imag k n n2 k 2 4n n 0 1 2 3 a9 11 j xing and l muelectrical power and energy systems 123 2020 106199fig a2 estimated frequencies at 45 hz based on spsv and cqv with harmonic interferences 4v k kπδft x 2 f δf
+2,n 2f real k n nm k 2 kπδftn j 2 f δf 2f
+2,functionalrequirementsforfault analysis in transmission lines using synchrophasor measurements protection frequency protection iec 60255 181 2019 13
+3,j6 12 16 3 0 987 v x1 1 35 17 j376 99 9 29 60 26 v vc
+3,p t 0 6 26 h
+3,8gen 1373025 26 28 29272383 181gen 91716 24gen 1015gen 639354 14 2112522196 cid 2 cid 2 913711 2310203631
+3,0272 0 1 000 0 transf 40 25 26 0 0032 0 0323 0
+3,0232 0 1 025 0 transf 42 26 27 0 0014 0 0147 0
+3,2396 line43 26 28 0 0043 0
+3,0474 0 7802 line44 26 29 0 0057 0 0625 1 0290 line45 28 29 0 0014 0 0151 0
+3,7794 25 26 0 7089 0 1784 0 0015 0
+3,6405 26 27 2 6275 0 6933 0 0096 0
+3,1603 26 28 1 4083 0
+3,7741 26 29 1 9017 0
+3,2620 0 0191 0 9257 28 29 3 4762 0 2734 0
+3,1 6 no 6 pp 4156 4165 2018 26 m
+3,pv was found to increase the cps2 violations by 26 andfig 9 classification and brief explanation of different types of reserves basedon information from ela et al 2013 muzhikyan
+4,8500 0 1086 0 0 4 230 1 0258 0 0387 0 0 0 0 5 230 0 9956 0
+4,0696 0 0 1 25 0 50 6 230 1 0127 0
+4,90 0 307 230 1 0258 0
+4,0649 0 0 0 08 230 1 0159 0 0127 0 0 1 00 0 359 230 1 0324 0
+4,1474 0 0 0 0 2 230 1 0472 0
+4,1006 0 0 0 0 3 230 1 0286 0
+4,1505 0 0 3 2200 0 0240 4 230 1 0018 0
+4,1682 0 0 5 000 1 8400 5 230 1 0026 0
+4,1507 0 0 0 0 6 230 1 0051 0
+4,1391 0 0 0 0 7 230 0 9936 0
+4,1772 0 0 2 3380 0 8400 8 230 0 9921 0
+4,1858 0 0 5 2200 1 7600 9 230 1 0175 0
+4,1802 0 0 0 0 10 230 1 0155 0
+4,0950 0 0 0 0 11 230 1 0107 0
+4,12 230 0 9983 0 1093 0 0 0 0750 0 8800 13 230 1 0126 0
+4,14 230 1 0100 0
+4,15 230 1 0143 0 1355 0 0 3 2000 1 5300 16 230 1 0310 0
+4,3230 cid 2 17 230 1 0326 0 1279 0 0 0 0 cid 2 18 230 1 0297 0
+4,1440 0 0 1 5800 0 3000 19 230 1 0496 0 0182 0 0 0 0 20 230 0 9910 0 0356 0 0 6 2800 1 0300 21 230 1 0312 0
+4,0664 0 0 2 7400 1 150022 230 1 0495 0 0113 0 0 0 023 230 1 0445 0 0079 0 0 2 4750 0 8460 24 230 1 0366 0
+4,1063 0 0 3 0860 0 9200 25 230 1 0565 0 0766 0 0 2 2400 0 4720 26 230 1 0513 0
+4,0969 0 0 1 3900 0 1700 27 230 1 0369 0
+4,7550 28 230 1 0497 0 0356 0 0 2 0600 0
+4,276029 230 1 0497 0
+5,i ithe instantaneous power is p t v t
+5,b a stationary condition with a frequency different from the refer ence one is not uncommon in power systems the primary frequency regulationis not perfect tracking and after an event e g contingency or load variation the frequency of the system does not recover exactly to the reference ω
+5,page1174 3 power oscillation damping 117p pwhere and are antiwindup limiter functions
+5,page1194 3 power oscillation damping 119vmaxsω vˆ vt s t s 1 t s 1 s sgw 1
+5,3 6 9 0 9837 0 0088 0 0 0 5556 0 2778table a 3 base case power flows and losses in transmission lines and trans formers of the three bus system line p q p qhk
+5,a lima and a padilha feltrin z bustransmission network cost allocation ieee transactions on power sys tems 22 1 342 349 feb 2007 41 a j conejo
+5,an on line topo logical equivalent of a power system ieee transactions on power ap paratus and systems pas 97 5 sep 1978 56 s eftekharnejad v vittal
+5,ly 2wh4hvt 62 ercot concept paper future ancillary services in ercot 2013 63 a m ersdal l imsland and k uhlen model predictive load frequencycontrol ieee transactions on power systems 31 1 777 785 jan 2016 64 n etherden v vyatkin and m
+5,and i kamwa dynamic state estimation in power sys tem by applying the extended kalman filter with unknown inputs tophasor measurements ieee transactions on power systems 26 4 2556 2566 nov 2011 75 e ghahremani
+5,and i kamwa online state estimation of a synchronousgenerator using unscented kalman filter from phasor measurementsunits ieee transactions on energy conversion 26 4 1099 1108 cid 2 cid 2 dec 2011 76 e ghahremani
+5,and i kamwa local and wide area pmu based de centralized dynamic state estimation in multi machine power systems ieee transactions on power systems 31 1 547 562 jan 2016 77 c k gharban
+5,and b j cory non linear dynamic power system stateestimation ieee transactions on power systems 1 3 276 283 aug 1986 78 m j gibbard o pourbeik and
+5,i a hiskens power system modeling for inverse problems ieee trans actions on circuits and systems i regular papers 51 3 539 551 mar 2004 87
+5,stability vol
+5,and g strbac contributions of individual gen erators to loads and flows ieee transactions on power systems 12 1 52 60 feb 1997 107 s k m kodsi
+5,wasynczuk s sudhoff and s pekarek analysis of electricmachinery and drive systems 3rd ed ser ieee press series on powerengineering hoboken nj john wiley sons
+5,f milano e bompard and x guillaud eds converter based dynamics and control of modern power systems london uk academic press 2020 143 a monticelli state estimation in electric power systems a general ized approach ser power electronics and power systems norwell ma springer 1999 144
+5,g k morison b gao and p kundur voltage stability analysis usingstatic and dynamic approaches ieee transactions on power systems 8 3 1159 1171 aug 1993 145 p moutis a vassilakis a sampani and n hatziargyriou
+5,page310310 bibliography 198 h stockman and g hok a note on frequency modulation terminology proceedings of the institute of radio engineers 32 3 p 181 mar 1944 199 b stott j jardim and o alsac dc power flow revisited ieee trans actions on power systems 24 3 1290 1300 aug 2009 200 m swierczynski d
+5,x is a contraction and considering the mean10 antoniol montañoj c castillam jaimeg doloresbm carlosbj 2008 powersystemfrequencymeasurementundernonstation value theorem yields ary situations power deliv ieee trans 23 2 562 56711 dash pk pradhan ak panda g 1999 frequency estimation of cid 4 η g
+5,g x y l x y 31 distorted power system signals using extended complex kalmanfilter power deliv ieee trans 14 3 761 766 cid 4 π2 2 3with 0
+5,093 0 048 15 19 the power generation in area 1 and total power generationsingle agent ddpg 22 0 0122 0
+5,and y xu data driven load frequency control for stochasticr power systems a deep reinforcement learning method witheferencescontinuous action search ieee trans power syst vol 34
+5,no 3 pp 2192 2201 2013 25 n jaleeli l s vanslyck d n ewart l h fink and a g hoffmann 3 w tan unified tuning of pid load frequency controller for power understanding automatic generation control ieee trans power syst systems via imc ieee trans power syst vol 25 no 1 pp 341 350 vol pas 7
+5,h load frequency control in interconnected powerdenoising autoencoders learning useful representations in a deepsystems iet control theory appl vol 10 no 1 pp 67 75 2016 network with a local denoising criterion j mach learn res vol 11 6 h a yousef k
+5,a kharusi m h albadi et al load frequencyno 12 pp 3371 3408 mar 2010 control of a multi area power system an adaptive fuzzy logic 28 a moeini i kamwa p brunelle et al open data ieee test systemsapproach ieee trans power syst vol 29
+5,no 4 pp 3320 3321 2016 microgrid and data analytics for smart grid applications dr xu is an editor for 11 a m ersdal l imsland and k uhlen model predictiveieee t p s ieee t sransactions on ower ystems ransactions on martload frequency control ieee trans power syst vol 31
+5,no 1 pp g ieee p e l and an associate editor for ietrid ower ngineering etters777 785 2016 generation transmission distribution and csee journal of power and 12 f l lewis
+5,chen r ye x wang and r lu cooperative control of powersystem load and frequency by using differential games ieee trans control syst technol vol 23
+5,no 4 pp 1669 1679 2015 16 l yin t yu l zhou et al artificial emotional reinforcement learningfor automatic generation control of large scale interconnected powergrids iet gener transm distrib vol 11 no 9 pp 2305 2313 2017 17 v p singh n kishor and p samuel distributed multi agent0885 8950 c
+5,no 4 pp 3188 3198 jul 2019 dse with fast inverter dynamics and potentially deal with 5 w miller and j lewis dynamic state estimation in power systems mixed slow and fast dynamics can machine learningieee trans automatic control vol 16
+5,no 6 pp 841 846 dec 1971 or other data analytical approaches help improve dse 6 j de la ree v centeno j s thorp and a g phadke synchronizedphasor measurement applications in power systems ieee trans smartperformance in the context of a large amount of data and agrid vol 1
+5,no 1 pp 450 460 jan 2015 11 m netto and l mili a robust data driven koopman kalman filteraggregated model calibration for wind solar farms loadsfor power systems dynamic state estimation ieee trans power syst and ders oscillation source location look ahead
+5,dsa vol 33
+5,no 10 pp 2734 2746 may 2019 already in commercial tools reliability standards and in 15 a rouhani and a abur linear phasor estimator assisted dynamicdustry practices for most dse applications there are stillstate estimation ieee trans smart grid vol 9
+5,pp 1 5 for dynamic state and parameter estimation ieee trans power syst 18 ieee recommended practice for excitation system models for power vol 33
+5,42 no 4 framework for dynamic equivalencing of large power systems usingpp 581 586 apr 1997 wide area phasor measurements ieee trans smart grid vol
+5,g anagnostou f boem s kuenzel b c pal and t parisini 55 j zhao y tang and v terzija robust online estimation of power observer basedanomalydetectionofsynchronousgeneratorsforpower system center of inertia frequency ieee trans power syst vol 34 systems monitoring ieee trans power syst vol 33
+5,no 4 pp 4228 no 1 pp 821 825 jan 2019 4237 jul 2018 56 f milano and a ortega frequency divider ieee trans power syst 33 s weietal model
+5,no 2 pp 1493 1501 mar 2017 assessment with pmu data ieee trans power syst vol 33
+5,no 3 57 s wang j zhao z huang and r diao assessing gaussian assump pp 2463 2476 may 2018 tion of pmu measurement error using field data ieee trans power 34 a p s meliopoulos et al dynamic state estimation based protection delivery vol 33
+5,no 6 pp 3233 3236 dec 2018 status and promise ieee trans power delivery vol
+5,32 no 1 pp 58 j zhao l mili anda go mez expo sito constrainedrobustunscented320 330 feb 2017 kalman filter for generalized dynamic state estimation ieee trans 35 j zhao and l mili a robust generalized maximum likelihood un power syst vol 34
+5,no 3 pp 2327 2337 may 2016 syst vol 33
+5,no 3 pp 831 839 sept 2011 ieee trans power syst vol 31
+5,no 6 pp 654 660 2015 69 a go mez expo sito et al city friendly smart network technologiesand infrastructures the spanish experience proceedings of the ieee vol 106 no 4 pp 626 660 apr 2018 70
+5,vittal g t heydt c r fuerte esquivel andc angeles camacho a dynamic state estimator based control forpower system damping ieee trans power syst vol 33 no 6 pp 6839 6848 nov 2018 71 a paul
+5,no 6 pp 4935 4944 nov 2016 76 s yu t fernando h h iu and k emami realization of state estimation based dfig wind turbine control design in hybrid powersystems using stochastic filtering approaches ieee trans industrialinformatics vol 12
+5,view metadata citation and similar papers at core ac uk corebrought to you byieee transactions on instrumentation and measurement vol 46
+5,10 00 1997 ieee 878 ieee transactions on instrumentation and measurement vol 46
+5,eitherieee trans instrum meas vol im 36
+5,bio med eng vol
+5,pp 469 470 nov 1991 hamming window fig 1 b and c the blackman window 8 b boashash estimating and interpreting the instantaneous frequencyof a signal part i fundamentals part ii algorithms and applications for comparison the results when applying the dft methodproc ieee vol
+5,proc vol 140
+5,pp 477 480 nov 1993 shows results for the voltage waveform with realistic distortion 10 a cichocki and t lobos artificial neural networks for real timein high voltage networksestimation of basic waveforms of voltages and currents ieee trans the computer investigation disclosed a high power syst vol
+5,no 2 3 pp 202 215 may 2009 resulting in has made the system highly unbalanced 3 o vainio and s ovaska digital filtering for robust 50 60 hz zero figs 2 and 3 show that the aipi algorithm outperforms thecrossing detectors ieee trans instrum meas vol
+5,1975 power converter control ieee trans power electron vol
+5,dini d p mandic widely linear modeling for frequency584 592 mar 2007 estimation in unbalanced three phase power systems ieee trans 9 m mojiri
+5,meas vol 62 pp 353 363 feb 2013 estimation of three phase power system ieee trans instrum meas 19 d h
+5,dini d p mandic class of widely linear complex kalman filters vol 59 pp 1793 1802 jul 2010 ieee trans neural netw learn syst vol 23
+5,j i candela r p burgos andd boroyevich decoupled double synchronous reference frame plliii r d for power converters control ieee transactions on power electronics esults and iscussionsvol 22
+5,pp 1 5 19 and v 0 01 90 p u this corresponds to a total 8 a o vediakova a a vedyakov a a pyrkin a a bobtsov andharmonic distortion of 0 5 experimental results in fig v s gromov finite time frequency estimation for multi sinusoidalsignals european journal of control vol 59
+5,i kamwa m leclerc and d mcnabb performance of demodulation implementation of the linear kalman filter is that it directlybased frequency measurement algorithms used in typical pmus ieeeestimates the phase angle not the instantaneous phase astrans power del vol 19
+5,d o abdeslam gridalgorithms ieee trans power electron vol
+5,27 no 1 pp 78 86 voltages estimation for three phase pwm rectifiers control without ac2011 voltage sensors ieee trans power electron vol
+5,abdeslam and s haddad an adaptive875 2017 neural pll for grid synchronization in iecon 2012 38th annual 6 m c kisacikoglu m kesler and l m tolbert single phase on conference on ieee industrial electronics society ieee 2012 pp board bidirectional pev charger for v2g reactive power operation 4451 4456
+5,ieee trans smart grid vol 6 no 2 pp 767 775 2014 29 z chedjara a massoum s massoum p wira a safa and 7 s biricik h komurcugil n d tuyen and m basu protection ofa gouichiche
+5,a novel robust pll algorithm applied to the control ofsensitive loads using sliding mode controlled three phase dvr witha shunt active power filter using a self tuning filter concept in 2018adaptive notch filter ieee trans ind electron vol
+5,and i salgado fast estimation of phasevol 10 no 3 pp 3248 3258 2018 and frequency for single phase grid signal ieee trans ind electron 13 v choqueuse p granjon a belouchrani f auger and m benbouzid vol 66
+5,ieee trans ind informat vol 15 no 11 pp 6035 6047 cid 18 cid 19 xˆnov 2019 ˆ
+5,frequency adaptive parameter estimation of unbalanced and distortedpower grid ieee access vol 8 pp 8512 8519 2020
+5,39 c h huang c h lee k j shih and y j wang a robust techniqueversity of lille 1 france in 2016 he received thefor frequency estimation of distorted signals in power systems ieeeeeci european embedded control institute ph d trans instrum meas vol
+5,no 2 3 pp 202 215 may 2009 resulting in has made the system highly unbalanced 3 o vainio and s ovaska digital filtering for robust 50 60 hz zero figs 2 and 3 show that the aipi algorithm outperforms thecrossing detectors ieee trans instrum meas vol
+5,1975 power converter control ieee trans power electron vol
+5,dini d p mandic widely linear modeling for frequency584 592 mar 2007 estimation in unbalanced three phase power systems ieee trans 9 m mojiri
+5,meas vol 62 pp 353 363 feb 2013 estimation of three phase power system ieee trans instrum meas 19 d h
+5,dini d p mandic class of widely linear complex kalman filters vol 59 pp 1793 1802 jul 2010 ieee trans neural netw learn syst vol 23
+5,pp ٣٦٧ ٣٧١
+5,j z yang c w liu a precise calculation of power system frequencyand phasor ieee trans on power delivery vol ١٥
+5,pp ٤٩٤ ٤٩٩ ٢٠٠٠ ٧
+5,pp ٧٦٥ ٧٧١ ٢٠٠٧ ١٠ p j moor r d carranza a t johns
+5,j i candela r p burgos andd boroyevich decoupled double synchronous reference frame plliii r d for power converters control ieee transactions on power electronics esults and iscussionsvol 22
+5,pp 1 5 19 and v 0 01 90 p u this corresponds to a total 8 a o vediakova a a vedyakov a a pyrkin a a bobtsov andharmonic distortion of 0 5 experimental results in fig v s gromov finite time frequency estimation for multi sinusoidalsignals european journal of control vol 59
+5,lk kirchmayer tie line power and frequency control of electricβ 37 l r c chien n hoonchareon c m ong
+5,h bevrani statistical cooperative power dispatching in interconnected 5 c
+5,fosha oi elgerd the megawatt frequency control problem a new approach microgrids ieee trans sust energy 4 3 2013 586 593 via optimal control ieee trans power app syst pas 89 4 1970 563 577 40 f wilches bernal r concepcion j c neely r h byrne
+5,f milano et al foundations and challenges of low inertia systems pscc 2018 system ieee trans power syst 13 4 1998 1401 1406 12 h bevrani b francois t ise microgrid dynamics and control wiley nj usa 46 m a pai
+5,donde i a hiskens simulation and optimization in a agc system afterjuly 2017 deregulation ieee trans power syst 16 3 2001 481 489 13 g benysek et al application of stochastic decentralized active demand 47 h
+5,bevrani y mitani k tsuji h bevrani bilateral based robust load frequencyresponse dadr system for load frequency control ieee trans smart grid 9 2 control energy conv manage 46 2005 1129 1146 2018 1055 1062 48 s bhowmik k tomsovic a bose communication models for third party load 14 c
+5,bevrani y mitani k tsuji robust decentralized load frequency control using 95 s izadkhast p garcia gonzalez p frias p bauer design of plug in electrican iterative linear matrix inequalities algorithm iee proc gener transm distrib vehicle frequency droop controller for primary frequency control ieee
+5,trans 151 3 2004 347 354 power syst 32 6 2017 4241 4254 65 h bevrani t hiyama robust load frequency regulation a real time laboratory 96 m
+5,he m wu delay dependent robust load 99 p tielens d van hertem receding horizon control of wind power to provide frequency control for time delay power systems ieee trans power syst 28 3 frequency regulation ieee trans power syst 32 4 2017 2663 2672 ˇ 2013 2192 2201 100 m garmroodi g verbic
+5,d j hill frequency support from wind turbine 69 j zhao l mili f milano robust frequency divider for power system online generators with a time variable droop characteristic ieee trans sust energy 9 monitoring and control ieee trans power syst 33 4 2018 4414 4423 2 2018 676 684 70
+5,h khooban t dragicevic f blaabjerg m delimar shipboard microgrids aphase shifter to load frequency control ieee trans appl superconduct 9 2 novel approach to load frequency control ieee trans sust energy 9 2 2018 1999 843 852 71 m andreasson r wiget d v dimarogonas k h johansson g andersson 102
+5,y tofis y yiasemi e kyriakides a plug and play selective load shedding distributed frequency control through mtdc transmission systems ieee trans scheme for power systems ieee sys j 11 4 2017 2864 2871 power syst 32 1 2017
+5,y mitani power system monitoring and control ieee in grid tied dfigs by nonminimum phase zero identification ieee trans power wiley hoboken nj usa jun
+5,f milano analysis of the impact of microgridcontrol of vsg to support frequency stability ieee trans energy conv 32 1 penetration on power system dynamics ieee trans power syst 32 5 2017 397 398 september 2017 4101
+5,f milano a ortega frequency divider ieee trans power syst 32 2 march approach for virtual synchronous generators to suppress frequency and voltage 2017 1493 1501 fluctuations in microgrids appl energy 210 2018 699 710 121 h golpîra a r messina a center of gravity based approach to estimate slow
+5,p q dzung frequency regulation at a wind farm using power and frequency variations ieee trans power syst 33 1 2018 time varying inertia and droop controls ieee trans indus t appl 55 1 2019 1026 1035 213 224 122
+5,f milano a ortega a j conejo model agnostic linear estimation of generatorrotor speeds based on phasor measurement units ieee trans power syst 33 6 2018 7258 7268 10 h bevrani et al e le c t
+5,145 f zeng j zhang y zhou s qu online identification of inertia distribution inand power sharing methods for distribution systems driven by solid state normal operating power system ieee trans power syst 2020 1 1 transformers ieee trans power syst 33 2 march 2018 1473 1483 146 p kundur
+5,y liu fast and accurate frequency response for primary frequency control ieee trans power syst 22 3 aug 2007 estimation for large power system disturbances using second derivative of 1259 1266 frequency data ieee trans power syst 2020 154 m h fini
+5,ieeetransactionsonpowerdelivery vol 21
+5,no 2 pp 696 701 apr 1996 8 m wangandy sun apractical precisemethodforfrequencytrackingand phasor estimation ieee trans power del vol 19
+5,no 4 pp 1547 1552 oct 2004 9 s chung a phase tracking system for three phase utility interface in verters ieeetrans powerelectron vol 15 no 3 pp 431 438 may2000 10 v kauraandv blasko operationofaphaselockedloopsystemunderdistorted utility conditions ieee trans ind appl vol 33
+5,karimi m karimi ghartemani and m iravani estimation of fre quency and its rate of change for applications in power systems ieeetrans power del vol 19
+5,no 2 pp 472 480 apr 2004 12 v terzija m djuric and b kovacˇevic voltage phasor and localsystem frequency estimation using newton type algorithm ieeetrans power del vol 9
+5,m begovic p m duric s dunlop anda g phadke frequencypower and machines engineering from ain shamstrackingin powernetworksin the presenceof harmonics ieeetrans university cairo egypt in 1975 and 1980 respec power del vol 8
+5,no 2 pp 480 486 apr 1993 tively and the ph d degree in electrical engineering 2 m akke frequency estimation by demodulation of two complex sig from the university of manitoba winnipeg mb nals ieeetranspower del vol 12
+5,i kamwa m leclerc andd mcnabb performanceofdemodulation currently he is a professor in the department ofbasedfrequencymeasurementalgorithmsusedintypicalpmus ieeeelectricpowerandmachines ainshamsuniversity trans power del vol 19 no 2 pp 505 514 apr 2004
+5,i k sin dealing with the non gaussianity and nonlinearityωsof the power systems it should be pointed that the ω ω t p d ω ω t
+5,5 10 15 20 25time s area pmu based decentralized dynamic state estimation in a multi machine power systems ieee transactions on powerthe actual state systems 31 1 547 562 0 85r ukf0
+5,maskell s gordon n clapp t data ieee transactions on power delivery 33 6 3233 2002 a tutorial on particle filters for online nonlinear non gaussian bayesian tracking ieee transactions on signal 3236 processing 50 2 174 188 27 zhang s
+5,singh a k qi j huang z meliopoulos a p s 2019 powersystem dynamic state estimation motivations definitions methodologies and future work ieee transactions onpower systems 34 4 3188 3198 30 zheng y ozdemir o
+5,pp 111 136 srinivasan d mar 2020 local reactive power dispatch optimisation minimising chapter 5 global objectives appl energy 262 cui m
+5,j rser 2016 11 170 energy 4 2 350 357 198 o gandhi et al solar energy 210 2020 181 201hooshyar h member s baran m e 2013 fault analysis on distribution feeders with 190 902 910 https doi org 10 1016 j apenergy 2017 01 013 high penetration of pv systems ieee trans power syst 28 3 2890 2896 lave m
+5,j berzolla z m farid ieee power and energy society general meeting 2014 octob october pp 1 5 a m 2019
+5,wong k p 2017 a comprehensive for power systems design testing and analysis ieee power energy technol syst j 2review on large scale photovoltaic system with applications of electrical energy 2 63 73 storage renew sustain energy rev 78 439 451 https doi org 10 1016
+5,sánchez c e thomas r j 2011 matpower steady statesystems electr power compon syst 43 12 1352 1363 operations planning and analysis tools for power systems research and education you s
+5,liu y zhang x su y wu l liu y hadley s w 2017 impact of high pv ieee trans power syst 26 1 12 19 penetration on u s eastern interconnection frequency response in 2017 ieee power201
+5,bravo j c 2008 power systemfrequency measurement under nonstationarysituations ieee transactions on power delivery 23 2 562 567 11 uzunoğlu c çekli s uğur m 2011 adaptivefrequency estimation of distorted power system signalse issn 2148 2683 675
+5,accurately12 jes vol 50 no 1 pp 9 24 january 2022
+5,f aziz et al instantaneous frequency estimation algorithm for power systems4 4 3 signal containing white noise f 50
+5,jes vol 50 no 1 pp 9 24 january 2022
+5,3 sec20 jes vol 50 no 1 pp 9 24 january 2022
+5,no 5 may 2011 15 dun pei1 and yili xia robust power system frequency estimation based on a sliding windowapproach hindawi mathematical problems in engineering volume 2019 article id 325425823 c
+5,the on going liberalization of the energy connection face increased problems with respect tomarkets the pressing demands for power system their operation and control
+5,p k dash b r mishra r k jena and a c liew estimationof power system frequency using adaptive notch filters in proc empd 98 ieee catalog no
+5,51 pp 469 479 june 2002 6 i kamwa and r grondin fast adaptive schemes for tracking voltagephasor and local frequency in power transmission and distribution sys houshangkarimi m
+5,and a t p so real time frequencyand harmonic evaluation using artificial neural networks ieee trans power delivery vol 14
+5,hht 0 250 0 0 0 0 1 0 0 0 250 0 0 0 0 1 www intechopen com kalman filter on power electronics and power systems applications 413fig
+5,no 1 january 2001 pages 110 117 issn 0885 8993 cardoso r de camargo r f pinheiro h gründling h a 2006 kalman filter basedsynchronisation methods the 37th ieee power electronics specialists conferencepesc pp 1 7 isbn 0 7803 9716 9 june 2006
+5,jeju korea chien hung huang chien hsing lee kuang jung shih yaw juen wang 2008 frequency estimation of distorted power system signals using a robustalgorithm ieee transactions on power delivery vol 23
+5,d g galloway j 2005 power converter line synchronizationusing a discrete fourier transform dft based on a variable sample rate ieeetransactions on power electronics vol
+5,p j 1984 simulation methods for optimum performance estimation ofanalog and computer impedance relays ieee transactions on power apparatus andsystems vol pas 103
+5,moreno v m liserre m pigazo a dell aquila a 2007 a comparative analysis ofreal time algorithms for power signal decomposition in multiple synchronousreference frames ieee transactions on power electronics vol 22
+5,deckmann s m marafão f p 2005 frequency adjustable positivesequence detector for power conditioning applications ieee 36th power electronicsspecialists conference pp 1928 1934 isbn 0 7803 9033 4 recife brazil pádua m s
+5,ha s k park j w kweon d j kim k h 2006 hybrid load forecastingmethod with analysis of temperature sensitivities ieee transactions on powersystems vol
+5,f 1 aassume the power signal v t is represented by 1s
+5,dunlap s arun g p 1993 frequency tracking in power networks inthe presence of harmonics ieee trans power del 8 2 480 486 8 giray m m sachdev
+5,no 2 pp 437 443 1985 3 v terzija and m djuric a numerical algorithm for direct real timeestimation of voltage phasor frequency and its rate of change electr mach power syst vol 24 pp 417 428 1996 4 a a girgisandt l
+5,d hwang optimalestimationofvoltagephasorsand frequency deviation using linear and nonlinear kalman filtering ieee trans power app syst vol pas 103
+5,no 1 pp 109 115 jan 1998 6 p k dash a k pradhan and g panda frequency estimation ofdistorted power system signals using extended complex kalman filter ieee trans power del vol 14
+5,no 3 pp 761 766 jul 1999 7 m akke frequency estimation by demodulation of two complex sig nals ieeetrans powerdel vol 12 no 1 pp 157 163 jan 1997 8 l l lai w l tse c t chan and a t p so real time frequencyand harmonic evaluation using artificial neural networks ieee trans power del vol 14
+5,no 1 pp 52 59 jan 1999 9 k m el naggarandh k m youssed ageneticbasedalgorithmforfrequency relaying applications elect power syst res vol 55 pp 173 178 2000 10 a feuer and e weinstein convergence analysis of lms filters withuncorrelated gaussian data ieee trans acoust speech signal pro cessing vol 33
+5,no 1 pp 222 229 1985 11 b widrow j mccool and m ball the complex lms algorithm proc ieee vol 55 pp 719 720 1974 12 t aboulnasr and k mayyas a robust variable step size lms typealgorithm analysis and simulations ieee trans signal processing vol
+5,no 3 pp 631 639 mar 1997 13 r h kwongande w johnston avariablestepsizelmsalgorithm ieeetrans signalprocessing vol 40
+5,pp 793 800 june 2016 bias and sensitivity to initial conditions the contributions are 9 a routray a k pradhan and k p rao a novel kalman filter for fre outlines as follows quency estimation of distorted signals in power systems in ieee trans actions on instrumentation and measurement vol 51
+5,menegaz j y ishihara g a borges and a n vargas afrequency estimation accuracy even when the noise levelsystematization of the unscented kalman filter theory in ieee trans is as high as 10 of signal amplitude actions on automatic control vol
+5,oct 2015 16 ieee standard for synchrophasor measurements for power systems amendment 1 modification of selected performance requirements inieee std c37 118 1a 2014 amendment to ieee std c37
+5,118 1 2011 vol no pp 1 25 apr 2014
+5,1670 ieeetransactionsoninstrumentationandmeasurement vol 58
+5,sm 03 wasbornincoimbra sation ieee trans instrum meas vol
+5,s and ph d degrees in electrical andvol 51 no 2 pp 287 292 apr 2002 computer engineering from the technical univer 7 d belega and d dallet frequency estimation via weighted multi sity of lisbon lisbon portugal in 1985 and 1992 point interpolated dft iet sci meas technol vol 2
+5,d kovacevic voltagephasorandlocalsystemfrequencyestimationusingnewtontypealgorithm ieeetrans power del vol 9 no 3 pp 1368 1374 jul 1994 4 p k dash a k pradhan and g panda frequency estimation ofdistortedpowersystemsignalsusingextendedcomplexkalmanfilter ieeetrans power del vol 14
+5,no 3 pp 761 766 jul 1999 5 a routray a k pradhan and k p rao a novel kalman filterfor frequency estimation of distorted signals in power systems ieeetrans instrum meas vol
+5,51 no 3 pp 469 479 jun 2002 6 a a girgisandw l peterson adaptiveestimationofpowersystemfrequencydeviationanditsrateofchangeforcalculatingsuddenpowersystemoverloads ieeetrans powerdel vol
+5,5 no 2 pp 585 594 apr 1990 7 a k pradhan a routray anda
+5,basak powersystemfrequencyes timationusingleastmeansquaretechnique ieeetrans powerdel vol
+5,no 3 pp 1563 1573 jul 1992 the coefficients in 15a and 15b are 15 j ren and m kezunovic real time power system frequency andphasor estimation scheme using recursive wavelet transform ieeetrans power del vol 26
+5,borras andj c bravo powersystemfrequencymeasurementundernonstationarysituations ieee trans power del vol 23
+5,no 2 pp 562 567 apr 2008 19 k m el naggarandh k m youssef ageneticbasedalgorithmforfrequency relaying applications elect power syst res vol 55
+5,no 3 pp 173 178 2000 20 l l laiandw l chan realtimefrequencyandharmonicevalua tionusingartificialnetworks ieeetrans powerdel vol
+5,14 no 1 pp 52 57 jan 1999 21 j yangandc liu aprecisecalculationofpowersystemfrequency ieeetrans power del vol 16
+5,powerdel vol 22
+5,power system frequency estimationj szafranw rebizantindexing term algorithm power system frequency sigiial componentsmethod described in 2 t
+6,cos θ j sin θ cid 2 cid 3 v average quantityv measurementv optimal value value estimated using measurements cid 2 cid 2 v vector with elements sorted in descending order v moore penrose pseudo inverse of v v transpose of v 1v inverse of v vv jacobian matrix of v with respect to x
+6,h h 2 3another generalized signal model that also include an exponentially decaying component andwhite noise ξ is cid 4 n cid 2 cid 3 u t a t cos ω t t θ a t
+6,i cid 2 cid 2 expression p t v t
+6,i t 2i sin ω t φ o cid 7 where δω ω the instantaneous power obtained for the voltage and cur o orent in 1 13 is cid 2 cid 3 p t
+6,02 ms and t 10 s hence t 500t figure 1 4 confirmsδ δ cid 6 cid 2 cid 3 that for δω 0
+6,i 1 a φ π 4 rad withoδω 2π 0 1 rad s o cid 2 cid 2 1 51 w rewop0 50p 0
+6,i i φ s is also called apparent power which is an unfortunate ex pression as electric power is all but apparent cid 2 cid 3 consistently p re s p
+6,θ θ cid 2 cid 2 for simplicity and since v is an odd function a discrete sine transformθ dst which takes real values can be used instead of the complex dft asfollows cid 6 n 12 vˆ
+6,t t o cid 6 h r c t
+6,leadsthe d axis the q axis is initially aligned with phase a the inverse transformation from the dqo to the abc representation is 1v t p t v t 1 46 abc dqo cid 2 cid 2 where sinδ t cosδ t 1 dq dq 1 cid 4 cid 4 p t 1 47 sinδ t cosδ t 1 dq dq cid 4 cid 4 cid 4 cid 4 sinδ t cosδ
+6,ω then the park vector is a phasor fordq oexample applying the park transform to the stationary three phase system in 1 33 and using the convention of figure 1 11 one has cid 2 cid 2 cid 3 cid 2 v 2v sin θ j cos θ j 2v 2v exp jπ 2 1 53 dq o o a a cid 2 cid 3 where v v cos θ j sin θ
+6,d o cid 2 cid 3 1 67 v t 2v cos
+6,q o cid 2 cid 2 the time derivatives of the two components above are cid 2 cid 3 d v t δω t 2v cos δθ t θ
+6,d o qdt 1 68 cid 2 cid 3 d v t δω t 2v sin δθ t θ
+6,δω t v t q o ddtwhere cid 23 cid 2 cid 3 cid 24 d
+6,dq o dqdt cid 2 cid 3 1 70 j δω t ω v t
+6,l dq 2 dqω co cid 21 cid 21 cid 22 cid 22 2 5 1 r j x i t v t 1 l l dq 2 dqbcwhere the terms x ω l and b ω c are a reactance and a susceptance l
+6,h t r dr 2 12 1 t 0 where is the dirac delta function then the following expression solves theset of differential equations 2 6 cid 19 cid 21 cid 22 cid 20 ζ t ωˆv 2 vref v t v δv 1
+6,t x t n n x y 2 15 dt cid 2 cid 2 r 0
+6,i b v l d c c q cid
+6,current i in absolute values one has l dq cid 21 cid 22 cid 2 cid 3 d
+6,g s dqdt cid 2 cid 2 1 dwhere
+6,s d efdt dt 2 33 d d cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 t e t t e
+6,d cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 t e t e t e t
+6,x x i t do r q r q r q d cid 7 s ddt 2 34 d cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 t e t e t
+6,i t qo r d r d r d q cid 7 s qdtwhere cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 t
+6,d d2 do qo q q q2 qo cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 x x 1 γ x x 1 γd1 q q q1d dγ γ d2 cid 4 cid 4 q2 cid 4 cid 4 x x 2 x x x x 2 x x 2 35 d cid 7 d cid 7 q cid 7 q cid 7 cid 4 cid 4 cid 4 cid 4 x x x x cid 7 q cid 7 dγ γ d1 cid 4 q1 cid 4 x
+6,d d s d d1 r q d1 r q 2 36 cid 4 cid 4 cid 4 cid 4 cid 4 0 ψ
+6,26 2 27 2 21 2 23 2 25 2 28 2 30 2 33 2 34 and 2 36 with the notation of 2 15 and omitting for simplicity the dependencyon time one has a dae system with n 8 n 9 and n 4 where thex y uvectors of variables are cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 x δ ω e e e e ψ ψ g g r q r d r q r d s d s q y τ v
+6,1g τ τ d ω 1 m eg cid 4 cid 4 e
+6,q d d s d ef cid 4 cid 4 e x x i q s q r d qf cid 4 cid 4 cid 4 cid 4 e e x x i r q r q d cid 7 s d cid 4 cid 4 cid 4 cid 4 e e x x i r d r d q cid 7 s q
+6,s q cid 2 cid 2 2 38 ψ
+6,d cid 4 cid 4 cid 4 cid 4 cid 4 ψ x
+6,d d1 r q d1 r q cid 4 cid 4 cid 4 cid 4 cid 4 ψ x i γ e 1 γ e s q s q q1 q1 q r d r d v
+6,cid 4 cid 4 cid 4 0 0
+6,do do cid 4 cid 4 cid 4 0 0 0
+6,t 0 0t qo qo cid 4 cid 4 0 0 0 0
+6,2 39 do cid 4 cid 4 0 0 0 0 0 t 0 0
+6,cid 4 cid 4 cid 4 cid 4 t e t e
+6,d d s d ef cid 2 dt cid 2 2 41 d cid 4 cid 4 cid 4 cid 4 t e t e
+6,s qqo r d r d qdtand cid 4 cid 4 0 ψ
+6,s d r q 2 42 cid 4 cid 4 0 ψ
+6,and ψ 0 s d s qdt dtsubstituting 2 36 into 2 32 leads to cid 4 cid 4 cid 4 cid 4 cid 4 0
+6,γ e t v t a s d q s q q1 r d q1 r d s d 2 44 cid 4 cid 4 cid 4 cid 4 cid 4 0
+6,γ e t v t a s q d s d d1 r q d1 r q s qwhich can be conveniently rewritten in complex form by taking the first equa tion plus j times the second equation and multiplying by exp jδ g cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 γ e t 1
+6,qr d r d q d cid 4 cid 4 cid 4 j γ e t 1
+6,jδ t 2 45 cid 2 d1 r q d1 r q g cid 2 cid 4 cid 4 r
+6,s dq s dqd g gand substituting the expressions of 2 21 and 2 23 cid 4 cid 4 cid 4 cid 4 e t exp
+6,dq h dqdq g d cid 4 cid 4 where e is the equivalent internal emf of the machine which is a functiondqof both transient and subtransient quantities cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 cid 4 e t γ e t 1
+6,x x i t q1 q1 s qdq r d r d q d 2 47 cid 4 cid 4 cid 4 j γ e t 1
+6,g c classical equivalent cid 2 cid 2 figure 2 5 equivalent circuit representations of the synchronous machine transient quantities only cid 4 cid 4 cid 4 cid 4 cid 4 e t e t
+6,4 je je and the internal reactance is taken as the average of the d andg qq axis reactances as 1 cid 4 cid 4 cid 4 cid 4 x x for subtransient dynamics d q2 cid 2 cid 3 x 2 50 dq 1 cid 4 cid 4
+6,θ t 2 51 cid
+6,dq h h cid 2 2 cid 2 cid 3 or equivalently v t v t sin
+6,d h h cid 2 cid 3 2 52 v t v t
+6,hi t 2 53 h cid 4 r jxadand the complex power injected by the generator into the grid cid 2 cid 3 cid 4 cid 4 2 e e v t
+6,h h cid 4 r jxadfrom where neglecting losses one can obtain the active power as cid 4 cid 2 cid 3 e v t
+6,2 60 cid 2 cid 3 d m ω t
+6,page6060 2 power system modelsimple but versatile voltage and frequency dependent load model is presentedin this section as follows cid 21 cid 22 γv t
+6,hvh o cid 21 cid 22 2 61 γv t qβ
+6,o p q p qbehavior the determination of ω is more elaborated the reader is referredhto section 3 3 for a description of conventional methods and to chapter 5 forthe unconventional approach discussed in this book the current injections from the load into the bus h are cid 31 cid 31 cid 19 cid 20
+6,i t v t v t 1 p t cid 2 h
+6,d h q cid 2 d 2 63 v2 t
+6,i cid 2 cid 2 h q q dd
+6,k d k q μ d μ q cid 4 cid 4 y v v v v v v
+6,q k d k q cid 4 cid 4 cid 4 2 2v v a r
+6,i a x ih dk d t k d t k q cid 4 2 cid 4 2 cid 4 v v a r
+6,μ μ q v x ih q μ μ d 1 cid 4
+6,d μ d k dr fe 1 2 74 cid 4
+6,q μ q k qr fe cid 4 acos φ v asin φ v vg k d k qk d cid 4 acos φ v asin φ v v k q k d k q cid 2 cid 2 cid 4 cid 4 acos φ
+6,dk d k q cid 4 cid 4 acos φ
+6,y y hh hk hl l a2 tn l t cid 2 m n cid 2
+6,hk hk cid 6 cid 6 1 m ny
+6,tm nhk hk 2 78 cid 6 cid 6 1 m ny
+6,tm nhk hk cid 6 cid 6 cid 2 cid 3 m m ny
+6,39 309 11 604 10 511 0 0 0 0 0 0 11 604 17 338 0 5 975 0 0 0 0 0 10 511 0 15 841 0 0 5 588 cid 2 cid 2 0 16 000 0 0 5 975 0 35 446 13 698 0 0 0 0 0 0 0 13 698 23 303 9 784 0 0 17 065 0 0 5 588 0 9 784 32 154voltages as follows cid 31 cid 31 cid 31 cid 31
+6,cid 2 cid 2 0 0 0 0 0 0 0 0 0 0 0 0 3 307 1 365 1 942 0 0 0 0 0 0 1 365 2 553 0 1 188 0 0 0 0 0 1 942 0 3 224 0 0 1 282 0 0 0 0 1 188 0 2 804 1 617 0 0 0 0 0 0 0 1
+6,bk cid 6 cid 23 cid 24 bq v g v b v v g v b v
+6,page7272 2 power system modelbwhere is the set of network buses these equations can be convenientlyrewritten in polar form cid 6 cid 2 cid 3 bp v v g cos θ b sin θ
+6,cid 6 2 88 cid 2 cid 3 bq v v g sin
+6,d h q cid 21 cid 22
+6,ε μ 3 5 n 1η ε z ε μ cid 2 cid 2 l 0 η z η ε 3 6 n 1η μ z ε μ 3 1 1 weighted least squares problemin general the vector of measurement functions η is nonlinear and the jaco bian matrix h has nonconstant elements
+6,page853 2 introducing dynamics 85to be known as follows cid 2 cid 3 dθ z t l z t
+6,ythen the dae in 3 17 is formulated through a discrete time approximation in the form cid 2 cid 3 0
+6,k k 12 cid 2 cid 2 where l l z u and l l z u k k k k 1 k 1 k
+6,then the solution of the ekf consists in two steps predict and update as follows predict predicted state estimate determine z by solving 3 20 with initial k k 10condition z z and applying an iterative solver e g the k 1 k 1k k 1newton method one has cid 2 cid 3 cid 2 cid
+6,λ λ z z u u k k z k k k 1 k k 1 cid 23 cid 24 cid 2 cid 3 3 26 1 1i 1
+6,page873 2 introducing dynamics 87 cid 2 cid 3 cid 2 cid 3 d
+6,4 1 d cid 2 cid 2 1 ω δ t ω t 1 o g gdt 3 28 cid 2 cid 3 d m
+6,ω the inputg gvector is u p p the process is m e cid 31 cid 31 1
+6,ω t 1o g cid 2 cid 3 θ l 3 29 0 m p
+6,and h in 3 27 are constant z z cid 31 1 cid 23 cid 24 ω 0
+6,d h qused in section 1 4 4 4 cid 2 cid 3 v t v t sin θ t v t s
+6,h h θ h cid 2 cid 3 3 39 v t v t cos θ t v t
+6,t 3 44 h fi p cid 2 cid 2 d
+6,ω δω t 3 45 h o hdtin turn the srf pll takes the phase angle of the measured voltage phasoras reference frame of the local dq axis in transient conditions such a referenceis tracked with error cid 10 θ cid 2 cid 3 v t jv t v t sin cid 10 t j cos cid 10 t 3 46 h
+6,f3 3 2 2 enhanced kalman filter pll assuming that one can measure θ the continuous version of the ekf can behwritten as a set of linear daes which has thus gain matrix k as well asconstant covariance matrix π as follows cid 2 cid 2 cid 3 cid 2 d θ z t lz t k t η t η z t 3 48 dt where z θ δω η θ η θ
+6,i andh h h h 2 cid 19 cid 20 cid 19 cid 20 0 ω 2k ωo o ol k 0 0
+6,ø u ω 4 10 δcoi cid 23 cid 24 f k 1 ω
+6,d t t v t v t v t cid 2 r r h r cid 2 dtdref t v t v v t v t v t b b f brdtdmaxz t z t t v t
+6,1 2 d cid 2 cid 3 max 0 if v t v and v t 0
+6,otherwise d cid 2 cid 3 min 0 if v t v and v t 0
+6,d f b v v z r1 a a 1dt cid 2 cid 3 max min z z k v zˆ v zˆ v
+6,k 2 of f k k1 024 0 5 cid 2 0
+6,i id q refref qv refi interface qk ki 2 i 3 cid 2 s s cid 2 iabch hgridfigure 4 14 scheme of fast frequency rocof and voltage controls of ders cid 4 rimplemented as a pi control with integral deviation see figure 4 15 b fc 115 156
+6,o h o cid 2 cid 2 ref θ θak tcl 1 tclph o 4 30 ph omaxg
+6,g 1 0041 002 1 0021 1 cid 2 cid 2 0
+6,y t e t 5 3 bb b bg gwhich remembering 2 84 can be approximated as 0 b t v t b t e t 5 4 bb b bg gwhere cid 2 cid 3 v t v t
+6,exp jθ t b cid 2 cid 3 b b 5 5 e t e t
+6,bb bdt b b dt b cid 21 cid 22 cid 2 cid 3 d d 5 6 b t e t
+6,d b t v t b t e t bb b bg gdt dtor equivalently cid 21 cid 22 cid 2 cid 3 cid 2 cid 3 d d
+6,jθ t j θ t v t bb bdt b b b b dt b cid 2 cid 2 cid 21 cid 22 cid 2 cid 3 cid 2 cid 3 d
+6,e t bb b bg gdt dt 5 7 or equivalently cid 19 cid 21 cid 22 cid 20 d
+6,u t j θ t v t b t v t bb b bb bb dt b dt cid 19 cid 21 cid 22 cid 20 5 8 d d b t u t
+6,k cid 19 cid 20 cid 19 cid 20 cid 19 cid 20 5 16 1 1 1 1 δω t h0
+6,i cid 19 cid 20 cid 19 cid 20 x x 1 1 δω
+6,h kx xhk hkand since x x x the expression 5 17 is valid also for total fre hi ik hkquencies not only for their variations hence x xik hi cid 2 cid 2 ω t ω t ω t 5 18
+6,δωi t bi δω t bb b bg gwhere cid 15 cid 2 cid 3 cid 16 1 ii
+6,y y bb bb bb bb bb cid 15 cid 2 cid 3 cid 16 1 ie ie ee eebie im
+6,y y y y bg bg bb bb bg cid 15 cid 2 cid 3 cid 16 1 ii
+6,g 5 23 di δω t gwhere cid 2 cid 3 1 die bii bie bb bg cid 2 cid 3 1 dii bii bii bb bgand di die dii since they depend on the inverse of the admittance matrixof the external region ward equivalents tend to be characterized by densematrices i e everything connected with everything
+6,y y y v t u ug um uu uand following the same derivations discussed in the previous section the fdf 5 13 becomes cid 19 cid 20 cid 23 cid 24 δω t g0 b δω t b b 5 38 uu u ug umδω t m
+6,6bδω t 17 065 32 154 0 5 588 9 784 9bδω t 8b cid 19 cid 20 δω t
+6,044 1 353 102 0 0681 174 160 0 024 1 010 82 0 038 cid 2 cid 2 1 011 29 0 052 1 011 82 0 0381 013
+6,b b 6 4 busbb g where b is a diagonal matrix where the i th element is 1 x with x the i ig g ginternal impedance of the generator connected to bus i and 0 if no generatoris connected to bus i merging together 5 13 6 3 and 6 4 one obtains cid 23 cid 24 cid 4 p t ω
+6,bb2or equivalently cid 23 cid 24 cid 4 ˆ p t b δω t
+6,bg cid 2 or equivalently cid 23 cid 24 b δω t
+6,δω t 6 8 1 12 10 1 12 2g g b b b cid 2 cid 3 where b 1 x is the inverse of the internal impedance the synchronousg dq3machine
+6,6 9 cid 2 cid 2 1 12 1 2b b bwhere consistently with the assumptions that lead to the fdf and without cid 8 loss of generality b b is assumed the term b δω δω in 6 9 12 10 cid 2 cid 2 1bis not known according to 6 6 6 9 can be also written as cid 2 cid 2 cid 23 cid 24 cid 4 ˆ p t b δω t
+6,page1856 3 taxonomy 185the total power consumption of the vdl p can be split into the twodcomponents as in 6 2 cid 4 cid 4 cid 4 p t
+6,h h hultimately requires to vary the voltage phase angle for an ideal constant powerload the following conditions hold cid 4 cid 4 cid 4 p t 0
+6,b hk cid 2 cid 3 p b v t v sin θ
+6,hk h k hd cid 2 cid 3 cid 2 cid 3 0 b v sin
+6,hk h k h h cid 2 cid 3 0
+6,hk h k h kd h cid 2 cid 3 g v t b v t sin
+6,γ 1 and p v this is the dual case with respect to the con p hdstant admittance load in fact for an ideal constant current load the followingconditions hold cid 4 cid 4 cid 4 p t p t
+6,h hb b bthe rationale behind 6 26 can be deduced for a purely constant current cid 2 cid 2 load connected to a bus with nonconstant voltage v v θ through a losslessk k kline with admittance b hk cid 2 cid 3 i v t b v t v t sin
+6,hk h k h kd cid 2 cid 3 i b v t
+6,δω t 6 30 3 9 6 8b b b b17 06 17 06 17 06 cid 2 cid 2 which can be readily deduced from the last row of table 6 1 cid 4 cid 6 simulation results show that as expected at the generator bus p 3b cid 4 0 after the load outage whereas at the load bus p 0
+6,04 0 02 cid 2 0 06 cid 2 0
+6,bg 0 2p cid 2 δ bb cid 2 cid 2 pδ0 15 cgp cid 2 δ cb 0 1 0
+6,01 s wm up wm up δ cid 2 p cid 2
+6,50 100 150 200 250 300time s a rocop 0 25bus b 0 2bus c cid 2 cid 2 0 15 0 1 0 050 0
+6,wm up s wm up cid 2 p cid 2 p0 0 01h h bb 0 02 bus bbus c 0
+6,δω t b g cid 2 cid 3 s t 0
+6,1 0 0 u b n 1 n n b b g bb 0 b b 0n 1 n nbg bbb b band cid 23 cid 24 s 0 0 0
+6,b 8 21 1 n n n n nbbb g b b bthen one has cid 23 cid 24 1dj t dω t dε t dμ t
+6,j sdω t 8 22 g b b bfrom which one can obtain the sensitivities of all primal and dual variableswith respect to δω b cid 19 cid 20 j t ω t ε
+6,ω t b b b b cid 2 for example from 8 23 one can obtain cid 2 ω t g 1 b hb b hb 8 24 bg bg
+6,5 1 1 5 2 2 5 3 3 5 4time s figure 8 5 actual rotor speed ω of the synchronous machine 1 and the 1gestimated quantity ω considering different sets of pmu measurements 1g cid 2 cid 2 the resulting state estimation problem is cid 2 cid 3 16 2 6 2min j t 10 ε t 10 ε t 1 42 b b δω ε
+6,ε g 1 b 1 b 4 cid 2 cid 3 s t 0 12 682δω t 30 04
+6,ms cid 2 cid 2 1354g1 005ω
+6,sm yaledtnemerusaem zh up ycneuqerf12510075502500 0 2 0 4 0 6 0 8 1time s figure 8 13 aiits time varying delay cid 2 1 0002 cid 2 1 000110
+6,b p1 0021 00110 9990 9980 9970 9960 2 4 6 8 10time s a all measures available1 005ωnicoi1 004ω ni cid 2 cid
+6,he b ixi xih hand then estimate the frequency of the coi as cid 2 cid 2 xi xeω t coi ω t coi ω t 8 46 coi e ix xei eior after some algebraic manipulations cid 2 cid 3 m xe ei ω t
+6,i t hd cid 2 cid 21 d cid 22 cid 2 v t h
+6,t v t a s d s q s d hg 9 9 cid 2 cid 3 0
+6,002 0 002 cid 2 a cid 4 t s 4 2 4 2do cid 4 cid 4 t s 0 04 0
+6,04do cid 4 t s 3 0 3 0qo cid 4 cid 4 t s 0 02 0 02qox pu ω 0
+6,9111 0 9111d cid 4 x pu ω 0
+6,408 0 408d cid 4 cid 4 x pu ω 0
+6,cid 7 x pu ω 0
+6,58 0 58q cid 4 cid 4 x pu ω 0 3 0
+6,1490 line 9 9 8 0 0119 0 1008 0 2090 linetable a 9 base case power flow solution of the wscc system cid 2 cid 2 bus v v θ p q p qbg g
+6,9216table a 12 data of the synchronous machines of the wscc system cid 4 cid 4 cid 4 cid 4 v m t
+6,25581 0 line13 6 13 0 06615 0 13027 0 line cid 2 cid 2 14 7 8 0 0 17615 0 1 000 0 transf 15 7 9 0 0 11001 0 line16 9 10 0 03181 0
+6,0007 0 0015 cid 2 cid 2 6 13 0 1774 0
+6,0041 0 0041a cid 4 t s 7 4 6 1 6 1 4 75 4 75do cid 4 cid 4 t s 0 03 0 04 0
+6,04 0 06 0 06do cid 4 t s 0 0 3 0 3 1 5 1 5qo cid 4 cid 4 t s 0
+6,x pu ω 0 2995 0 185 0 185 0 232 0 232d cid 4 cid 4 x pu ω 0
+6,134 0 134 cid 7 x pu ω 0
+6,0729 line cid 2 cid 2 20 10 32 0 0 0200 0 1 070 0 transf 21 12 11 0 0016 0
+6,7707 0 0054 0 0165 cid 2 cid 2 10 13 2 8480 0 3906 0 0032 0
+6,5488table a 26 data of the synchronous machines of the new england system cid 4 cid 4 cid 4 cid 4 machine v m t
+6,6200 0 1660 cid 2 cid 2 6 18 0 69 6 7 30 0 40 0 2540 0 0500 0 2410 0
+6,01 cid 4 cid 5 cid 3 j2π f j2π fk 0 02
+6,fs e fs 4 o 0 03k cid 4 cid 5 cid 6 cid 7 cid 6 cid 7 cid 6 cid 7 cid
+6,p pb convergence analysis w αdefining n k t as another variable k and usingpdouble angle identity we get for analysis 18 can be rewritten as cid 4 cid 5 1 2 w π cid 2 π2 cid 2 3u n a 1 cos 2k cos2 k m t 23 2 f fp n cid 2 2 f f sin 30 n 1 oπ2
+6,3 g x becomes a contractionsin 1 25 cid 6 2 f 2 u n o 2 ontheinterval 0 3 with g x rangingintheinterval 2 497 2 502 so from contraction mapping theorem 30 has a cid 6 cid 6 where and are random errors in the numerator and1 2 cid
+6,3 giveng xdenominator terms arising due to errors in the samples the 8fo cid 4 cid 4 π2 cid 4 x errorinfrequencyestimateisminimized ifthesinusoidvalue and g x g x is monotonically increasing on 0
+6,like pll based lkf thecorrection proposed implementation can be considered as less sensitiveto phase jumps cid 0 cid 1 1t tk p c c p c r 5a the rest of the article is organized as follows sec iin n n 1 n n n n 1 n cid 0 cid 1 describes in detail the proposed alternative implementation ofxˆ xˆ
+6,k y c xˆ 5b n n n n 1 n n n n 1kalman filter comparative numerical simulation and experi cid 124 cid 123 cid 122 cid 125 emental studies are given in sec iii sec iv concludes this nt tp
+6,k s2hcomputational efficiency of the pf algorithm is always i cid 2 cid 3 1b one of the major issues for its applications in power sys tems and the model decoupling technique of the power 1 e e e
+6,i di ktd0 i cid 2 in practical power systems the pmu measurements e t 1c fdi kcould be contaminated by outliers due to the unpre cid 3 1dictable instrument failures communication impulses
+6,l dw þ mdw ðn cid 5 1þ 4
+6,cid 3036 w cid 4666 cid 1863 n cid 4667 cid 3404 as cid 1874 t cid 3036 h cid 4666 cid 1863 e cid 3398 in cid 883 q cid 4667 ucaodsratur cid 3398 e cid 1874 c
+6,h cid 3404 at cid 3495 if cid 2871 cid 4670 cid 1874 cid 3548 a cid 3028 cid 2869 n cid
+6,4666 d cid 1863 cid 4667 cid 3397 w cid 1874 cid 3548 e cid 3029 r cid 2869 e cid 4666 cid 1863 se cid 4667 t cid 3397 to cid 1874 cid 3548 cid 3030 a cid 2869 t cid 4666
+6,te cid 1863 n cid 4667 u cid 4671 ating harmonic distortions the dynamic convergence of the three phase model is better than the single phase one since cid 2164 cid 2163 statistically its model has more information than the previous
+6,6 ˆ ˆwhere x and x are the real and imaginary parts r re r imrespectively of the estimated spectrum cid 11 cid 2 cid 3 ˆa fˆ s ˆ jϕˆx k w 2πk 2πf efig 1 dtft amplitude spectrum of a harmonic signal with a 1 v
+6,x2 nf 52 0291 hz ϕ π n 2000 andf 50 ks s cid 2 cid 3 cid 12 x
+6,k 1 and k 1 the costmax maxestimation for n 5000 are shown in fig 4 where besidesfunction can then be written asthe mentioned algorithms the results obtained using dft arealso included cid 11 cid 9 cid 10 cid 4 1 from the results presented in fig 4 it can be seen that2ˆ ˆ ε
+6,ap k n x k n from the considered algorithms the most accurate frequencyr re max re max n 1 estimates are obtained by using the multiharmonic sine fitting cid 12 cid 9 cid 10 algorithm see fig 4 g from the algorithms working in2ˆ ˆ ap k n x k
+6,ie f e a s w n valuation of the requency stimation lgorithms ignals ith no oise cid 3 cid 4 cid 3 cid 4 a 1v f 45 55 hz ϕ π
+6,π f 50 ks sandx stable iie e a f p ustimation rrors of mplitude requency and hase singp a s w n a 1v the roposed lgorithm on ignals ith no oise cid 3 cid 4 cid 3 cid 4 f 45 55 hz ϕ π
+6,ive a f p ustimation of the mplitude requency and hase sing thep a w a w n a 1v roposed lgorithm ith dditive hite oise cid 3 cid 4 cid 3 cid 4 n 5000 f 47 5 52 5
+6,no 5 may2009table ve f e a s w h d valuation of the requency stimation lgorithms ignals ith armonic istortion cid 3 cid 4 cid 3 cid 4 n 5000 a 1v f 47 5 52 5 hz ϕ π
+6,the roposed lgorithm on ignals ith armonic on a ignal ith an nterharmonic omponent cid 3 cid 4 cid 3 cid 4 d a 1v n 5000 f 47 5 52 5 hz n 10000 f 47 5 52 5 hz f 50 ks s sistortions puriousx x s cid 3 cid 4 ϕ π
+6,a 1v f 49 92hz x cid 3 cid 4 ϕ π
+6,fig 6 responsesfor cid 0
+6,cid 2 1 hz a at the beginning of the frequency ramp cid 0
+6,i 0 cid 4 cid 5 cid 4 cid 5 6 76 7a ¼ a cid 2 a a cid 2 a t ¼p e x x x x 4 0 q 0 50 0 0 0 0 00 0
+6,w1the actual sigma points are drawn via a column wise accumulation from cid 9 qffiffiffiffiffi cid 10 χ ¼ a þ aσx p 8
+6,p refers to thek matrix square root the matrix square root of a target matrix a is a matrix b that¼satisfies a bb it is often calculated via the cholesky decomposition 13 the predict step begins with the sigma points being propagated through thesystem model cid 9 cid 10 χx ¼ χx χwf u 9 cid 2 cid 2
+6,i k k cid 2
+6,i k cid 2 1 k cid 2 k 1k 1
+6,i k cid 2 1 k cid 2 1 1 1the state and covariance are then predicted as cid 2 n 1ð þ cid 2 ¼ m χxx w 10 cid
+6,ih i cid 2 n 1 t cid 2 ð cþ cid 2 cid 2 ¼ χx cid 2 χx cid 2 p w x x 11 cid 2 cid 2
+6,0for the update step the sigma points that were updated in the predict step arepropagated through the observation model cid 9 cid 10 z ¼ χx χvh 12 cid 2 ikk 1
+6,i k k cid 2
+6,by the cross covarianceh i cid 2 cid 3 cid 2 n 1¼ ð cþ χx cid 2 cid 2 z cid 2 tp w x z 15 cid 2 cid 2 cid 2 xz kk 1
+6,i i k k cid 2 1 cid 2 ikk 1
+6,1¼i 0and the kalman gain cid 2 ¼ 1k p s 16 cid 2 xz kk 1 cid 2 kk 1finally the current system state is estimated by cid 4 cid 5 ¼ cid 2 þ cid 2
+6,x x k z z 17 cid 2 k cid
+6,2 kk 1kk 1 k where z is the current set of observations and the current covariance is updatedwith cid 2 ¼ cid 2 tp p ks k 18 cid 2 k cid
+6,1kk 1 cid 2 ¼ cid 2 tp p k 19 cid 2 cid 2 xz
+6,¼ þ cid 4 ωq q
+6,let the state vector be cid 2 cid 3 ¼ β tx q q 36 0the predict model f is then cid 9 cid 10 cid 9 cid 10 0χx χw ¼ χx þ χx χw cid 5
+6,f f dt 37 cid 2 cid 2 cid 2 cid 2 cid 2 cid 2 cid 2 cid 2 cid 2 cid 2 k 1k 1 k 1k 1 k 1k 1 k 1k 1 k 1k 12 3 cid 4 cid 5 1 cid 4 þ6 q
+6,i cid 4 q z 7 cid 9 cid 10 3 3 g062 70 6 7χx χw ¼ þf 6 1 7 w 38 k cid 2 1 k cid 2 1 k cid 2 1 k cid 2 1 cid 2 t k4 q z
+6,41 cid 4 cid 4 cid 4 cid 4 4 1 3 1 3 1 3 10 0and the initial augmented covariance is a diagonal matrix with diagonal terms
+6,h i cid 4 cid 5 _a ¼ η β η ηdiag
+6,so the modelledq15 introduction and implementations of the kalman filtererrors are the same for each nanosatellite the gyroscopic bias drift was modelledη ¼ cid 2 2 2with covariance 10 s the measurement noise terms were modelled withdη ¼ cid 2 1 η ¼ cid 2 2 η ¼ cid 2 2covariances 10 s
+6,m¼ ½ cid 3 and the accelerometer is aligned with the z axis b 0 0 1
+7,y y y are the algebraic rn rn n n cid 13 rnvariables u u u are input variables f f x y u x are thern n n cid 13 rndifferential equations
+7,k v t zˆ t v1 2 a a 1 2 a in 1adt 4 13 min zˆ t v v t
+7,13 0 0 0 0 291 1 181 0 60817 0 197 0 0 0 0 0
+7,162 0 0 0 0 0 167 0 13 0 0 0 271 1 176 0
+7,128 0 224 0 0 0 0 0 0 0 0 333 1 077 0 63632 0 13 0 0 254 0 0 0 0 0 0 0 307 1 08 0 63933 0 13 0 0 0
+7,13 0 107 0 0
+7,114 0 0 167 0 13 0 0 0 271 1 176 0 71822 0 149 0 0
+7,106 0 0 0 0 0 0 0 333 1 077 0 73532 0 13 0 0
+7,254 0 0 0 0 0 0 0 307 1 08 0 63933 0 13 0 0 0
+7,1620 1 6300 0 0665 0 0 3 13 8 1 0250 0 0814 0
+7,19890 0 line12 6 12 0 12291 0
+7,19207 0 line19 12 13 0 22092 0
+7,016 0 6 13 8 1 0700 0
+7,112 0 075 0 7 13 8 1 0620 0
+7,2333 0 0 1736 0 0 0 9 13 8 1 0563 0 2609 0 0 0 295 0 166 0 19 10 13 8 1 0513 0 2636 0 0 0
+7,058 0 11 13 8 1 0571 0
+7,12 13 8 1 0552 0
+7,016 0 13 13 8 1 0504 0 2646 0 0 0 135 0 058 0 14 13 8 1 0358 0
+7,00116 12 0 0778 0 0249 0
+7,000312 13 0 0161 0 0074 0
+7,23 0 13 0 13 0 12 0 12 cid 2 cid 2 dx pu ω 0
+7,646 0 36 0 36 0 715 0 715q cid 4 cid 4 x pu ω 0 4 0 13 0 13 0 12 0
+7,0729 line19 10 13 0 0004 0 0043 0
+7,0435 0 line22 12 13 0 0016 0
+7,0435 0 line23 13 14 0 0009 0 0101 0
+7,4200 0 0003 0 0078 12 13 0 0757 0 4600 0
+7,0004 0 0096 13 14 2 7687 0 0387 0
+7,no 8 pp 6742 6751 yan xu s 10 m 13 sm 19 received the b e and m e
+7,i eguiluz and c r estebanez three 12
+7,i eguiluz and c r estebanez three 12
+7,i zmcof n x µ σ subject to α 0 and α 1 12
+7,www nrel gov grid festiv model html 13 14https
+7,1sec 11 13 c
+7,no 10 pp 2943 2949 1984 5 t s sidhuandm s sachdev aniterativetechniqueforfastandaccu ratemeasurementofpowersystemfrequency ieeetrans powerdel vol 13
+7,k 0also occurs when the signal s frequency is close to half of the a 13 cid 13 n 1sampling frequency although in this case the overlap is caused ˆ ˆ2 2p k p k r re r imby aliasing k 0 1672 ieeetransactionsoninstrumentationandmeasurement vol 58
+8,cos δω t φ v i cos 2ω δω t φ 1 14 o
+8,δω t φ 1ov
+8,q o othe time derivatives of the components above are d v t δω 2v cos δω t θ δω v t
+8,d o o o o qdt 1 64 d v t δω 2v sin
+8,δ o dqwhere p is the time derivative operator for the stationary conditionδ oconsidered in this case namely p j ω δω 1 66
+8,and p for each case the following expressions are ob ωtained case a ϑ t ω t θ a o o 1 74 p jω ϑ ocase b ϑ t ω δω t θ a o o o 1 75 p j ω δω p ϑ o o
+8,δω t x t δω t 3 36 w h
+8,h h θ hthen δω is obtained from h 1 d s t δω t if c s θ
+8,hω c t dtdo θ ht δω t 3 40 w h dt
+8,1 d c t δω t
+8,1ω θ t δω t
+8,δω t δω t cid 10 t 3 47 o
+8,and k say ω and ω respectively are the rotor speedsh kof the synchronous generators the application of 5 13 to the system of figure 5 4 leads to cid 19 cid 20 δω t h0 b δω t b ibb bgδω t
+8,hi ik hi ik kand solving for δω
+8,i h kx xhk hkref refwhere ω ω δω and ω is either 1 pu or ω depending on i
+8,δω t b δω t hh hh h
+8,g gδω t deδωe t di δωi t h h hg g 5 30 d δω
+8,3gδω t 22 702 17 065 4 637 0 0 3 b δω t
+8,δω t 5 39 6b0 180 0 289 0
+8,i e ω ω ω ω as follows 5 6 8u b b b 1 δω t 17 34 0 0 11 60 5 98 0 δω t 5 4b b δω t 0 15 84 0 10 51 0 5 59 δω t 6 7b b δω t 0 0
+8,30 0 13 70 9 78 δω t 8 9b b 0 67 0 34 0 δω t 4b 0
+8,66 0 0 35 δω t 7b0 0
+8,59 0 42 δω t 9b3since
+8,b δω t b δω t 6 5 obg g g
+8,δω t 6 6 cid 2 b bg g
+8,δω t b δω t 6 7 busbg g bg b where δω δω is the subset of frequency variations at the terminal busesbg bˆof the synchronous machines and b ω b
+8,p t b δω t
+8,i e the rocop at bus h is more sensitive the higher are hbthe differences between the frequency variations δω
+8,δω t b δω t ε
+8,t μ t b δω t b δω t ε t 8 3 b b bg g
+8,page2298 1 machine rotor speeds 229are l 0 b μ t 8 4 n 1g δω bg bg δω ε μ g b b l 1 0 u ε t b μ t 8 5 n 1b ε b bb bb δω ε μ g b b cid 2 cid 3 l 0 b δω t b δω t ε t 8 6 n 1bg
+8,bb bgnote that equation 8 9 can be also obtained straightforwardly from 5 13 as follows b δω t b δω t
+8,bg g bb b b b δω t b b δω t 8 12
+8,bg δω t b b δω t
+8,12 49pm page232232 8 dynamic state estimation2δω δω a 1 2 b 1g ggridgrid3
+8,bg cid 2 cid 2 c multiple machines connected to the same bus figure 8 2 examples of synchronous machines connectivity d are thekh nonzero elements of d the time dependency of δω and δω is omitted
+8,δω t ε t 1 1 1 cid 2 g cid 3 b b 17 36 δω t ε
+8,δω t 8 38 g bmerging together 8 37 and 8 38 leads to δω t m
+8,δω t 8 50 1 2g b bb bg gequation 6 6 leads to an alternative expression to estimate the rotorspeed of the machine based only on measurements at the terminal bus of themachine itself thus also eliminating the issue of measurement delays discussedin section 8 1 2 2 ˆ δω t
+8,δω t x p t 8 51 1g b g
+8,ˆ 2 δω t x p
+8,b δω t b δω t
+8,obg g g bbequation 10 1 can be rewritten as 1δω t b b δω t dδω t 10 3 b bg g
+9,trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm pageifrequency variationsin power systems cid 2 cid 2 cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020
+9,2 26pm pageiiifrequency variationsin power systemsmodeling state estimation and controlfederico milano cid 2 cid 2 university college dublindublin ireland alvaro ortega manjavacasuniversidad loyola andaluc ıaseville spain cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm
+9,i 1 a φ π 4 rad ω 2π 25v irad s cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page111 3 reference frequency 11 w rewop a tnerruc v egatlov1 510 50v 0 5i p1p 1 50 0 01 0 02 0 03 0 04 0
+9,i t 2i sin ω t φ othe average value of the active power is not null and eventually converges tothe expected value v i cos φ cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page1212 1 frequency in power systems21 51 w rewop 0 50 0 5p v i cos
+9,o othe phasor representation has two major drawbacks i it assumes a con stant unique angular frequency in the whole circuit and ii the power in sucha representation also becomes a complex quantity cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020
+9,is the park reference angular frequency and δ is an offset thatdq dq odepends on the position of phase a at t 0 see figure 1 11 cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page291 4 transforms 29ωdqcq2πδdqa3dbfigure 1 11 graphical representation of the park transform the q axis
+9,it is immediate to observe that the clarke transform is just a specialcase of the park transform where δ ω 0 dq dqin turn the park transform merges together two different concepts asfollows 122 cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020
+9,59 1 dqbdt cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm
+9,q o o o o ddt cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page351 4 transforms 35which lead to write the time derivative of the park vector in the dq reference frame as cid 21 cid 22 dp t v t jω v t
+9,δ o cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page371 4 transforms 37case c ϑ t ω t δθ t θ a o o cid 2 cid 3 1 76 p t j ω δω t
+9,λ t 2 14 1 1 v v1 o cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page4444 2 power system model0 18 vk up 2edontavd0 160 140 12qss model0
+9,dq og cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page492 4 conventional devices
+9,ω t 1 2 26 m eg gdt cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm
+9,γ e t s q s q q1 q1q r d r dthe resulting balanced emt model of the synchronous machine is a twodirect and two quadrature axis machine model that consists of the following cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page532 4 conventional devices
+9,x x otherwise d q2 cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm
+9,t τ t 2 56 m egdt cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page5858 2 power system modelin per unit since the variations of the rotor speed have to be small and hence ω 1 pu one can assume gp t m
+9,dq r x k dqi ih dq l l k dqh k i dqlb bg gl ll l2 22 2figure 2 8 single phase equivalent π model of a transmission line cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page6464 2 power system model v v
+9,i i h dqk dq cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page6666 2 power system modelusing the notation of 2 15 and dropping for simplicity the dependencyon time 2 72 becomes cid 4 cid 4
+9,13 698 23 303 9 784 0 0 17 065 0 0 5 588 0 9 784 32 154 cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page7070 2 power system model is zero and y has the following property ext cid 6 cid 6 y y y 2 80 hh
+9,k q hk k d bk 2 87 cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm
+9,06in 2 92 the power shifts introduced by phase shifting transformers are ignored as theseare constant and thus immaterial for the developments discussed in chapter 6 cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm
+9,0217 cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm page8484 3 dynamic state estimationtable 3 4 results of the state estimation problem with pmu measurementsfor the wscc system base case solution state estimation solution bus v θ p q
+9,π k k n k k k k 1zthe continuous version of the ekf merges together the predict and updatesteps in a set of daes as follows cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm
+9,ω t ε t 3 30 g gwhere the observation equation is η ω and the measurement is η ω g g cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm page8888 3 dynamic state estimationsince both the process and the observation are linear the ekf returns anoptimal estimation and the matrices
+9,and t 1 1 s these lead to the spikes of the measured frequency δω 5 cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm page913 3 estimation of bus frequencies 910 1 0 0010 0750 05
+9,exp τ s θs 1 stf 1 st xi ifigure 3 7 scheme of an srf pll cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm page973 3 estimation of bus frequencies 97d θ in 3 45 into 3 42 one obtains hdt 1 1d ω
+9,ω t 4 3 in or gg cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm page108108 4 frequency controlusing the notation of 2 15 and dropping the dependency on time the set 4 1 4 3 becomes x x x x g c
+9,ø 4 12 cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm
+9,x244mm cid 2 milano 05 12 2020 2 26pm
+9,vˆ t 3 3 3 sdt cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm
+9,i tcl01 phk1 tcl1 st1 tcl θ v2ahfigure 4 18 thermostatically controlled load with frequency control cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm
+9,and indicates the element wise division assume v t 1 nbb 5 10 e t 1 ngg cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm page144144 5 frequency divider formulawith n and n the number of network buses and generators respectively b gthen equation 5 8 can be simplified as d d0 b t u t b t
+9,gk k mwardequivalentfigure 5 11 ward equivalent cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm page156156 5 frequency divider formulaand bi bie bii if bii is full rank the expression 5 22 can be alsobg bg bg bbwritten in explicit form δωi t die δωe t dii δωi t
+9,719 2 934 2 410 5 34 r 2 967 2 410 4 787 cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm page1595 4 inclusion of measurements 159and hence be 4 787 be 2 967 2 410 99 9gsimilarly for bi one has r cid 19 cid 20 3
+9,x244mm cid 2 milano 05 12 2020 2 26pm page168168 5 frequency divider formulartable 5 4 matrix d of the new england system using a1 κ 0
+9,279 1 121 0 66638 0 163 0 0 0 0 0 0 0 0 406 0 225 1 161 0 68439 0 0 0 0 0 0 0 0 0 0 846 1 062 0 796 cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm
+9,01 1 2rfigure 5 17 entso e transmission system density of matrix d cid 2 trimsize 170mm x244mm cid 2 milano 05 12 2020 2 26pm page174174 5 frequency divider formula2006150margotsihmargotsih margotsih41002500 00 7 0 725 0 75 0
+9,16 00 0 0 5 975 0 35 675 13 70 08 0 0 0 0 0 0 13 70 23 484 9 7849 0 0 17 06 0 0 5 588 0 9 784 32 4326for this reason the diagonal elements of the matrix shown in table 6 1 are different fromthose shown in table 2 4 cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm
+9,γ γ e 2 f 2 5p p cid 4 cid 4 figure 6 8 wscc system dynamic behavior of δp p r dr andb 8 t b 8 δp p t p 0 for the vdl connected at bus 8 for various voltage 8 8 8b b bexponents cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm
+9,pu mw s cid 3 p b 3σ 3 14 10 pu mw s cid 3 p c 4σ 4 24 10 pu mw s cid 3 p d cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page1976 4 examples 197300noitcnufytisnedytilibaborpbus b bus bbus c 600 bus c200bus d bus dmargotsih40010020000 0
+9,3σ 6 5 10 pu mw s are marked with cid 3 p wt bhorizontal dashed lines in figure 6 13 a since its rocop is consistently below cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm
+9,bω e 5 06 e 1 050 20 40 60 80 100time s figure 6 16 aiits white noise in the frequency signal measured at bus bwith an srf pll cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page2036 4 examples 203 0 02 0 01 s
+9,i h 9bfrom the structure of b it descends that the dual variables μ are alwaysbg bnull at the generation buses matrix b in fact has nonnull elements only inbg cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm
+9,2 4 6 8 10 0 2 4 6 8 10time s time s a actual and estimated rotor speed b estimation errorfigure 8 3 wscc system rotor speed of synchronous machine at bus 1after a loss of load cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm
+9,ethe example presented in section 5 2 1 1 and equation 5 20 shows thatthe coi of this system can be found at a point along the connection ei such cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page2538 2 center of inertia 2531 005ωnicoi1 004ω nicoi1 003ω zh up ycneuqerf zh up ycneuqerf
+9,g g g cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm
+9,i t xg dx c dx cid 3 cid 3 figure 9 2 transmission line section of length dx cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm
+9,bwhere x ω l x hence l x pu o av b pu pu cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page2659 3 example 265one has cid 5 cid 5 r lt t cid 2 cid 3 dr j ω t l dl r j ω
+9,a d axis stator flux b q axis stator fluxfigure 9 4 aiits stator dq frame fluxes of a synchronous machine of thesystem modeled with the fd model following the outage of the largest in feed cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm
+9,25 cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page276276 appendix a datatable a 7 data of the avrs of the three bus system a b k k k t
+9,3383234gen 7gen 2 gen 4gen 3 gen 5figure a 4 new england system cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page286286 appendix a datatable a 22 branch data of the new england system branch from to r r x x b a φ l t l t l type pu
+9,0156 0 1 025 0 transf cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm
+9,0419 5 4000 0 0497 0 038 18 1 0265 0 1359 8 3000 0 2463 0 0 39 18 1 0300 0 1760 10 000 2 6370 11 040 2 500 cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page288288 appendix a datatable a 24 base case power flows and losses in the branches of the newengland system line p q p qhk hk loss
+9,x244mm cid 2 milano 05 11 2020 12 49pm page290290 appendix a datatable a 28 data of the avrs of the new england system a b k k k t t tef ef a ef f a b cmachine s s s 0 0
+9,page292292 appendix b irish transmission system cid 2 cid 2 figure b 1 map of the all island irish transmission system courtesy eir grid group www eirgridgroup com cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page293bibliography 1 s m abdelkader
+9,c l bak et al instability of wind turbineconverters during current injection to low voltage grid faults and pll fre quency based stability solution ieee transactions on power systems 29 4 1683 1691 july 2014 cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020
+9,undeland and w p robbins power electronics converters applications and design 3rd ed new york ny john wiley sons 2003 cid 2 trimsize 170mm x244mm cid 2 milano 05 11 2020 12 49pm page305bibliography 305 142 a monti
+9,11 2020 12 49pm
